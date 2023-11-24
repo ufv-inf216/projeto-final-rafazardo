@@ -1,0 +1,17 @@
+[
+  {
+    "id": 0,
+    "name": "Stick",
+    "kg": 0.5
+  },
+  {
+    "id": 1,
+    "name": "Iron bar",
+    "kg": 1
+  },
+  {
+    "id": 2,
+    "name": "Torch",
+    "kg": 0.5
+  }
+]

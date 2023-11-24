@@ -1,0 +1,44 @@
+[
+  {
+    "id": 0,
+    "name": "Magic Weapon",
+    "dice": 6,
+    "rolls": 1,
+    "level": 1
+  },
+  {
+    "id": 1,
+    "name": "Burning Hands",
+    "dice": 6,
+    "rolls": 2,
+    "level": 2
+  },
+  {
+    "id": 2,
+    "name": "Magic Missile",
+    "dice": 4,
+    "rolls": 3,
+    "level": 2
+  },
+  {
+    "id": 3,
+    "name": "Elemental Weapon",
+    "dice": 8,
+    "rolls": 2,
+    "level": 3
+  },
+  {
+    "id": 4,
+    "name": "Life Drain",
+    "dice": 6,
+    "rolls": 3,
+    "level": 4
+  },
+  {
+    "id": 5,
+    "name": "Fireball",
+    "dice": 12,
+    "rolls": 4,
+    "level": 5
+  }
+]

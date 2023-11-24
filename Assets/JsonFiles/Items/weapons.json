@@ -1,0 +1,26 @@
+[
+  {
+    "id": 0,
+    "name": "Short Sword",
+    "dam": 6,
+    "kg": 1.5
+  },
+  {
+    "id": 1,
+    "name": "Great Sword",
+    "dam": 8,
+    "kg": 2.7
+  },
+  {
+    "id": 2,
+    "name": "Short bow",
+    "dam": 6,
+    "kg": 0.5
+  },
+  {
+    "id": 3,
+    "name": "Long bow",
+    "dam": 8,
+    "kg": 0.7
+  }
+]
