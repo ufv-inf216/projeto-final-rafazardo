@@ -86,21 +86,34 @@ void MyGame::InitializeGameObjects() {
     std::function<void()> funcao = []() { std::cout << "trigger acionado\n"; };
     t->SetFunction(funcao); //tem que ver isso aqui
 
-    // Allocate Door
-    auto d = new Door(this, "../Assets/Sprites/Test/test_door.png", Vector2(32, 64));
-
     // Set Camera settings.
     mCamera = new Camera(this, Vector2(0,0), Vector2(30*TILE_SIZE, 15*TILE_SIZE),2.f);
     mCamera->SetTarget(mPlayer, Vector2(TILE_SIZE/2, TILE_SIZE/2));
     mCamera->SetWindow(120, 100);
     mCamera->SetScale(2.0f);
+
+    // Allocate Door
+    auto d = new Door(this, "../Assets/Sprites/Test/test_door.png", Vector2(32, 64));
+}
+
+void MyGame::Pause(bool draw) {
+    for(auto gameobj : mGameObjects)
+        gameobj->SetState(GameObjectState::Paused);
+    if(!draw)
+        for(auto drawable : mDrawables)
+            drawable->SetIsVisible(false);
+}
+
+void MyGame::Resume(bool draw) {
+    for(auto gameobj : mGameObjects)
+        gameobj->SetState(GameObjectState::Active);
+    if(draw)
+        for(auto drawable : mDrawables)
+            drawable->SetIsVisible(true);
 }
 
 void MyGame::StartBattle(Enemy *enemy) {
-    for(auto gameobj : mGameObjects)
-        gameobj->SetState(GameObjectState::Paused);
-    for(auto drawable : mDrawables)
-        drawable->SetIsVisible(false);
+    Pause(false);
 
     mCamera->SetScale(1.0f);
 
@@ -112,11 +125,7 @@ void MyGame::StartBattle(Enemy *enemy) {
 void MyGame::EndBattle() {
     mCurrentBattle->StopBattle();
 
-    for(auto gameobj : mGameObjects)
-        gameobj->SetState(GameObjectState::Active);
-    for(auto drawable : mDrawables)
-        drawable->SetIsVisible(true);
-
+    Resume(true);
     mCurrentBattle->SetState(GameObjectState::Destroy);
 
     mCamera->SetTarget(mPlayer, Vector2(TILE_SIZE/2, TILE_SIZE/2));

@@ -46,10 +46,10 @@ RM = "C:\Program Files\JetBrains\CLion 2023.2\bin\cmake\win\x64\bin\cmake.exe" -
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\Projeto-Final-INF216
+CMAKE_SOURCE_DIR = C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\Projeto-Final-INF216\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -76,9 +76,9 @@ rebuild_cache\fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\Projeto-Final-INF216\cmake-build-debug\CMakeFiles C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\Projeto-Final-INF216\cmake-build-debug\\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\cmake-build-debug\CMakeFiles C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\cmake-build-debug\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\Projeto-Final-INF216\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -453,6 +453,30 @@ Source\GameObjects\Camera.s: Source\GameObjects\Camera.cpp.s
 Source\GameObjects\Camera.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\projeto-final-inf216.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\projeto-final-inf216.dir\Source\GameObjects\Camera.cpp.s
 .PHONY : Source\GameObjects\Camera.cpp.s
+
+Source\GameObjects\Door.obj: Source\GameObjects\Door.cpp.obj
+.PHONY : Source\GameObjects\Door.obj
+
+# target to build an object file
+Source\GameObjects\Door.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\projeto-final-inf216.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\projeto-final-inf216.dir\Source\GameObjects\Door.cpp.obj
+.PHONY : Source\GameObjects\Door.cpp.obj
+
+Source\GameObjects\Door.i: Source\GameObjects\Door.cpp.i
+.PHONY : Source\GameObjects\Door.i
+
+# target to preprocess a source file
+Source\GameObjects\Door.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\projeto-final-inf216.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\projeto-final-inf216.dir\Source\GameObjects\Door.cpp.i
+.PHONY : Source\GameObjects\Door.cpp.i
+
+Source\GameObjects\Door.s: Source\GameObjects\Door.cpp.s
+.PHONY : Source\GameObjects\Door.s
+
+# target to generate assembly for a file
+Source\GameObjects\Door.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\projeto-final-inf216.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\projeto-final-inf216.dir\Source\GameObjects\Door.cpp.s
+.PHONY : Source\GameObjects\Door.cpp.s
 
 Source\GameObjects\GameObject.obj: Source\GameObjects\GameObject.cpp.obj
 .PHONY : Source\GameObjects\GameObject.obj
@@ -1030,6 +1054,30 @@ Source\GameSpecific\Saver.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\projeto-final-inf216.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\projeto-final-inf216.dir\Source\GameSpecific\Saver.cpp.s
 .PHONY : Source\GameSpecific\Saver.cpp.s
 
+Source\Interfaces\Fade.obj: Source\Interfaces\Fade.cpp.obj
+.PHONY : Source\Interfaces\Fade.obj
+
+# target to build an object file
+Source\Interfaces\Fade.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\projeto-final-inf216.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\Fade.cpp.obj
+.PHONY : Source\Interfaces\Fade.cpp.obj
+
+Source\Interfaces\Fade.i: Source\Interfaces\Fade.cpp.i
+.PHONY : Source\Interfaces\Fade.i
+
+# target to preprocess a source file
+Source\Interfaces\Fade.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\projeto-final-inf216.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\Fade.cpp.i
+.PHONY : Source\Interfaces\Fade.cpp.i
+
+Source\Interfaces\Fade.s: Source\Interfaces\Fade.cpp.s
+.PHONY : Source\Interfaces\Fade.s
+
+# target to generate assembly for a file
+Source\Interfaces\Fade.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\projeto-final-inf216.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\Fade.cpp.s
+.PHONY : Source\Interfaces\Fade.cpp.s
+
 Source\Main.obj: Source\Main.cpp.obj
 .PHONY : Source\Main.obj
 
@@ -1105,6 +1153,9 @@ help:
 	@echo ... Source/GameObjects/Camera.obj
 	@echo ... Source/GameObjects/Camera.i
 	@echo ... Source/GameObjects/Camera.s
+	@echo ... Source/GameObjects/Door.obj
+	@echo ... Source/GameObjects/Door.i
+	@echo ... Source/GameObjects/Door.s
 	@echo ... Source/GameObjects/GameObject.obj
 	@echo ... Source/GameObjects/GameObject.i
 	@echo ... Source/GameObjects/GameObject.s
@@ -1177,6 +1228,9 @@ help:
 	@echo ... Source/GameSpecific/Saver.obj
 	@echo ... Source/GameSpecific/Saver.i
 	@echo ... Source/GameSpecific/Saver.s
+	@echo ... Source/Interfaces/Fade.obj
+	@echo ... Source/Interfaces/Fade.i
+	@echo ... Source/Interfaces/Fade.s
 	@echo ... Source/Main.obj
 	@echo ... Source/Main.i
 	@echo ... Source/Main.s

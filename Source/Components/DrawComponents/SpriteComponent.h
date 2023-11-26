@@ -20,6 +20,12 @@ class SpriteComponent : public DrawComponent {
 
         void Draw(SDL_Renderer* renderer) override;
 
+        Vector2 GetDimensions() { return Vector2(mWidth, mHeight); }
+        void SetDimensions(int width, int height) {
+            mWidth = width;
+            mHeight = height;
+        }
+
     protected:
         // Map of textures loaded
         SDL_Texture* mSpriteSheetSurface;

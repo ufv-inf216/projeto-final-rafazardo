@@ -15,12 +15,19 @@
 #include "Trigger.h"
 #include <string>
 #include <functional>
+#include "../Interfaces/Fade.h"
 
 class Door : public GameObject{
-private:
-    SpriteComponent *mSpriteComponent;
-    Trigger<std::function<void()>> *mTrigger;
+    private:
+        bool mColliding = false;
+        std::function<void()> SetColliding();
 
-public:
-    Door(MyGame *game, const std::string &texturePath, Vector2 position);
+        Fade *mFade;
+
+        SpriteComponent *mSpriteComponent;
+        Trigger<std::function<void()>> *mTrigger;
+
+    public:
+        Door(MyGame *game, const std::string &texturePath, Vector2 position);
+        void OnProcessInput(const uint8_t* state) override;
 };

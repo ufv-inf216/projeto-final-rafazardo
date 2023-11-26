@@ -18,6 +18,7 @@
 #include "Maps/Dungeons/DungeonGeneration/DungeonGenerator.h"
 #include <queue>
 #include "Characters/Enemy.h"
+#include "../Interfaces/Fade.h"
 
 class MyGame : public Game {
     private:
@@ -48,6 +49,9 @@ class MyGame : public Game {
         // Constructor
         // @params windowWidth and windowHeight The input integers the represents the window width and height
         MyGame(int windowWidth, int windowHeight);
+
+        void Pause(bool draw=true);
+        void Resume(bool draw=true);
 
         // Returns the game map which is currently being rendered.
         // @return A pointer for the current map object.
