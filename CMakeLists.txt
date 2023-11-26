@@ -53,6 +53,8 @@ add_executable(${PROJECT_NAME}
         Source/GameSpecific/Battle/Battle.cpp
         Source/GameSpecific/Battle/Action.cpp
         Source/Game/AudioSystem.cpp
+        Source/GameObjects/Door.cpp
+        Source/GameObjects/Door.h
 )
 
 ####### DO NOT EDIT BELLOW

@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/andre/OneDrive/Documentos/UFV/periodo_vi/Jogos/projeto_final/Projeto-Final-INF216
+# Install script for directory: C:/Users/pfb20/Documents/MeusProjetos/Jogos/projeto-final-rafazardo
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/andre/OneDrive/Documentos/UFV/periodo_vi/Jogos/projeto_final/Projeto-Final-INF216/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/pfb20/Documents/MeusProjetos/Jogos/projeto-final-rafazardo/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

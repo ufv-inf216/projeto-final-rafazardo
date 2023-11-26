@@ -20,6 +20,7 @@
 #include "Chest.h"
 #include "Saver.h"
 #include "../GameObjects/Trigger.h"
+#include "../GameObjects/Door.h"
 #include "../Components/ColliderComponents/BoxColliderComponent.h"
 #include "../Components/ColliderComponents/CollisionUtils.h"
 #include "Battle/Battle.h"
@@ -80,9 +81,13 @@ void MyGame::InitializeGameObjects() {
     s->SetPosition(Vector2(32, 32));
 
     // Allocate Trigger
-    auto t = new Trigger(this, 64, 64, ColliderLayer::Player);
+    auto t = new Trigger<std::function<void()>>(this, 64, 64, ColliderLayer::Player);
     t->SetPosition(Vector2(96, 32));
-    //t->SetFunction(funcao); tem que ver isso aqui
+    std::function<void()> funcao = []() { std::cout << "trigger acionado\n"; };
+    t->SetFunction(funcao); //tem que ver isso aqui
+
+    // Allocate Door
+    auto d = new Door(this, "../Assets/Sprites/Test/test_door.png", Vector2(32, 64));
 
     // Set Camera settings.
     mCamera = new Camera(this, Vector2(0,0), Vector2(30*TILE_SIZE, 15*TILE_SIZE),2.f);

@@ -17,6 +17,7 @@
 #include "../GameObjects/GameObject.h"
 #include "../Components/ColliderComponents/BoxColliderComponent.h"
 
+template<typename FunctionType>
 class Trigger : public GameObject {
     private:
         // Trigger width and height.
@@ -32,7 +33,9 @@ class Trigger : public GameObject {
         DrawPolygonComponent *mDrawPolygonComponent; // temporário
 
         // Function to be called
-        std::function<void()> mFunction = []() { std::cout << "trigger acionado" << std::endl; };
+        FunctionType mFunction;
+
+        //std::function<void()> mFunction = []() { std::cout << "trigger acionado" << std::endl; };
 
         // Functions to detect the collision
         Vector2 GetMin() const;
@@ -47,13 +50,79 @@ class Trigger : public GameObject {
         // @param width
         // @param height
         // @param layer The target layer to pull the trigger
-        Trigger(MyGame* game, int widht, int height, ColliderLayer layer);
+        Trigger(MyGame* game, int width, int height, ColliderLayer layer);
 
         // Setter to the function which will be called on collision.
         // @param function The function that will be called on collision
         // @param ReturnType and Args The return type and arguments for the function
-        template<typename ReturnType, typename Args>
-        void SetFunction(std::function<ReturnType(Args)> &function) {
+        void SetFunction(FunctionType &function) {
             mFunction = function;
         }
 };
+
+template<typename FunctionType>
+Trigger<FunctionType>::Trigger(MyGame *game, int width, int height, ColliderLayer layer):
+        GameObject(game){
+    mWidth = width;
+    mHeight = height;
+    mTargetLayer = layer;
+    std::vector<Vector2> vertices;
+    vertices.push_back(Vector2(0.0, 0.0));
+    vertices.push_back(Vector2(width, 0.0));
+    vertices.push_back(Vector2(width, height));
+    vertices.push_back(Vector2(0.0, height));
+    mDrawPolygonComponent = new DrawPolygonComponent(this, vertices);
+}
+
+template<typename FunctionType>
+Vector2 Trigger<FunctionType>::GetMin() const {
+    return GetPosition();
+}
+
+template<typename FunctionType>
+Vector2 Trigger<FunctionType>::GetMax() const {
+    return this->GetMin() + Vector2(this->mWidth, this->mHeight);
+}
+
+template<typename FunctionType>
+Vector2 Trigger<FunctionType>::GetCenter() const {
+    return this->GetMin() + Vector2(this->mWidth/2, this->mHeight/2);
+}
+
+template<typename FunctionType>
+bool Trigger<FunctionType>::Intersect(const BoxColliderComponent& b) const {
+    Vector2 min_a = this->GetMin(), max_a = this->GetMax();
+    Vector2 min_b = b.GetMin(), max_b = b.GetMax();
+
+    return !(min_a.x > max_b.x || min_b.x > max_a.x
+             || max_a.y < min_b.y || max_b.y < min_a.y);
+}
+
+template<typename FunctionType>
+void Trigger<FunctionType>::Update(float deltaTime) {
+    auto colliders = GetGame()->GetColliders();
+
+    // Sorts all BoxColliderComponents by distance from this one.
+    std::sort(colliders.begin(), colliders.end(),
+              [this](const BoxColliderComponent *col1, const BoxColliderComponent *col2) -> bool {
+                  return (col1->GetCenter() - this->GetCenter()).LengthSq() < (col2->GetCenter() - this->GetCenter()).LengthSq();
+              });
+
+    bool isEmpty = true;
+
+    // Detects a collision.
+    for (auto coll: colliders) {
+        if(!coll->IsEnabled()) continue;
+
+        if(this->Intersect(*coll) && coll->GetLayer() == mTargetLayer) {
+            isEmpty = false;
+            // Only will call mFunction once when a target layer gets into the trigger zone
+            if(!mIsPulled) {
+                mIsPulled = true;
+                mFunction();
+            }
+        }
+    }
+    // If no collision was detected, it means that the trigger can be pulled again next time
+    if(isEmpty) mIsPulled = false;
+}

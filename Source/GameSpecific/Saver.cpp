@@ -13,6 +13,8 @@ Saver::Saver(class MyGame *game, const std::string &texturePath, int tWidth, int
     mSpriteComponent = new SpriteComponent(this, texturePath, 32, 32);
     mBoxColliderComponent = new BoxColliderComponent(this, 0, 0, 32, 32, ColliderLayer::Saver);
 
-    mTrigger = new Trigger(game, tWidth, tHeight, layer);
+    mTrigger = new Trigger<std::function<void()>>(game, tWidth, tHeight, layer);
     mTrigger->SetPosition(mPosition + Vector2(32, 32));
+    std::function<void()> funcao = []() { std::cout << "saver acionado\n"; };
+    mTrigger->SetFunction(funcao);
 }

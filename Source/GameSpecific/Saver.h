@@ -12,13 +12,15 @@
 #include "../Components/DrawComponents/SpriteComponent.h"
 #include "../Components/ColliderComponents/BoxColliderComponent.h"
 #include "../GameObjects/Trigger.h"
+#include "../GameSpecific/Characters/Player.h"
+#include <functional>
 
 class Saver : public GameObject{
     private:
         SpriteComponent *mSpriteComponent;
         BoxColliderComponent *mBoxColliderComponent;
 
-        Trigger *mTrigger;
+        Trigger<std::function<void()>> *mTrigger;
 
     public:
         Saver(class MyGame *game, const std::string &texturePath, int tWidth, int tHeight, ColliderLayer layer);
