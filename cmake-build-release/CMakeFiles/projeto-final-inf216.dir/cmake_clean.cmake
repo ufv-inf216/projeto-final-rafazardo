@@ -11,6 +11,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/projeto-final-inf216.dir/Source/Components/DrawComponents/DrawComponent.cpp.obj.d"
   "CMakeFiles/projeto-final-inf216.dir/Source/Components/DrawComponents/DrawPolygonComponent.cpp.obj"
   "CMakeFiles/projeto-final-inf216.dir/Source/Components/DrawComponents/DrawPolygonComponent.cpp.obj.d"
+  "CMakeFiles/projeto-final-inf216.dir/Source/Components/DrawComponents/DrawRectComponent.cpp.obj"
+  "CMakeFiles/projeto-final-inf216.dir/Source/Components/DrawComponents/DrawRectComponent.cpp.obj.d"
   "CMakeFiles/projeto-final-inf216.dir/Source/Components/DrawComponents/SpriteComponent.cpp.obj"
   "CMakeFiles/projeto-final-inf216.dir/Source/Components/DrawComponents/SpriteComponent.cpp.obj.d"
   "CMakeFiles/projeto-final-inf216.dir/Source/Components/PhysicsComponents/RigidBodyComponent.cpp.obj"

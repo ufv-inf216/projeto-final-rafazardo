@@ -28,7 +28,7 @@ class MyGame : public Game {
         class Battle *mCurrentBattle;
 
         // The map that is currently being rendered.
-        Map *mCurrentMap;
+        class Map *mCurrentMap;
 
         // The crafter NPC
         Crafter *mCrafter;
@@ -58,6 +58,7 @@ class MyGame : public Game {
         Map* GetCurrentMap() { return mCurrentMap; }
 
         Crafter* GetCrafter() { return mCrafter; }
+        Player *GetPlayer() { return mPlayer; }
 
         //Chest* GetChest() { return mChest; }
 

@@ -878,6 +878,26 @@ CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\Fade.cpp.s: cmake_force
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\projeto-final-inf216.dir\Source\Interfaces\Fade.cpp.s /c C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\Interfaces\Fade.cpp
 <<
 
+CMakeFiles\projeto-final-inf216.dir\Source\Components\DrawComponents\DrawRectComponent.cpp.obj: CMakeFiles\projeto-final-inf216.dir\flags.make
+CMakeFiles\projeto-final-inf216.dir\Source\Components\DrawComponents\DrawRectComponent.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\Components\DrawComponents\DrawRectComponent.cpp
+CMakeFiles\projeto-final-inf216.dir\Source\Components\DrawComponents\DrawRectComponent.cpp.obj: CMakeFiles\projeto-final-inf216.dir\compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building CXX object CMakeFiles/projeto-final-inf216.dir/Source/Components/DrawComponents/DrawRectComponent.cpp.obj"
+	$(CMAKE_COMMAND) -E cmake_cl_compile_depends --dep-file=CMakeFiles\projeto-final-inf216.dir\Source\Components\DrawComponents\DrawRectComponent.cpp.obj.d --working-dir=C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\cmake-build-release --filter-prefix="Observação: incluindo arquivo: " -- "C:\PROGRA~1\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\bin\Hostx64\x64\cl.exe" @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /showIncludes /FoCMakeFiles\projeto-final-inf216.dir\Source\Components\DrawComponents\DrawRectComponent.cpp.obj /FdCMakeFiles\projeto-final-inf216.dir\ /FS -c C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\Components\DrawComponents\DrawRectComponent.cpp
+<<
+
+CMakeFiles\projeto-final-inf216.dir\Source\Components\DrawComponents\DrawRectComponent.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/projeto-final-inf216.dir/Source/Components/DrawComponents/DrawRectComponent.cpp.i"
+	"C:\PROGRA~1\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\bin\Hostx64\x64\cl.exe" > CMakeFiles\projeto-final-inf216.dir\Source\Components\DrawComponents\DrawRectComponent.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\Components\DrawComponents\DrawRectComponent.cpp
+<<
+
+CMakeFiles\projeto-final-inf216.dir\Source\Components\DrawComponents\DrawRectComponent.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/projeto-final-inf216.dir/Source/Components/DrawComponents/DrawRectComponent.cpp.s"
+	"C:\PROGRA~1\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\bin\Hostx64\x64\cl.exe" @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\projeto-final-inf216.dir\Source\Components\DrawComponents\DrawRectComponent.cpp.s /c C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\Components\DrawComponents\DrawRectComponent.cpp
+<<
+
 # Object files for target projeto-final-inf216
 projeto__final__inf216_OBJECTS = \
 "CMakeFiles\projeto-final-inf216.dir\Source\Main.cpp.obj" \
@@ -920,7 +940,8 @@ projeto__final__inf216_OBJECTS = \
 "CMakeFiles\projeto-final-inf216.dir\Source\GameSpecific\Battle\Action.cpp.obj" \
 "CMakeFiles\projeto-final-inf216.dir\Source\Game\AudioSystem.cpp.obj" \
 "CMakeFiles\projeto-final-inf216.dir\Source\GameObjects\Door.cpp.obj" \
-"CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\Fade.cpp.obj"
+"CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\Fade.cpp.obj" \
+"CMakeFiles\projeto-final-inf216.dir\Source\Components\DrawComponents\DrawRectComponent.cpp.obj"
 
 # External object files for target projeto-final-inf216
 projeto__final__inf216_EXTERNAL_OBJECTS =
@@ -966,13 +987,14 @@ projeto-final-inf216.exe: CMakeFiles\projeto-final-inf216.dir\Source\GameSpecifi
 projeto-final-inf216.exe: CMakeFiles\projeto-final-inf216.dir\Source\Game\AudioSystem.cpp.obj
 projeto-final-inf216.exe: CMakeFiles\projeto-final-inf216.dir\Source\GameObjects\Door.cpp.obj
 projeto-final-inf216.exe: CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\Fade.cpp.obj
+projeto-final-inf216.exe: CMakeFiles\projeto-final-inf216.dir\Source\Components\DrawComponents\DrawRectComponent.cpp.obj
 projeto-final-inf216.exe: CMakeFiles\projeto-final-inf216.dir\build.make
 projeto-final-inf216.exe: "C:\Program Files\SDL2-2.28.2\cmake\..\lib\x64\SDL2main.lib"
 projeto-final-inf216.exe: "C:\Program Files\SDL2-2.28.2\cmake\..\lib\x64\SDL2.lib"
 projeto-final-inf216.exe: "C:\Program Files\SDL2_image-2.6.3\cmake\..\lib\x64\SDL2_image.lib"
 projeto-final-inf216.exe: "C:\Program Files\SDL2_mixer-2.6.3\cmake\..\lib\x64\SDL2_mixer.lib"
 projeto-final-inf216.exe: CMakeFiles\projeto-final-inf216.dir\objects1.rsp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Linking CXX executable projeto-final-inf216.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Linking CXX executable projeto-final-inf216.exe"
 	"C:\Program Files\JetBrains\CLion 2023.2\bin\cmake\win\x64\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\projeto-final-inf216.dir --rc="C:\PROGRA~2\Windows Kits\10\bin\10.0.22621.0\x64\rc.exe" --mt="C:\PROGRA~2\Windows Kits\10\bin\10.0.22621.0\x64\mt.exe" --manifests -- "C:\PROGRA~1\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\bin\Hostx64\x64\link.exe" /nologo @CMakeFiles\projeto-final-inf216.dir\objects1.rsp @<<
  /out:projeto-final-inf216.exe /implib:projeto-final-inf216.lib /pdb:C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\cmake-build-release\projeto-final-inf216.pdb /version:0.0 /machine:x64 /INCREMENTAL:NO /subsystem:console  "C:\Program Files\SDL2-2.28.2\cmake\..\lib\x64\SDL2main.lib" "C:\Program Files\SDL2-2.28.2\cmake\..\lib\x64\SDL2.lib" "C:\Program Files\SDL2_image-2.6.3\cmake\..\lib\x64\SDL2_image.lib" "C:\Program Files\SDL2_mixer-2.6.3\cmake\..\lib\x64\SDL2_mixer.lib" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib 
 <<

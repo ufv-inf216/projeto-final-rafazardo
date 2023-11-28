@@ -8,31 +8,36 @@ Fade::Fade(class MyGame *game, float duration):
     GameObject(game),
     mDuration(duration) {
 
-    mCircleHeight = mGame->GetWindowHeight()/mGame->GetCamera()->GetScale();
-    mCircleWidth = CIRCLE_WIDTH*((mGame->GetWindowHeight()/mGame->GetCamera()->GetScale())/CIRCLE_HEIGHT);
-    mCircle = new SpriteComponent(this, "../Assets/Sprites/fade.png",
-                                  mCircleWidth,mCircleHeight,1000);
+    SDL_Rect *rect = new SDL_Rect;
+    rect->x = mGame->GetCamera()->GetPosition().x;
+    rect->y = mGame->GetCamera()->GetPosition().y;
+    rect->w = mGame->GetWindowWidth();
+    rect->h = mGame->GetWindowHeight();
+    int color[4] {0, 0, 0, 0};
 
-    mCircle->SetIsVisible(false);
+    mDrawRectComponent = new DrawRectComponent(this, rect, color, 1000);
+    mDrawRectComponent->SetIsVisible(false);
     mTotalFaddingTime = 0;
 }
 
-void Fade::In() {
+void Fade::In(std::vector<GameObject*> *keep_active) {
     mFaddingIn = true;
     mFaddingOut = false;
     mGame->Pause(true);
-    SetState(GameObjectState::Active);
-    mCircle->SetIsVisible(true);
 
-    auto diff = mGame->GetWindowWidth()-mGame->GetCamera()->GetScale()*mCircleWidth;
-    mPosition = mGame->GetCamera()->GetPosition();
-    mPosition.x += diff/(2.f*mGame->GetCamera()->GetScale());
+    SetState(GameObjectState::Active);
+    if(keep_active)
+        for(auto go : *keep_active)
+            go->SetState(GameObjectState::Active);
+
+    mDrawRectComponent->SetRectPosition(mGame->GetCamera()->GetPosition());
+    mDrawRectComponent->SetIsVisible(true);
 }
 
-void Fade::Out() {
+void Fade::Out(bool resume) {
     mFaddingIn = false;
     mFaddingOut = true;
-    mGame->Resume(true);
+    if(resume) mGame->Resume(true);
 }
 
 void Fade::OnUpdate(float deltaTime) {
@@ -43,22 +48,20 @@ void Fade::OnUpdate(float deltaTime) {
         if(mTotalFaddingTime >= mDuration) {
             mTotalFaddingTime = 0;
             mFaddingIn = false;
+            mDrawRectComponent->SetAlpha(255);
+            return;
         }
-
-        auto prev = mCircle->GetDimensions();
-        float s = (mDuration-mTotalFaddingTime)/mDuration;
-        mCircle->SetDimensions(mCircleWidth*s, mCircleHeight*s);
-        auto new_dim = mCircle->GetDimensions();
-
-        mPosition.x += (prev.x - new_dim.x)/mGame->GetCamera()->GetScale();
-        mPosition.y += (prev.y - new_dim.y)/mGame->GetCamera()->GetScale();
+        mDrawRectComponent->SetAlpha((int)(255*(mTotalFaddingTime/mDuration)));
 
     } else if(mFaddingOut) {
         mTotalFaddingTime += deltaTime;
         if(mTotalFaddingTime >= mDuration) {
             mTotalFaddingTime = 0;
             mFaddingIn = false;
+            mDrawRectComponent->SetIsVisible(false);
+            SetState(GameObjectState::Paused);
+            return;
         }
-
+        mDrawRectComponent->SetAlpha((int)(255 - 255*(mTotalFaddingTime/mDuration)));
     }
 }

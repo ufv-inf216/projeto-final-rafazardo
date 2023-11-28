@@ -262,6 +262,30 @@ Source\Components\DrawComponents\DrawPolygonComponent.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\projeto-final-inf216.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\projeto-final-inf216.dir\Source\Components\DrawComponents\DrawPolygonComponent.cpp.s
 .PHONY : Source\Components\DrawComponents\DrawPolygonComponent.cpp.s
 
+Source\Components\DrawComponents\DrawRectComponent.obj: Source\Components\DrawComponents\DrawRectComponent.cpp.obj
+.PHONY : Source\Components\DrawComponents\DrawRectComponent.obj
+
+# target to build an object file
+Source\Components\DrawComponents\DrawRectComponent.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\projeto-final-inf216.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\projeto-final-inf216.dir\Source\Components\DrawComponents\DrawRectComponent.cpp.obj
+.PHONY : Source\Components\DrawComponents\DrawRectComponent.cpp.obj
+
+Source\Components\DrawComponents\DrawRectComponent.i: Source\Components\DrawComponents\DrawRectComponent.cpp.i
+.PHONY : Source\Components\DrawComponents\DrawRectComponent.i
+
+# target to preprocess a source file
+Source\Components\DrawComponents\DrawRectComponent.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\projeto-final-inf216.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\projeto-final-inf216.dir\Source\Components\DrawComponents\DrawRectComponent.cpp.i
+.PHONY : Source\Components\DrawComponents\DrawRectComponent.cpp.i
+
+Source\Components\DrawComponents\DrawRectComponent.s: Source\Components\DrawComponents\DrawRectComponent.cpp.s
+.PHONY : Source\Components\DrawComponents\DrawRectComponent.s
+
+# target to generate assembly for a file
+Source\Components\DrawComponents\DrawRectComponent.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\projeto-final-inf216.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\projeto-final-inf216.dir\Source\Components\DrawComponents\DrawRectComponent.cpp.s
+.PHONY : Source\Components\DrawComponents\DrawRectComponent.cpp.s
+
 Source\Components\DrawComponents\SpriteComponent.obj: Source\Components\DrawComponents\SpriteComponent.cpp.obj
 .PHONY : Source\Components\DrawComponents\SpriteComponent.obj
 
@@ -1129,6 +1153,9 @@ help:
 	@echo ... Source/Components/DrawComponents/DrawPolygonComponent.obj
 	@echo ... Source/Components/DrawComponents/DrawPolygonComponent.i
 	@echo ... Source/Components/DrawComponents/DrawPolygonComponent.s
+	@echo ... Source/Components/DrawComponents/DrawRectComponent.obj
+	@echo ... Source/Components/DrawComponents/DrawRectComponent.i
+	@echo ... Source/Components/DrawComponents/DrawRectComponent.s
 	@echo ... Source/Components/DrawComponents/SpriteComponent.obj
 	@echo ... Source/Components/DrawComponents/SpriteComponent.i
 	@echo ... Source/Components/DrawComponents/SpriteComponent.s

@@ -19,15 +19,19 @@
 
 class Door : public GameObject{
     private:
-        bool mColliding = false;
-        std::function<void()> SetColliding();
-
+        bool mIsProcessingInput = false;
         Fade *mFade;
+
+        class Map *mNextMap;
 
         SpriteComponent *mSpriteComponent;
         Trigger<std::function<void()>> *mTrigger;
 
     public:
         Door(MyGame *game, const std::string &texturePath, Vector2 position);
+
         void OnProcessInput(const uint8_t* state) override;
+        void OnUpdate(float deltaTime) override;
+
+        void SetNextMap(class Map *next) { mNextMap = next; }
 };

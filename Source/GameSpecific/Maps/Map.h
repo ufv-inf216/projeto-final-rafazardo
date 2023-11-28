@@ -8,15 +8,14 @@
 // sprite and collision matrix components.
 // ----------------------------------------------------------------
 
-#ifndef PROJETO_FINAL_INF216_MAP_H
-#define PROJETO_FINAL_INF216_MAP_H
+#pragma once
 
 #include "../../GameObjects/GameObject.h"
 #include "../../Components/DrawComponents/SpriteComponent.h"
 #include "../../Components/ColliderComponents/CollisionMatrixComponent.h"
 
 class Map : public GameObject {
-    private:
+    protected:
         // Map dimensions: width, height and tile size.
         int mWidth,
             mHeight,
@@ -36,6 +35,18 @@ class Map : public GameObject {
         // Getter for Collision Matrix Component
         // @return A pointer for its collision matrix component
         CollisionMatrixComponent* GetCollisionMatrix() { return mCollisionMatrixComponent; }
-};
 
-#endif
+        // Stops Genearting Outputs and Updating its GameObjects.
+        void DisableMap() {
+            SetState(GameObjectState::Paused);
+            mSpriteComponent->SetIsVisible(false);
+            mCollisionMatrixComponent->SetEnabled(false);
+        }
+
+        // Enable Outputs and GameObjects.
+        void EnableMap() {
+            SetState(GameObjectState::Active);
+            mSpriteComponent->SetIsVisible(true);
+            mCollisionMatrixComponent->SetEnabled(true);
+        }
+};

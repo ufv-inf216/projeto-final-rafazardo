@@ -126,6 +126,12 @@
 		<Unit filename="C:/Users/andre/OneDrive/Documentos/UFV/periodo_vi/Jogos/projeto_final/projeto-final-rafazardo/Source/Components/DrawComponents/DrawPolygonComponent.h">
 			<Option target="projeto-final-inf216"/>
 		</Unit>
+		<Unit filename="C:/Users/andre/OneDrive/Documentos/UFV/periodo_vi/Jogos/projeto_final/projeto-final-rafazardo/Source/Components/DrawComponents/DrawRectComponent.cpp">
+			<Option target="projeto-final-inf216"/>
+		</Unit>
+		<Unit filename="C:/Users/andre/OneDrive/Documentos/UFV/periodo_vi/Jogos/projeto_final/projeto-final-rafazardo/Source/Components/DrawComponents/DrawRectComponent.h">
+			<Option target="projeto-final-inf216"/>
+		</Unit>
 		<Unit filename="C:/Users/andre/OneDrive/Documentos/UFV/periodo_vi/Jogos/projeto_final/projeto-final-rafazardo/Source/Components/DrawComponents/SpriteComponent.cpp">
 			<Option target="projeto-final-inf216"/>
 		</Unit>

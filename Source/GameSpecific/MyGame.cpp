@@ -80,20 +80,18 @@ void MyGame::InitializeGameObjects() {
     auto s = new Saver(this, "../Assets/Sprites/Test/test_saver.png", 32, 32, ColliderLayer::Player);
     s->SetPosition(Vector2(32, 32));
 
-    // Allocate Trigger
-    auto t = new Trigger<std::function<void()>>(this, 64, 64, ColliderLayer::Player);
-    t->SetPosition(Vector2(96, 32));
-    std::function<void()> funcao = []() { std::cout << "trigger acionado\n"; };
-    t->SetFunction(funcao); //tem que ver isso aqui
-
     // Set Camera settings.
     mCamera = new Camera(this, Vector2(0,0), Vector2(30*TILE_SIZE, 15*TILE_SIZE),2.f);
     mCamera->SetTarget(mPlayer, Vector2(TILE_SIZE/2, TILE_SIZE/2));
     mCamera->SetWindow(120, 100);
     mCamera->SetScale(2.0f);
 
-    // Allocate Door
+    auto sndmap = new Map(this, "../Assets/Sprites/Test/test_map2.png",
+                          "../Assets/Collisions/Test/test2_collision.collmat", 10*TILE_SIZE, 10*TILE_SIZE);
+    sndmap->DisableMap();
+
     auto d = new Door(this, "../Assets/Sprites/Test/test_door.png", Vector2(32, 64));
+    d->SetNextMap(sndmap);
 }
 
 void MyGame::Pause(bool draw) {

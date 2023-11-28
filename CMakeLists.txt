@@ -55,6 +55,7 @@ add_executable(${PROJECT_NAME}
         Source/Game/AudioSystem.cpp
         Source/GameObjects/Door.cpp
         Source/Interfaces/Fade.cpp
+        Source/Components/DrawComponents/DrawRectComponent.cpp
 )
 
 ####### DO NOT EDIT BELLOW

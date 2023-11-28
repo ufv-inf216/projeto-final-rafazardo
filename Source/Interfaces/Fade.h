@@ -5,10 +5,11 @@
 #pragma once
 
 #include "../GameObjects/GameObject.h"
-#include "../Components/DrawComponents/SpriteComponent.h"
+#include "../Components/DrawComponents/DrawRectComponent.h"
 
 class Fade : public GameObject {
     private:
+        DrawRectComponent *mDrawRectComponent;
 
         float mDuration,
               mTotalFaddingTime;
@@ -16,17 +17,15 @@ class Fade : public GameObject {
         bool mFaddingIn  = false,
              mFaddingOut = false;
 
-        SpriteComponent *mCircle;
-        int mCircleWidth,
-            mCircleHeight;
-
     public:
         Fade(class MyGame *game, float duration);
 
-        void In();
-        void Out();
+        void In(std::vector<GameObject*> *keep_active);
+        void Out(bool resume=true);
 
         bool IsFadding() { return mFaddingIn | mFaddingOut; }
+        bool IsFaddingIn() { return mFaddingIn; }
+        bool IsFaddingOut() { return mFaddingOut; }
 
         void OnUpdate(float deltaTime) override;
 };
