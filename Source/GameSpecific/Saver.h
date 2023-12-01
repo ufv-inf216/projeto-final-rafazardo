@@ -24,4 +24,20 @@ class Saver : public GameObject{
 
     public:
         Saver(class MyGame *game, const std::string &texturePath, int tWidth, int tHeight, ColliderLayer layer);
+
+        // Disale this game pbject.
+        virtual void Disable() override {
+            SetState(GameObjectState::Paused);
+            for(auto c : mComponents)
+                c->SetEnabled(false);
+            mTrigger->SetState(GameObjectState::Paused);
+        }
+
+        // Enable this game object.
+        virtual void Enable() override {
+            SetState(GameObjectState::Active);
+            for(auto c : mComponents)
+                c->SetEnabled(true);
+            mTrigger->SetState(GameObjectState::Active);
+        }
 };

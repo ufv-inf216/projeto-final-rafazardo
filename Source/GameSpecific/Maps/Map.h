@@ -25,6 +25,9 @@ class Map : public GameObject {
         SpriteComponent *mSpriteComponent;
         CollisionMatrixComponent *mCollisionMatrixComponent;
 
+        // All game objects in the map.
+        std::vector<GameObject *> mGameObjects;
+
     public:
         // Constructor
         // @param game The current game
@@ -36,17 +39,26 @@ class Map : public GameObject {
         // @return A pointer for its collision matrix component
         CollisionMatrixComponent* GetCollisionMatrix() { return mCollisionMatrixComponent; }
 
+        // Add a new game object to the map.
+        void AddGameObject(GameObject *obj) { mGameObjects.push_back(obj); }
+
         // Stops Genearting Outputs and Updating its GameObjects.
-        void DisableMap() {
+        void Disable() override {
             SetState(GameObjectState::Paused);
-            mSpriteComponent->SetIsVisible(false);
+            mSpriteComponent->SetEnabled(false);
             mCollisionMatrixComponent->SetEnabled(false);
+            for(auto obj : mGameObjects)
+                obj->Disable();
         }
 
         // Enable Outputs and GameObjects.
-        void EnableMap() {
+        void Enable() override {
             SetState(GameObjectState::Active);
-            mSpriteComponent->SetIsVisible(true);
+            mSpriteComponent->SetEnabled(true);
             mCollisionMatrixComponent->SetEnabled(true);
+            for(auto obj : mGameObjects)
+                obj->Enable();
         }
+
+        Vector2 GetDimension() { return Vector2(mWidth, mHeight); }
 };

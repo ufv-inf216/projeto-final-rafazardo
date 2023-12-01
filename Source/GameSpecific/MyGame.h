@@ -56,6 +56,7 @@ class MyGame : public Game {
         // Returns the game map which is currently being rendered.
         // @return A pointer for the current map object.
         Map* GetCurrentMap() { return mCurrentMap; }
+        void SetCurrentMap(Map *map) { mCurrentMap = map; }
 
         Crafter* GetCrafter() { return mCrafter; }
         Player *GetPlayer() { return mPlayer; }

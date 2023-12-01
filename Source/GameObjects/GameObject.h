@@ -67,6 +67,20 @@ class GameObject {
         // Any actor-specific collision code (overridable)
         virtual void OnCollision(std::unordered_map<CollisionSide, BoxColliderComponent::Overlap>& responses);
 
+        // Disale this game pbject.
+        virtual void Disable() {
+            SetState(GameObjectState::Paused);
+            for(auto c : mComponents)
+                c->SetEnabled(false);
+        }
+
+        // Enable this game object.
+        virtual void Enable() {
+            SetState(GameObjectState::Active);
+            for(auto c : mComponents)
+                c->SetEnabled(true);
+        }
+
 
     protected:
         class MyGame* mGame;

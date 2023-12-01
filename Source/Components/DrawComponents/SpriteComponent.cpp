@@ -16,6 +16,7 @@ SpriteComponent::SpriteComponent(class GameObject* owner, const std::string &tex
 }
 
 void SpriteComponent::Draw(SDL_Renderer *renderer) {
+    if(!mIsEnabled) return;
     Vector2 pos = mOwner->GetPosition();
     Vector2 cam_pos = this->mOwner->GetGame()->GetCamera()->GetPosition();
 

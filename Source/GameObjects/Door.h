@@ -23,15 +23,33 @@ class Door : public GameObject{
         Fade *mFade;
 
         class Map *mNextMap;
+        Vector2 mNextPosition;
 
         SpriteComponent *mSpriteComponent;
         Trigger<std::function<void()>> *mTrigger;
 
     public:
-        Door(MyGame *game, const std::string &texturePath, Vector2 position);
+        Door(MyGame *game, const std::string &texturePath, Vector2 position, Vector2 player_pos);
 
         void OnProcessInput(const uint8_t* state) override;
         void OnUpdate(float deltaTime) override;
 
         void SetNextMap(class Map *next) { mNextMap = next; }
+        Vector2 GetNextPosition() { return mNextPosition; }
+
+        // Disale this game pbject.
+        virtual void Disable() override {
+            SetState(GameObjectState::Paused);
+            for(auto c : mComponents)
+                c->SetEnabled(false);
+            mTrigger->Disable();
+        }
+
+        // Enable this game object.
+        virtual void Enable() override {
+            SetState(GameObjectState::Active);
+            for(auto c : mComponents)
+                c->SetEnabled(true);
+            mTrigger->Enable();
+        }
 };

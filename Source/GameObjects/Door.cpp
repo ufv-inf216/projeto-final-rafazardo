@@ -14,8 +14,9 @@ void MinhaFuncao() {
     std::cout << "PORTA" << std::endl;
 }
 
-Door::Door(MyGame *game, const std::string &texturePath, Vector2 position):
-    GameObject(game){
+Door::Door(MyGame *game, const std::string &texturePath, Vector2 position, Vector2 player_pos):
+    GameObject(game),
+    mNextPosition(player_pos) {
 
     mFade = new Fade(mGame, 0.8f);
     mSpriteComponent = new SpriteComponent(this, texturePath, 32, 32);
@@ -41,18 +42,17 @@ void Door::OnProcessInput(const uint8_t* state) {
 void Door::OnUpdate(float deltaTime) {
     if(mIsProcessingInput) return;
     if(!mFade->IsFadding()) {
-//        mGame->Pause(false);
-//        SetState(GameObjectState::Active);
-//        mFade->SetState(GameObjectState::Active);
-
-        // Desenhar novo mapa.
-
-
-        mIsProcessingInput = true;
-        mFade->Out(false);
-
-        mGame->GetCurrentMap()->DisableMap();
-        mNextMap->EnableMap();
+        mGame->GetCurrentMap()->Disable();
+        mNextMap->Enable();
+        mGame->SetCurrentMap(mNextMap);
+        
         mGame->GetPlayer()->SetState(GameObjectState::Active);
+        mGame->GetPlayer()->SetPosition(mNextPosition);
+
+        mGame->GetCamera()->SetState(GameObjectState::Active);
+        mGame->GetCamera()->SetTarget(mGame->GetPlayer());
+
+        mFade->Out(false);
+        mIsProcessingInput = true;
     }
 }
