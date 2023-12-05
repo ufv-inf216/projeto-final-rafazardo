@@ -1,0 +1,46 @@
+[
+    {
+        "dir": "Assets/Collisions/Dungeons/sq_17_17.collmat",
+        "height": 17,
+        "width": 17,
+        "doors": [
+            8, 1,
+            8, 14,
+            16, 7, 
+            0, 7
+        ]
+    },
+    {
+        "dir": "Assets/Collisions/Dungeons/sq_18_18.collmat",
+        "height": 18,
+        "width": 18,
+        "doors": [
+            9, 1,
+            9, 14,
+            17, 7, 
+            0, 7
+        ]
+    },
+    {
+        "dir": "Assets/Collisions/Dungeons/sq_19_19.collmat",
+        "height": 19,
+        "width": 19,
+        "doors": [
+            10, 1,
+            10, 14,
+            18, 7, 
+            0, 7
+        ]
+    },
+    {
+        "dir": "Assets/Collisions/Dungeons/sq_20_20.collmat",
+        "height": 20,
+        "width": 20,
+        "doors": [
+            11, 1,
+            11, 14,
+            19, 7,
+            0, 7
+        ]
+    }
+]

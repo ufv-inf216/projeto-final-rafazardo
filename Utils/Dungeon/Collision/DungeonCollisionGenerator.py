@@ -11,11 +11,15 @@
 # - Uma matriz bidimensional onde 0 representa espaço livre (não colide) e 1 representa uma parede (colide)
 def CreateRectangularRoomCollisionMatrix(h, w):
     matrix = [[1] * w]  # Duas linhas de largura w formadas por 1
+    matrix.append([1] * w)  # Duas linhas de largura w formadas por 1
+    matrix.append([1] * w)  # Duas linhas de largura w formadas por 1
 
-    for i in range(h - 2):
+    for i in range(h - 6):
         row = [1] + [0] * (w - 2) + [1]  # Linhas do tipo 100...001
         matrix.append(row)
 
+    matrix += [[1] * w]  # Duas linhas de largura w formadas por 1
+    matrix += [[1] * w]  # Duas linhas de largura w formadas por 1
     matrix += [[1] * w]  # Duas linhas de largura w formadas por 1
 
     return matrix
@@ -85,7 +89,7 @@ def WriteCollisionMatrixToFile(filename, matrix):
             file.write(" ".join(map(str, row)) + "\n")
 
 # Exemplos de uso:
-dungeon_sq_w_h = CreateRectangularRoomCollisionMatrix(15, 8)
+dungeon_sq_w_h = CreateRectangularRoomCollisionMatrix(20, 20)
 dungeon_cir_r = CreateCircularRoomCollisionMatrix(5)
 dungeon_u_w_h = CreateURoomCollisionMatrix(15, 8, "u")
 
