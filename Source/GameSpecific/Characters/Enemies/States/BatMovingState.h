@@ -8,7 +8,6 @@ public:
     BatMovingState(class FSMComponent *fsm);
     void Start() override;
     void HandleStateTransition(float stateTime) override;
-    void Update(float deltaTime) override;
 
 private:
     int mHorizontal;

@@ -34,4 +34,6 @@ class Layer : public GameObject {
         // Getter for the previous layer.
         // @return A pointer to the previous layer.
         Layer* GetPrevious() { return mPreviousLayer; }
+
+        Room* GetFirstRoom() { return mFirstRoom; }
 };

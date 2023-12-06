@@ -52,7 +52,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "/DWIN32 /D_WINDOWS /EHsc /Ob0 /Od /RTC1 -std:c++17 -MDd -Zi"
+					"fragment" : "/DWIN32 /D_WINDOWS /EHsc /O2 /Ob2 /DNDEBUG -std:c++17 -MD"
 				}
 			],
 			"includes" : 
@@ -60,7 +60,7 @@
 				{
 					"backtrace" : 3,
 					"isSystem" : true,
-					"path" : "C:/Program Files/SDL2/cmake/../include"
+					"path" : "C:/Program Files/SDL2-2.28.2/cmake/../include"
 				},
 				{
 					"backtrace" : 2,
@@ -141,21 +141,21 @@
 		"commandFragments" : 
 		[
 			{
-				"fragment" : "/DWIN32 /D_WINDOWS /EHsc /Ob0 /Od /RTC1 -MDd -Zi",
+				"fragment" : "/DWIN32 /D_WINDOWS /EHsc /O2 /Ob2 /DNDEBUG -MD",
 				"role" : "flags"
 			},
 			{
-				"fragment" : "/machine:x64 /debug /INCREMENTAL /subsystem:console",
+				"fragment" : "/machine:x64 /INCREMENTAL:NO /subsystem:console",
 				"role" : "flags"
 			},
 			{
 				"backtrace" : 2,
-				"fragment" : "\"C:\\Program Files\\SDL2\\cmake\\..\\lib\\x64\\SDL2main.lib\"",
+				"fragment" : "\"C:\\Program Files\\SDL2-2.28.2\\cmake\\..\\lib\\x64\\SDL2main.lib\"",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 2,
-				"fragment" : "\"C:\\Program Files\\SDL2\\cmake\\..\\lib\\x64\\SDL2.lib\"",
+				"fragment" : "\"C:\\Program Files\\SDL2-2.28.2\\cmake\\..\\lib\\x64\\SDL2.lib\"",
 				"role" : "libraries"
 			},
 			{

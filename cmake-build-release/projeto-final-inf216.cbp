@@ -90,6 +90,18 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/andre/OneDrive/Documentos/UFV/periodo_vi/Jogos/projeto_final/projeto-final-rafazardo/Source/Components/AIComponents/FSMComponent.cpp">
+			<Option target="projeto-final-inf216"/>
+		</Unit>
+		<Unit filename="C:/Users/andre/OneDrive/Documentos/UFV/periodo_vi/Jogos/projeto_final/projeto-final-rafazardo/Source/Components/AIComponents/FSMComponent.h">
+			<Option target="projeto-final-inf216"/>
+		</Unit>
+		<Unit filename="C:/Users/andre/OneDrive/Documentos/UFV/periodo_vi/Jogos/projeto_final/projeto-final-rafazardo/Source/Components/AIComponents/FSMState.cpp">
+			<Option target="projeto-final-inf216"/>
+		</Unit>
+		<Unit filename="C:/Users/andre/OneDrive/Documentos/UFV/periodo_vi/Jogos/projeto_final/projeto-final-rafazardo/Source/Components/AIComponents/FSMState.h">
+			<Option target="projeto-final-inf216"/>
+		</Unit>
 		<Unit filename="C:/Users/andre/OneDrive/Documentos/UFV/periodo_vi/Jogos/projeto_final/projeto-final-rafazardo/Source/Components/ColliderComponents/BoxColliderComponent.cpp">
 			<Option target="projeto-final-inf216"/>
 		</Unit>
@@ -244,6 +256,30 @@
 			<Option target="projeto-final-inf216"/>
 		</Unit>
 		<Unit filename="C:/Users/andre/OneDrive/Documentos/UFV/periodo_vi/Jogos/projeto_final/projeto-final-rafazardo/Source/GameSpecific/Characters/Crafter.h">
+			<Option target="projeto-final-inf216"/>
+		</Unit>
+		<Unit filename="C:/Users/andre/OneDrive/Documentos/UFV/periodo_vi/Jogos/projeto_final/projeto-final-rafazardo/Source/GameSpecific/Characters/Enemies/Bat.cpp">
+			<Option target="projeto-final-inf216"/>
+		</Unit>
+		<Unit filename="C:/Users/andre/OneDrive/Documentos/UFV/periodo_vi/Jogos/projeto_final/projeto-final-rafazardo/Source/GameSpecific/Characters/Enemies/Bat.h">
+			<Option target="projeto-final-inf216"/>
+		</Unit>
+		<Unit filename="C:/Users/andre/OneDrive/Documentos/UFV/periodo_vi/Jogos/projeto_final/projeto-final-rafazardo/Source/GameSpecific/Characters/Enemies/States/BatIdleState.cpp">
+			<Option target="projeto-final-inf216"/>
+		</Unit>
+		<Unit filename="C:/Users/andre/OneDrive/Documentos/UFV/periodo_vi/Jogos/projeto_final/projeto-final-rafazardo/Source/GameSpecific/Characters/Enemies/States/BatIdleState.h">
+			<Option target="projeto-final-inf216"/>
+		</Unit>
+		<Unit filename="C:/Users/andre/OneDrive/Documentos/UFV/periodo_vi/Jogos/projeto_final/projeto-final-rafazardo/Source/GameSpecific/Characters/Enemies/States/BatMovingState.cpp">
+			<Option target="projeto-final-inf216"/>
+		</Unit>
+		<Unit filename="C:/Users/andre/OneDrive/Documentos/UFV/periodo_vi/Jogos/projeto_final/projeto-final-rafazardo/Source/GameSpecific/Characters/Enemies/States/BatMovingState.h">
+			<Option target="projeto-final-inf216"/>
+		</Unit>
+		<Unit filename="C:/Users/andre/OneDrive/Documentos/UFV/periodo_vi/Jogos/projeto_final/projeto-final-rafazardo/Source/GameSpecific/Characters/Enemies/States/BatState.cpp">
+			<Option target="projeto-final-inf216"/>
+		</Unit>
+		<Unit filename="C:/Users/andre/OneDrive/Documentos/UFV/periodo_vi/Jogos/projeto_final/projeto-final-rafazardo/Source/GameSpecific/Characters/Enemies/States/BatState.h">
 			<Option target="projeto-final-inf216"/>
 		</Unit>
 		<Unit filename="C:/Users/andre/OneDrive/Documentos/UFV/periodo_vi/Jogos/projeto_final/projeto-final-rafazardo/Source/GameSpecific/Characters/Enemy.cpp">

@@ -118,6 +118,54 @@ projeto-final-inf216\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\projeto-final-inf216.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\projeto-final-inf216.dir\build
 .PHONY : projeto-final-inf216\fast
 
+Source\Components\AIComponents\FSMComponent.obj: Source\Components\AIComponents\FSMComponent.cpp.obj
+.PHONY : Source\Components\AIComponents\FSMComponent.obj
+
+# target to build an object file
+Source\Components\AIComponents\FSMComponent.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\projeto-final-inf216.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\projeto-final-inf216.dir\Source\Components\AIComponents\FSMComponent.cpp.obj
+.PHONY : Source\Components\AIComponents\FSMComponent.cpp.obj
+
+Source\Components\AIComponents\FSMComponent.i: Source\Components\AIComponents\FSMComponent.cpp.i
+.PHONY : Source\Components\AIComponents\FSMComponent.i
+
+# target to preprocess a source file
+Source\Components\AIComponents\FSMComponent.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\projeto-final-inf216.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\projeto-final-inf216.dir\Source\Components\AIComponents\FSMComponent.cpp.i
+.PHONY : Source\Components\AIComponents\FSMComponent.cpp.i
+
+Source\Components\AIComponents\FSMComponent.s: Source\Components\AIComponents\FSMComponent.cpp.s
+.PHONY : Source\Components\AIComponents\FSMComponent.s
+
+# target to generate assembly for a file
+Source\Components\AIComponents\FSMComponent.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\projeto-final-inf216.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\projeto-final-inf216.dir\Source\Components\AIComponents\FSMComponent.cpp.s
+.PHONY : Source\Components\AIComponents\FSMComponent.cpp.s
+
+Source\Components\AIComponents\FSMState.obj: Source\Components\AIComponents\FSMState.cpp.obj
+.PHONY : Source\Components\AIComponents\FSMState.obj
+
+# target to build an object file
+Source\Components\AIComponents\FSMState.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\projeto-final-inf216.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\projeto-final-inf216.dir\Source\Components\AIComponents\FSMState.cpp.obj
+.PHONY : Source\Components\AIComponents\FSMState.cpp.obj
+
+Source\Components\AIComponents\FSMState.i: Source\Components\AIComponents\FSMState.cpp.i
+.PHONY : Source\Components\AIComponents\FSMState.i
+
+# target to preprocess a source file
+Source\Components\AIComponents\FSMState.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\projeto-final-inf216.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\projeto-final-inf216.dir\Source\Components\AIComponents\FSMState.cpp.i
+.PHONY : Source\Components\AIComponents\FSMState.cpp.i
+
+Source\Components\AIComponents\FSMState.s: Source\Components\AIComponents\FSMState.cpp.s
+.PHONY : Source\Components\AIComponents\FSMState.s
+
+# target to generate assembly for a file
+Source\Components\AIComponents\FSMState.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\projeto-final-inf216.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\projeto-final-inf216.dir\Source\Components\AIComponents\FSMState.cpp.s
+.PHONY : Source\Components\AIComponents\FSMState.cpp.s
+
 Source\Components\ColliderComponents\BoxColliderComponent.obj: Source\Components\ColliderComponents\BoxColliderComponent.cpp.obj
 .PHONY : Source\Components\ColliderComponents\BoxColliderComponent.obj
 
@@ -742,6 +790,102 @@ Source\GameSpecific\Characters\Crafter.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\projeto-final-inf216.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\projeto-final-inf216.dir\Source\GameSpecific\Characters\Crafter.cpp.s
 .PHONY : Source\GameSpecific\Characters\Crafter.cpp.s
 
+Source\GameSpecific\Characters\Enemies\Bat.obj: Source\GameSpecific\Characters\Enemies\Bat.cpp.obj
+.PHONY : Source\GameSpecific\Characters\Enemies\Bat.obj
+
+# target to build an object file
+Source\GameSpecific\Characters\Enemies\Bat.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\projeto-final-inf216.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\projeto-final-inf216.dir\Source\GameSpecific\Characters\Enemies\Bat.cpp.obj
+.PHONY : Source\GameSpecific\Characters\Enemies\Bat.cpp.obj
+
+Source\GameSpecific\Characters\Enemies\Bat.i: Source\GameSpecific\Characters\Enemies\Bat.cpp.i
+.PHONY : Source\GameSpecific\Characters\Enemies\Bat.i
+
+# target to preprocess a source file
+Source\GameSpecific\Characters\Enemies\Bat.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\projeto-final-inf216.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\projeto-final-inf216.dir\Source\GameSpecific\Characters\Enemies\Bat.cpp.i
+.PHONY : Source\GameSpecific\Characters\Enemies\Bat.cpp.i
+
+Source\GameSpecific\Characters\Enemies\Bat.s: Source\GameSpecific\Characters\Enemies\Bat.cpp.s
+.PHONY : Source\GameSpecific\Characters\Enemies\Bat.s
+
+# target to generate assembly for a file
+Source\GameSpecific\Characters\Enemies\Bat.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\projeto-final-inf216.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\projeto-final-inf216.dir\Source\GameSpecific\Characters\Enemies\Bat.cpp.s
+.PHONY : Source\GameSpecific\Characters\Enemies\Bat.cpp.s
+
+Source\GameSpecific\Characters\Enemies\States\BatIdleState.obj: Source\GameSpecific\Characters\Enemies\States\BatIdleState.cpp.obj
+.PHONY : Source\GameSpecific\Characters\Enemies\States\BatIdleState.obj
+
+# target to build an object file
+Source\GameSpecific\Characters\Enemies\States\BatIdleState.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\projeto-final-inf216.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\projeto-final-inf216.dir\Source\GameSpecific\Characters\Enemies\States\BatIdleState.cpp.obj
+.PHONY : Source\GameSpecific\Characters\Enemies\States\BatIdleState.cpp.obj
+
+Source\GameSpecific\Characters\Enemies\States\BatIdleState.i: Source\GameSpecific\Characters\Enemies\States\BatIdleState.cpp.i
+.PHONY : Source\GameSpecific\Characters\Enemies\States\BatIdleState.i
+
+# target to preprocess a source file
+Source\GameSpecific\Characters\Enemies\States\BatIdleState.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\projeto-final-inf216.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\projeto-final-inf216.dir\Source\GameSpecific\Characters\Enemies\States\BatIdleState.cpp.i
+.PHONY : Source\GameSpecific\Characters\Enemies\States\BatIdleState.cpp.i
+
+Source\GameSpecific\Characters\Enemies\States\BatIdleState.s: Source\GameSpecific\Characters\Enemies\States\BatIdleState.cpp.s
+.PHONY : Source\GameSpecific\Characters\Enemies\States\BatIdleState.s
+
+# target to generate assembly for a file
+Source\GameSpecific\Characters\Enemies\States\BatIdleState.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\projeto-final-inf216.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\projeto-final-inf216.dir\Source\GameSpecific\Characters\Enemies\States\BatIdleState.cpp.s
+.PHONY : Source\GameSpecific\Characters\Enemies\States\BatIdleState.cpp.s
+
+Source\GameSpecific\Characters\Enemies\States\BatMovingState.obj: Source\GameSpecific\Characters\Enemies\States\BatMovingState.cpp.obj
+.PHONY : Source\GameSpecific\Characters\Enemies\States\BatMovingState.obj
+
+# target to build an object file
+Source\GameSpecific\Characters\Enemies\States\BatMovingState.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\projeto-final-inf216.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\projeto-final-inf216.dir\Source\GameSpecific\Characters\Enemies\States\BatMovingState.cpp.obj
+.PHONY : Source\GameSpecific\Characters\Enemies\States\BatMovingState.cpp.obj
+
+Source\GameSpecific\Characters\Enemies\States\BatMovingState.i: Source\GameSpecific\Characters\Enemies\States\BatMovingState.cpp.i
+.PHONY : Source\GameSpecific\Characters\Enemies\States\BatMovingState.i
+
+# target to preprocess a source file
+Source\GameSpecific\Characters\Enemies\States\BatMovingState.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\projeto-final-inf216.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\projeto-final-inf216.dir\Source\GameSpecific\Characters\Enemies\States\BatMovingState.cpp.i
+.PHONY : Source\GameSpecific\Characters\Enemies\States\BatMovingState.cpp.i
+
+Source\GameSpecific\Characters\Enemies\States\BatMovingState.s: Source\GameSpecific\Characters\Enemies\States\BatMovingState.cpp.s
+.PHONY : Source\GameSpecific\Characters\Enemies\States\BatMovingState.s
+
+# target to generate assembly for a file
+Source\GameSpecific\Characters\Enemies\States\BatMovingState.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\projeto-final-inf216.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\projeto-final-inf216.dir\Source\GameSpecific\Characters\Enemies\States\BatMovingState.cpp.s
+.PHONY : Source\GameSpecific\Characters\Enemies\States\BatMovingState.cpp.s
+
+Source\GameSpecific\Characters\Enemies\States\BatState.obj: Source\GameSpecific\Characters\Enemies\States\BatState.cpp.obj
+.PHONY : Source\GameSpecific\Characters\Enemies\States\BatState.obj
+
+# target to build an object file
+Source\GameSpecific\Characters\Enemies\States\BatState.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\projeto-final-inf216.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\projeto-final-inf216.dir\Source\GameSpecific\Characters\Enemies\States\BatState.cpp.obj
+.PHONY : Source\GameSpecific\Characters\Enemies\States\BatState.cpp.obj
+
+Source\GameSpecific\Characters\Enemies\States\BatState.i: Source\GameSpecific\Characters\Enemies\States\BatState.cpp.i
+.PHONY : Source\GameSpecific\Characters\Enemies\States\BatState.i
+
+# target to preprocess a source file
+Source\GameSpecific\Characters\Enemies\States\BatState.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\projeto-final-inf216.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\projeto-final-inf216.dir\Source\GameSpecific\Characters\Enemies\States\BatState.cpp.i
+.PHONY : Source\GameSpecific\Characters\Enemies\States\BatState.cpp.i
+
+Source\GameSpecific\Characters\Enemies\States\BatState.s: Source\GameSpecific\Characters\Enemies\States\BatState.cpp.s
+.PHONY : Source\GameSpecific\Characters\Enemies\States\BatState.s
+
+# target to generate assembly for a file
+Source\GameSpecific\Characters\Enemies\States\BatState.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\projeto-final-inf216.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\projeto-final-inf216.dir\Source\GameSpecific\Characters\Enemies\States\BatState.cpp.s
+.PHONY : Source\GameSpecific\Characters\Enemies\States\BatState.cpp.s
+
 Source\GameSpecific\Characters\Enemy.obj: Source\GameSpecific\Characters\Enemy.cpp.obj
 .PHONY : Source\GameSpecific\Characters\Enemy.obj
 
@@ -1135,6 +1279,12 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... projeto-final-inf216
+	@echo ... Source/Components/AIComponents/FSMComponent.obj
+	@echo ... Source/Components/AIComponents/FSMComponent.i
+	@echo ... Source/Components/AIComponents/FSMComponent.s
+	@echo ... Source/Components/AIComponents/FSMState.obj
+	@echo ... Source/Components/AIComponents/FSMState.i
+	@echo ... Source/Components/AIComponents/FSMState.s
 	@echo ... Source/Components/ColliderComponents/BoxColliderComponent.obj
 	@echo ... Source/Components/ColliderComponents/BoxColliderComponent.i
 	@echo ... Source/Components/ColliderComponents/BoxColliderComponent.s
@@ -1213,6 +1363,18 @@ help:
 	@echo ... Source/GameSpecific/Characters/Crafter.obj
 	@echo ... Source/GameSpecific/Characters/Crafter.i
 	@echo ... Source/GameSpecific/Characters/Crafter.s
+	@echo ... Source/GameSpecific/Characters/Enemies/Bat.obj
+	@echo ... Source/GameSpecific/Characters/Enemies/Bat.i
+	@echo ... Source/GameSpecific/Characters/Enemies/Bat.s
+	@echo ... Source/GameSpecific/Characters/Enemies/States/BatIdleState.obj
+	@echo ... Source/GameSpecific/Characters/Enemies/States/BatIdleState.i
+	@echo ... Source/GameSpecific/Characters/Enemies/States/BatIdleState.s
+	@echo ... Source/GameSpecific/Characters/Enemies/States/BatMovingState.obj
+	@echo ... Source/GameSpecific/Characters/Enemies/States/BatMovingState.i
+	@echo ... Source/GameSpecific/Characters/Enemies/States/BatMovingState.s
+	@echo ... Source/GameSpecific/Characters/Enemies/States/BatState.obj
+	@echo ... Source/GameSpecific/Characters/Enemies/States/BatState.i
+	@echo ... Source/GameSpecific/Characters/Enemies/States/BatState.s
 	@echo ... Source/GameSpecific/Characters/Enemy.obj
 	@echo ... Source/GameSpecific/Characters/Enemy.i
 	@echo ... Source/GameSpecific/Characters/Enemy.s
