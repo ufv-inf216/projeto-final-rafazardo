@@ -1,0 +1,28 @@
+{"frames": [
+
+  {
+    "filename": "bat-0.png",
+    "frame": {"x":0,"y":0,"w":64,"h":64},
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": {"x":0,"y":0,"w":64,"h":64},
+    "sourceSize": {"w":64,"h":64}
+  },
+  {
+    "filename": "bat-1.png",
+    "frame": {"x":64,"y":0,"w":64,"h":64},
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": {"x":0,"y":0,"w":64,"h":64},
+    "sourceSize": {"w":64,"h":64}
+  }],
+  "meta": {
+    "app": "https://www.codeandweb.com/texturepacker",
+    "version": "1.0",
+    "image": "sprite_sheet_data.png",
+    "format": "RGBA8888",
+    "size": {"w":128,"h":64},
+    "scale": "1",
+    "smartupdate": "$TexturePacker:SmartUpdate:cae0c49546f69f72b5cd49658bc6b4c7:213b59cae3eb7013f0f11a057a9ae0ae:ce0c392b2960e0d4e1f15c07432727dc$"
+  }
+}

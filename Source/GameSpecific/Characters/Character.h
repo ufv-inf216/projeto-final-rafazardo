@@ -12,7 +12,7 @@
 
 #include "Character.h"
 #include "../../GameObjects/GameObject.h"
-#include "../../Components/DrawComponents/SpriteComponent.h"
+#include "../../Components/DrawComponents/AnimatedSpriteComponent.h"
 #include "../Inventory.h"
 
 struct CharacterSheet {
@@ -52,7 +52,7 @@ class Character : public GameObject {
 
         // Character components.
         RigidBodyComponent *mRigidBodyComponent;
-        SpriteComponent *mSpriteComponent;
+        AnimatedSpriteComponent *mAnimatedSpriteComponent;
         BoxColliderComponent *mBoxColliderComponent;
 
     public:
@@ -60,7 +60,7 @@ class Character : public GameObject {
         // @param game The current game
         // @params texturePath The player texture directory
         // @params attrs A array containing player attributes (STR, DEX, CON, WIS, INT, CHA).
-        Character(class MyGame *game, const std::string &texturePath, int attrs[6], ColliderLayer coll_layer);
+        Character(class MyGame *game, const std::string &texturePath, const std::string &spriteSheetData, int attrs[6], ColliderLayer coll_layer);
 
         // @returns The character's sheet.
         CharacterSheet* GetCharacterSheet() { return mSheet; }

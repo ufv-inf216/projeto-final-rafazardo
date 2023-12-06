@@ -25,7 +25,7 @@ class Player : public Character {
         // @param game The current game
         // @params texturePath The player texture directory
         // @params attrs A array containing player attributes (STR, DEX, CON, WIS, INT, CHA).
-        Player(class MyGame *game, const std::string &texturePath, int attrs[6], Inventory *inventory);
+        Player(class MyGame *game, const std::string &texturePath, const std::string &spriteSheetData, int attrs[6], Inventory *inventory);
 
         // Define player's behaviour for each input
         // @param state A array that stores pressed keys

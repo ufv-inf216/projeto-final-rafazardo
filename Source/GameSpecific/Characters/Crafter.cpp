@@ -9,8 +9,8 @@
 
 #include "Crafter.h"
 
-Crafter::Crafter(class MyGame *game, const std::string &texturePath, int attrs[6]):
-        NPC(game, texturePath, attrs) { }
+Crafter::Crafter(class MyGame *game, const std::string &texturePath, const std::string &spriteSheetData, int attrs[6]):
+        NPC(game, texturePath, spriteSheetData, attrs) { }
 
 bool Crafter::Craft(std::string type, int id, Inventory *inventory) {
 

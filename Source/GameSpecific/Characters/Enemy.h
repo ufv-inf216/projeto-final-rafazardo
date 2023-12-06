@@ -20,7 +20,7 @@ class Enemy : public Character {
         // @param game The current game
         // @params texturePath The enemy texture directory
         // @params attrs A array containing enemy attributes (STR, DEX, CON, WIS, INT, CHA).
-        Enemy(class MyGame *game, const std::string &texturePath, int attrs[6]);
+        Enemy(class MyGame *game, const std::string &texturePath, const std::string &spriteSheetData, int attrs[6]);
 
         void OnCollision(std::unordered_map<CollisionSide, BoxColliderComponent::Overlap>& responses) override;
 };

@@ -28,7 +28,7 @@ class CollisionMatrixComponent : public Component {
         // TextureComponent's constructor.
         // @param owner The actor that owns the component.
         // @param path The path to the matrix file.
-        CollisionMatrixComponent(class GameObject *owner, const std::string &path, int cellSize = 32);
+        CollisionMatrixComponent(class GameObject *owner, const std::string &path, int cellSize = 24);
 
         // Resolve a collision for a given vertices vector from a box collider component
         // @param The vector of vertices v1, v2, v3 and v4.

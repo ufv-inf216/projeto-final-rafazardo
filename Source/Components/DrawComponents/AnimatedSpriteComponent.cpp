@@ -69,7 +69,7 @@ void AnimatedSpriteComponent::Draw(SDL_Renderer *renderer) {
     Vector2 cam_pos = this->mOwner->GetGame()->GetCamera()->GetPosition();
 
     SDL_Rect dstrect;
-    dstrect.w = mSpriteSheetData[spriteIdx]->w; dstrect.h = mSpriteSheetData[spriteIdx]->h;
+    dstrect.w = 24; dstrect.h = 24;
     dstrect.x = pos.x-cam_pos.x; dstrect.y = pos.y-cam_pos.y;
 
     SDL_RendererFlip flip = SDL_FLIP_NONE;

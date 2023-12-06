@@ -12,6 +12,7 @@
 #include "../GameSpecific/Maps/Map.h"
 #include "../GameSpecific/Characters/Player.h"
 #include "../GameSpecific/Characters/Enemy.h"
+#include "../GameSpecific/Characters/Enemies/Bat.h"
 #include "../GameSpecific/Characters/NPC.h"
 #include "../GameSpecific/Characters/Crafter.h"
 #include "../Components/DrawComponents/DrawPolygonComponent.h"
@@ -29,7 +30,7 @@
 #include "../Game/Random.h"
 
 // Tile dimension constant
-#define TILE_SIZE 32
+#define TILE_SIZE 24
 #define TOTAL_DUNGEON_LAYERS 4
 
 #define TOTAL_DUNGEONS 1
@@ -48,42 +49,16 @@ void MyGame::InitializeGameObjects() {
         mDungeonsQueue.push(mDungeonGenerator->Generate(TOTAL_DUNGEON_LAYERS));
 
     // Initialize main map, loading its texture and collision matrix.
-    mCurrentMap = new Map(this, "../Assets/Sprites/Test/test_map.png",
-            "../Assets/Collisions/Test/test_collision.collmat", 30*TILE_SIZE, 15*TILE_SIZE);
+    mCurrentMap = new Map(this, "../Assets/Sprites/DungeonMaps/Sq/sq18_18.png",
+            "../Assets/Collisions/Test/Dungeons/sq18_18.collmat", 18*TILE_SIZE, 18*TILE_SIZE);
 
     // Allocate main character
     int a[] = {0, 0, 0, 0, 0, 0};
     Inventory *inventory = new Inventory(100);
     inventory->UpdateItems("item", 0, 1);
     inventory->UpdateItems("item", 1, 1);
-    mPlayer = new Player(this, "../Assets/Sprites/Test/test_player.png", a, inventory);
-    mPlayer->SetPosition(Vector2(448, 224));
-
-    // Allocate NPCs.
-    auto n = new NPC(this, "../Assets/Sprites/Test/test_NPC.png", a);
-    n->SetPosition(Vector2(608, 64));
-    mCurrentMap->AddGameObject(n);
-
-    // Allocate Enemy.
-    auto e = new Enemy(this, "../Assets/Sprites/Test/test_Enemy.png", a);
-    e->SetPosition(Vector2(480, 288));
-    mCurrentMap->AddGameObject(e);
-
-    // Allocate Crafter
-    auto c = new Crafter(this, "../Assets/Sprites/Test/test_crafter.png", a);
-    c->SetPosition(Vector2(672, 64));
-    mCurrentMap->AddGameObject(c);
-    mCrafter = c;
-
-    // Allocate Chest
-    auto b = new Chest(this, "../Assets/Sprites/Test/test_chest.png", inventory);
-    b->SetPosition(Vector2(672, 128));
-    mCurrentMap->AddGameObject(b);
-
-    // Allocate Save
-    auto s = new Saver(this, "../Assets/Sprites/Test/test_saver.png", 32, 32, ColliderLayer::Player);
-    s->SetPosition(Vector2(32, 32));
-    mCurrentMap->AddGameObject(s);
+    mPlayer = new Player(this, "../Assets/Sprites/Player/sprite_sheet.png", "../Assets/Sprites/Player/sprite_sheet_data.json", a, inventory);
+    mPlayer->SetPosition(Vector2(180, 180));
 
     // Set Camera settings.
     mCamera = new Camera(this, Vector2(0,0), Vector2(30*TILE_SIZE, 15*TILE_SIZE),2.f);
@@ -91,17 +66,8 @@ void MyGame::InitializeGameObjects() {
     mCamera->SetWindow(120, 100);
     mCamera->SetScale(2.0f);
 
-    auto sndmap = new Map(this, "../Assets/Sprites/Test/test_map2.png",
-                          "../Assets/Collisions/Test/test2_collision.collmat", 10*TILE_SIZE, 10*TILE_SIZE);
-    sndmap->Disable();
-
-    auto d = new Door(this, "../Assets/Sprites/Test/test_door.png", Vector2(32, 64), Vector2(32, 64));
-    d->SetNextMap(sndmap);
-
-    auto d1 = new Door(this, "../Assets/Sprites/Test/test_door.png", Vector2(480, 224), Vector2(32, 64));
-    d1->SetNextMap(sndmap);
-
-    mCurrentMap->AddGameObject(d);
+    auto bat = new Bat(this, a);
+    bat->SetPosition(Vector2(210, 210));
 }
 
 void MyGame::Pause(bool draw) {

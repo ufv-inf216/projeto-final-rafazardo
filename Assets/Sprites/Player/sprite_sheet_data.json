@@ -1,0 +1,108 @@
+{"frames": [
+
+  {
+    "filename": "idle.png",
+    "frame": {"x":0,"y":0,"w":48,"h":48},
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": {"x":0,"y":0,"w":48,"h":48},
+    "sourceSize": {"w":48,"h":48}
+  },
+  {
+    "filename": "walkb1.png",
+    "frame": {"x":48,"y":0,"w":48,"h":48},
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": {"x":0,"y":0,"w":48,"h":48},
+    "sourceSize": {"w":48,"h":48}
+  },
+  {
+    "filename": "walkb2.png",
+    "frame": {"x":96,"y":0,"w":48,"h":48},
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": {"x":0,"y":0,"w":48,"h":48},
+    "sourceSize": {"w":48,"h":48}
+  },
+  {
+    "filename": "walkb3.png",
+    "frame": {"x":144,"y":0,"w":48,"h":48},
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": {"x":0,"y":0,"w":48,"h":48},
+    "sourceSize": {"w":48,"h":48}
+  },
+  {
+    "filename": "walkf1.png",
+    "frame": {"x":192,"y":0,"w":48,"h":48},
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": {"x":0,"y":0,"w":48,"h":48},
+    "sourceSize": {"w":48,"h":48}
+  },
+  {
+    "filename": "walkf2.png",
+    "frame": {"x":240,"y":0,"w":48,"h":48},
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": {"x":0,"y":0,"w":48,"h":48},
+    "sourceSize": {"w":48,"h":48}
+  },
+  {
+    "filename": "walkl1.png",
+    "frame": {"x":288,"y":0,"w":48,"h":48},
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": {"x":0,"y":0,"w":48,"h":48},
+    "sourceSize": {"w":48,"h":48}
+  },
+  {
+    "filename": "walkl2.png",
+    "frame": {"x":336,"y":0,"w":48,"h":48},
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": {"x":0,"y":0,"w":48,"h":48},
+    "sourceSize": {"w":48,"h":48}
+  },
+  {
+    "filename": "walkl3.png",
+    "frame": {"x":384,"y":0,"w":48,"h":48},
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": {"x":0,"y":0,"w":48,"h":48},
+    "sourceSize": {"w":48,"h":48}
+  },
+  {
+    "filename": "walkr1.png",
+    "frame": {"x":432,"y":0,"w":48,"h":48},
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": {"x":0,"y":0,"w":48,"h":48},
+    "sourceSize": {"w":48,"h":48}
+  },
+  {
+    "filename": "walkr2.png",
+    "frame": {"x":480,"y":0,"w":48,"h":48},
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": {"x":0,"y":0,"w":48,"h":48},
+    "sourceSize": {"w":48,"h":48}
+  },
+  {
+    "filename": "walkr3.png",
+    "frame": {"x":528,"y":0,"w":48,"h":48},
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": {"x":0,"y":0,"w":48,"h":48},
+    "sourceSize": {"w":48,"h":48}
+  }],
+  "meta": {
+    "app": "https://www.codeandweb.com/texturepacker",
+    "version": "1.0",
+    "image": "sprite_sheet_data.png",
+    "format": "RGBA8888",
+    "size": {"w":576,"h":48},
+    "scale": "1",
+    "smartupdate": "$TexturePacker:SmartUpdate:5b8f733a738390d51e33ccb29d2d0d5d:a9e082c1203f0d8bbceb9d3e90c4eb99:ce0c392b2960e0d4e1f15c07432727dc$"
+  }
+}

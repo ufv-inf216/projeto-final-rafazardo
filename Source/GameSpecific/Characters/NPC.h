@@ -21,7 +21,7 @@ class NPC : public Character {
         // @param game The current game
         // @params texturePath The NPC texture directory
         // @params attrs A array containing NPC attributes (STR, DEX, CON, WIS, INT, CHA).
-        NPC(class MyGame *game, const std::string &texturePath, int attrs[6]);
+        NPC(class MyGame *game, const std::string &texturePath, const std::string &spriteSheetData, int attrs[6]);
 
         virtual void Interact();
 };

@@ -8,14 +8,14 @@
 
 #include "Character.h"
 
-Character::Character(class MyGame *game, const std::string &texturePath, int *attrs, ColliderLayer coll_layer):
+Character::Character(class MyGame *game, const std::string &texturePath, const std::string &spriteSheetData, int *attrs, ColliderLayer coll_layer):
         GameObject(game),
         mIsWalkingDown(0), mIsWalkingUp(0), mIsWalkingHorizontal(0),
         mSpeed(96.0f) {
 
     mRigidBodyComponent = new RigidBodyComponent(this, 1.0f, .0f);
-    mSpriteComponent = new SpriteComponent(this, texturePath, 32, 32);
-    mBoxColliderComponent = new BoxColliderComponent(this, 0, 0, 32, 32, coll_layer);
+    mAnimatedSpriteComponent = new AnimatedSpriteComponent(this, texturePath, spriteSheetData);
+    mBoxColliderComponent = new BoxColliderComponent(this, 0, 0, 24, 24, coll_layer);
 
     mSheet = new CharacterSheet(attrs);
 }

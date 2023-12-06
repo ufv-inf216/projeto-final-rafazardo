@@ -56,6 +56,18 @@ add_executable(${PROJECT_NAME}
         Source/GameObjects/Door.cpp
         Source/Interfaces/Fade.cpp
         Source/Components/DrawComponents/DrawRectComponent.cpp
+        Source/Components/AIComponents/FSMComponent.cpp
+        Source/Components/AIComponents/FSMComponent.h
+        Source/Components/AIComponents/FSMState.cpp
+        Source/Components/AIComponents/FSMState.h
+        Source/GameSpecific/Characters/Enemies/Bat.cpp
+        Source/GameSpecific/Characters/Enemies/Bat.h
+        Source/GameSpecific/Characters/Enemies/States/BatIdleState.cpp
+        Source/GameSpecific/Characters/Enemies/States/BatIdleState.h
+        Source/GameSpecific/Characters/Enemies/States/BatMovingState.cpp
+        Source/GameSpecific/Characters/Enemies/States/BatMovingState.h
+        Source/GameSpecific/Characters/Enemies/States/BatState.cpp
+        Source/GameSpecific/Characters/Enemies/States/BatState.h
 )
 
 ####### DO NOT EDIT BELLOW

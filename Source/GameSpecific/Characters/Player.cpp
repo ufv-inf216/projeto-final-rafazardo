@@ -9,16 +9,53 @@
 #include "Player.h"
 #include "../../Game/Game.h"
 
-Player::Player(class MyGame *game, const std::string &texturePath, int *attrs, Inventory *inventory):
-    Character(game, texturePath, attrs, ColliderLayer::Player) {
+Player::Player(class MyGame *game, const std::string &texturePath, const std::string &spriteSheetData, int *attrs, Inventory *inventory):
+    Character(game, texturePath, spriteSheetData, attrs, ColliderLayer::Player) {
     mInventory = inventory;
+
+    mAnimatedSpriteComponent->AddAnimation("idle", {1});
+    mAnimatedSpriteComponent->AddAnimation("walkr", {7, 6, 7, 8});
+    mAnimatedSpriteComponent->AddAnimation("walkb", {0, 1, 2, 1});
+    mAnimatedSpriteComponent->AddAnimation("walku", {10, 9, 10, 11});
+    mAnimatedSpriteComponent->SetAnimation("idle");
+    mAnimatedSpriteComponent->SetAnimFPS(6.f);
 }
 
 void Player::OnProcessInput(const uint8_t* state) {
     // === PLAYER MOVEMENT ===
-    int horizontal = state[SDL_SCANCODE_D]-state[SDL_SCANCODE_A],
-        vertical = state[SDL_SCANCODE_S]-state[SDL_SCANCODE_W];
-    if(horizontal) vertical = false;
+
+    int horizontal;
+    int vertical;
+
+    if(state[SDL_SCANCODE_S]) {
+        mAnimatedSpriteComponent->SetAnimFPS(5.f);
+        horizontal = 0;
+        vertical = 1;
+        mAnimatedSpriteComponent->SetAnimation("walkb");
+    }
+    else if(state[SDL_SCANCODE_D]) {
+        mAnimatedSpriteComponent->SetAnimFPS(6.f);
+        horizontal = 1;
+        vertical = 0;
+        mAnimatedSpriteComponent->SetAnimation("walkr");
+    }
+    else if(state[SDL_SCANCODE_W]) {
+        mAnimatedSpriteComponent->SetAnimFPS(5.f);
+        horizontal = 0;
+        vertical = -1;
+        mAnimatedSpriteComponent->SetAnimation("walku");
+    }
+    else if(state[SDL_SCANCODE_A]) {
+        mAnimatedSpriteComponent->SetAnimFPS(6.f);
+        horizontal = -1;
+        vertical = 0;
+        mAnimatedSpriteComponent->SetAnimation("walkr");
+    }
+    else {
+        horizontal = 0;
+        vertical = 0;
+        mAnimatedSpriteComponent->SetAnimation("idle");
+    }
 
     mRigidBodyComponent->SetVelocity(mSpeed*Vector2(horizontal, vertical));
 

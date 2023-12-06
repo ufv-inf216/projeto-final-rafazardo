@@ -11,8 +11,8 @@
 #include "NPC.h"
 #include "../../Game/Game.h"
 
-NPC::NPC(class MyGame *game, const std::string &texturePath, int *attrs):
-    Character(game, texturePath, attrs, ColliderLayer::NPC) { }
+NPC::NPC(class MyGame *game, const std::string &texturePath, const std::string &spriteSheetData, int *attrs):
+    Character(game, texturePath, spriteSheetData, attrs, ColliderLayer::NPC) { }
 
 void NPC::Interact() {
     return;

@@ -24,7 +24,7 @@ public:
     // @param game The current game
     // @params texturePath The NPC texture directory
     // @params attrs A array containing NPC attributes (STR, DEX, CON, WIS, INT, CHA).
-    Crafter(class MyGame *game, const std::string &texturePath, int attrs[6]);
+    Crafter(class MyGame *game, const std::string &texturePath, const std::string &spriteSheetData, int attrs[6]);
 
     // Craft a specified item and transfers to the player's inventory
     // @param type "armor", "food", "item", "potion or "weapon"
