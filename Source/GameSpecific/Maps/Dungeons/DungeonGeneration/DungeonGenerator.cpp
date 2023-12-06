@@ -24,12 +24,13 @@ Dungeon* DungeonGenerator::Generate(int total_layers) {
     Layer *curr = nullptr, *first = nullptr;
 
     char **grid; Coord start, end;
-    int gw = Random::GetIntRange(7, 12),
-        gh = Random::GetIntRange(7, 12);
+    int gw = Random::GetIntRange(4, 4),
+        gh = Random::GetIntRange(4, 4);
 
     Random::Seed(abs(time(NULL)));
     grid = GenerateLayerGrid(gw, gh, start, end);
     first = curr = GenerateLayer(grid, gw, gh, start, end, nullptr);
+//    first->Print();
 
     for(int j = 0; j < gh; j++) delete grid[j];
     delete[] grid;
@@ -43,6 +44,7 @@ Dungeon* DungeonGenerator::Generate(int total_layers) {
         delete[] grid;
     }
     dungeon = new Dungeon(mGame, first, curr);
+
 
     return dungeon;
 }

@@ -1,4 +1,10 @@
-
+// ----------------------------------------------------------------
+// From Sine Exitus Game, developed during the INF216 course at the
+// Federal University of Viçosa.
+// Authors: André Feijó, Pedro Fiorio and Rafael Crevelari.
+//
+// Created: October, 2023
+// ----------------------------------------------------------------
 
 #include "BatMovingState.h"
 #include "../../../../Components/AIComponents/FSMComponent.h"

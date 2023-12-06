@@ -46,7 +46,7 @@ void MyGame::InitializeGameObjects() {
     DefineGlobalVariables();
 
     mDungeonsQueue.push(mDungeonGenerator->Generate(1));
-    if(mDungeonsQueue.front()->GetFirstLayer() == nullptr) SDL_Log("deu ruim");
+    mDungeonsQueue.front()->GetFirstLayer()->Print();
 
     // Initialize main map, loading its texture and collision matrix.
     mCurrentMap = new Map(this, "../Assets/Sprites/DungeonMaps/Sq/sq18_18.png",

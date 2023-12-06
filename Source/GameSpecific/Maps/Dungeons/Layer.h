@@ -36,4 +36,6 @@ class Layer : public GameObject {
         Layer* GetPrevious() { return mPreviousLayer; }
 
         Room* GetFirstRoom() { return mFirstRoom; }
+
+        void Print();
 };

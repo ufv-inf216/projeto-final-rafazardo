@@ -23,7 +23,7 @@ enum class RoomType {
     Enemies
 };
 
-class Room {
+class Room : public Map {
     private:
         // The next rooms accessible from this one.
         std::vector<Room*> mConnectedRooms;
@@ -33,9 +33,13 @@ class Room {
         // @param game The current game
         // @params texturePath and collisionPath The map texture and colision directories
         // @params width and height The map dimensions
-        Room(class MyGame *game);
+        Room(class MyGame *game, const std::string &texturePath, const std::string &collisionPath, int width, int height);
 
         // Connect a room to another (Note: this is a single-way connection)
         // @params other The other room to connect to this one
         void Connect(Room *other, ConnectionSide connection);
+
+        Room* GetNextRoom(ConnectionSide side);
+
+        void Print();
 };

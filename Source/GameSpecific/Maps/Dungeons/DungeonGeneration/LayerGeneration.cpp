@@ -28,7 +28,7 @@ Layer* DungeonGenerator::GenerateLayer(char **grid, int gridWidth, int gridHeigh
     for(int i = 0; i < gridHeight; i++)
         for (int j = 0; j < gridWidth; j++) {
             if(grid[i][j] != '1') continue;
-            coord2room[{i, j}] = new Room(mGame);
+            coord2room[{i, j}] = new Room(mGame, "../Assets/Sprites/DungeonMaps/Sq/sq18_18.png", "../Assets/Collisions/Test/Dungeons/sq18_18.collmat", 18*24, 18*24);
         }
 
     int t, b, r, l;
