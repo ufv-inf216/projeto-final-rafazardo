@@ -1,10 +1,15 @@
 #include "Global.h"
+#include "../GameSpecific/Characters/Enemies/Bat.h"
+#include "../GameSpecific/Characters/Enemies/Slime.h"
+#include "Random.h"
 
 std::vector<ARMOR> ARMORS;
 std::vector<FOOD> FOODS;
 std::vector<ITEM> ITEMS;
 std::vector<POTION> POTIONS;
 std::vector<WEAPON> WEAPONS;
+
+// nlohmann::json enemiesData;
 
 // Armor ID definitions
 const int PADDED_ARMOR_ID = 0;
@@ -127,4 +132,37 @@ void DefineGlobalVariables() {
 
 
     //Fazer para os outros tipos de item também
+}
+
+nlohmann::json enemiesData;
+Enemy* GenerateRandomEnemy(MyGame *game) {
+    std::ifstream enemiesJson("../Assets/JsonFiles/Enemies/enemies.json");
+    enemiesData = nlohmann::json::parse(enemiesJson);
+
+     // Chooses a random enemy.
+     int pos = Random::GetIntRange(0, 1);
+     Enemy *enemy;
+     int attr[] = {Random::GetIntRange(enemiesData[pos]["min_attrs"][0], enemiesData[pos]["max_attrs"][0]),
+                   Random::GetIntRange(enemiesData[pos]["min_attrs"][1], enemiesData[pos]["max_attrs"][1]),
+                   Random::GetIntRange(enemiesData[pos]["min_attrs"][2], enemiesData[pos]["max_attrs"][2]),
+                   Random::GetIntRange(enemiesData[pos]["min_attrs"][3], enemiesData[pos]["max_attrs"][3]),
+                   Random::GetIntRange(enemiesData[pos]["min_attrs"][4], enemiesData[pos]["max_attrs"][4]),
+                   Random::GetIntRange(enemiesData[pos]["min_attrs"][5], enemiesData[pos]["max_attrs"][5])};
+
+     auto img_dims = Vector2(enemiesData[pos]["img_dims"][0],enemiesData[pos]["img_dims"][1]);
+
+     // Creates the chosen enemy.
+     switch(pos) {
+         // Slime
+         case 0:
+            enemy = new Slime(game, enemiesData[pos]["img_dir"], img_dims, attr);
+            break;
+
+         // Bat
+         case 1:
+            enemy = new Bat(game, enemiesData[pos]["img_dir"], img_dims, attr);
+            break;
+     }
+
+     return enemy;
 }

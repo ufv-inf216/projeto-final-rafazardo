@@ -86,4 +86,7 @@ extern const int GREAT_SWORD_ID;
 // Function to be used in main file
 void DefineGlobalVariables();
 
+// Returns a random enemy
+class Enemy* GenerateRandomEnemy(class MyGame *game);
+
 #endif //PROJETO_FINAL_INF216_GLOBAL_H

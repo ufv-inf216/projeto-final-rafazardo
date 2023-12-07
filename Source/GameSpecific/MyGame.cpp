@@ -84,26 +84,6 @@ void MyGame::Resume(bool draw) {
             drawable->SetIsVisible(true);
 }
 
-void MyGame::StartBattle(Enemy *enemy) {
-    Pause(false);
-
-    mCamera->SetScale(1.0f);
-
-    mCurrentBattle = new Battle(this, mPlayer, enemy, "../Assets/Sprites/Test/test_battle.png");
-    mCurrentBattle->SetPosition(Vector2(0,0));
-    mCamera->SetPosition(mCurrentBattle->GetPosition());
-}
-
-void MyGame::EndBattle() {
-
-    Resume(true);
-    mCurrentBattle->SetState(GameObjectState::Destroy);
-
-    mCamera->SetTarget(mPlayer, Vector2(TILE_SIZE/2, TILE_SIZE/2));
-    mCamera->SetWindow(120, 100);
-    mCamera->SetScale(2.0f);
-}
-
 void MyGame::Save() {
     // Salvar os dados em um arquivo
 }

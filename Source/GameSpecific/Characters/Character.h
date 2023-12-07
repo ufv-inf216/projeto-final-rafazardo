@@ -60,7 +60,8 @@ class Character : public GameObject {
         // @param game The current game
         // @params texturePath The player texture directory
         // @params attrs A array containing player attributes (STR, DEX, CON, WIS, INT, CHA).
-        Character(class MyGame *game, const std::string &texturePath, const std::string &spriteSheetData, int attrs[6], ColliderLayer coll_layer);
+        Character(class MyGame *game, const std::string &texturePath, const std::string &spriteSheetData,
+                int attrs[6], ColliderLayer coll_layer);
 
         // @returns The character's sheet.
         CharacterSheet* GetCharacterSheet() { return mSheet; }

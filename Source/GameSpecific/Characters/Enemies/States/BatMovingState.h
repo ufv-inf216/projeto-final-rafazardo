@@ -4,13 +4,13 @@
 #include "BatState.h"
 
 class BatMovingState : public BatState {
-public:
-    BatMovingState(class FSMComponent *fsm, float duration);
-    void Start() override;
-    void HandleStateTransition(float stateTime) override;
+    public:
+        BatMovingState(class FSMComponent *fsm, float duration);
+        void Start() override;
+        void HandleStateTransition(float stateTime) override;
 
-private:
-    int mHorizontal;
-    int mVertical;
-    float mStateDuration;
+    private:
+        int mHorizontal;
+        int mVertical;
+        float mStateDuration;
 };

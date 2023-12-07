@@ -13,8 +13,9 @@
 #include "../../../Components/AIComponents/FSMComponent.h"
 
 class Bat : public Enemy {
-public:
-    Bat(class MyGame *game, int atributes[]);
-private:
-    FSMComponent *mFSMComponent;
+    public:
+        Bat(class MyGame *game, const std::string &img_path, Vector2 img_dims, int atributes[]);
+
+    private:
+        FSMComponent *mFSMComponent;
 };

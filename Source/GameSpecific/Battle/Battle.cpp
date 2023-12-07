@@ -10,7 +10,7 @@
 #include "Action.h"
 #include "../../Game/Random.h"
 
-Battle::Battle(class MyGame *game, Player *player, Enemy *enemy, const std::string &texturePath):
+Battle::Battle(class MyGame *game, Player *player, Enemy *enemy):
     GameObject(game),
     mMainEnemy(enemy) {
 
@@ -24,8 +24,8 @@ Battle::Battle(class MyGame *game, Player *player, Enemy *enemy, const std::stri
     GenerateEnemies();
 
     // Allocate the background.
-    mBattleBackground = new SpriteComponent(this, texturePath, mGame->GetWindowWidth(),
-                                            mGame->GetWindowHeight(), 10);
+    mBattleBackground = new SpriteComponent(this, "../Assets/Sprites/Misc/battlebackground.png",
+                                            mGame->GetWindowWidth(),mGame->GetWindowHeight(), 10);
     mBattleBackground->SetEnabled(false);
 
     int pos_x = mGame->GetWindowWidth()/2 - 16*mBattleEnemies.size()+3;
@@ -76,6 +76,7 @@ void Battle::OnUpdate(float deltaTime) {
     Action *action;
 
     switch(mBattleState) {
+        // Starting the battle with a Fade.
         case Starting:
             if(mFade->IsFadding()) return;
             if(mFade->GetFadeState() == FadeState::In) {
@@ -92,6 +93,7 @@ void Battle::OnUpdate(float deltaTime) {
 
             break;
 
+        // The battle procedure
         case Running:
             if(!mInitiatives[mCurrentInitiative->first]) {
                 mCurrentInitiative++;
@@ -126,19 +128,22 @@ void Battle::OnUpdate(float deltaTime) {
                 SDL_Log("\n\n");
             }
 
-            if(!mBattlePlayer->IsAlive()) { mGame->EndBattle(); return; }
+            if(!mBattlePlayer->IsAlive()) {
+                mBattleState = BattleState::Ending;
+                return;
+            }
             for(int i = 0; i < mBattleEnemies.size(); i++)
                 if(!mBattleEnemies[i]->IsAlive()) {
                     mInitiatives[mBattleEnemies[i]->GetInitiative()] = nullptr;
                     mBattleEnemies[i]->SetState(GameObjectState::Destroy);
                     mBattleEnemies.erase(mBattleEnemies.begin()+i);
                 }
-            if(!mBattleEnemies.size()) {
+            if(!mBattleEnemies.size())
                 mBattleState = BattleState::Ending;
-                End();
-            }
+
             break;
 
+        // Finishing the battle with a Fade.
         case Ending:
             if(mFade->IsFadding()) return;
             if(mFade->GetFadeState() == FadeState::In) {
@@ -157,8 +162,7 @@ void Battle::GenerateEnemies() {
      mBattleEnemies = std::vector<BattleEnemy*>(Random::GetIntRange(1, 4));
 
     for(int i = 0; i < mBattleEnemies.size(); i++) {
-        mBattleEnemies[i] = new BattleEnemy(mGame, this, mMainEnemy,
-                                            "../Assets/Sprites/Test/test_Enemy.png");
+        mBattleEnemies[i] = new BattleEnemy(mGame, this, mMainEnemy);
         mBattleEnemies[i]->Disable();
     }
 }

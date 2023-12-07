@@ -14,6 +14,7 @@
 #include "BattleCharacters/BattleEnemy.h"
 #include <map>
 #include "../../Components/DrawComponents/SpriteComponent.h"
+#include "../../Components/AIComponents/FSMComponent.h"
 
 enum BattleState {
     Starting,
@@ -24,6 +25,8 @@ enum BattleState {
 class Battle : public GameObject {
     private:
         BattleState mBattleState;
+
+        FSMComponent *mFSM;
 
         BattlePlayer *mBattlePlayer;
         std::vector<BattleEnemy*> mBattleEnemies;
@@ -40,7 +43,7 @@ class Battle : public GameObject {
         Fade *mFade;
 
     public:
-        Battle(class MyGame *game, Player *player, Enemy *enemy, const std::string &texturePath);
+        Battle(class MyGame *game, Player *player, Enemy *enemy);
         ~Battle();
 
         Enemy *GetMainEnemy() { return mMainEnemy; }

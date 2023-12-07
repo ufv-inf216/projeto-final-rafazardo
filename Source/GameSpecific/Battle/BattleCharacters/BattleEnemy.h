@@ -21,7 +21,7 @@ class BattleEnemy : public BattleCharacter {
         Enemy *mEnemy;
 
     public:
-        BattleEnemy(class MyGame *game, Battle *battle, Enemy *enemy, const std::string &texturePath);
+        BattleEnemy(class MyGame *game, Battle *battle, Enemy *enemy);
 
         Action* GetAction() override;
 

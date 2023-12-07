@@ -3,14 +3,34 @@
     "id": 0,
     "name": "Slime",
     "sprt_dir": "../Assets/Sprites/Enemies/Slime/sprite_sheet_data.json",
+    "img_dir": "../Assets/Sprites/Enemies/Slime/slime.png",
+    "img_dims": [102, 158],
     "max_attrs": [13, 100, 16, 8, 8, 4],
-    "min_attrs": [11, 100, 14, 8, 8, 4]
+    "min_attrs": [11, 100, 14, 8, 8, 4],
+    "actions": [
+      {
+        "name": "Pseudopod",
+        "dice": 4,
+        "rolls": 2,
+        "mod": 0
+      }
+    ]
   },
   {
     "id": 1,
     "name": "Bat",
     "sprt_dir": "../Assets/Sprites/Enemies/Bat/sprite_sheet_data.json",
+    "img_dir": "../Assets/Sprites/Enemies/Bat/bat.png",
+    "img_dims": [102, 85],
     "max_attrs": [11, 16, 11, 11, 13, 4],
-    "min_attrs": [10, 15, 10, 10, 12, 4]
+    "min_attrs": [10, 15, 10, 10, 12, 4],
+    "actions": [
+      {
+        "name": "Bite",
+        "dice": 4,
+        "rolls": 1,
+        "mod": 1
+      }
+    ]
   }
 ]

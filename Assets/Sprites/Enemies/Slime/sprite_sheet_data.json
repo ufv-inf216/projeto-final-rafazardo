@@ -1,0 +1,20 @@
+{"frames": [
+
+{
+	"filename": "slime_sprite.png",
+	"frame": {"x":0,"y":0,"w":70,"h":30},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":70,"h":30},
+	"sourceSize": {"w":70,"h":30}
+}],
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "sprite_sheet_data.png",
+	"format": "RGBA8888",
+	"size": {"w":70,"h":30},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:29fcd1644784c997f0365761cf937d8c:1bea0f88c18bb9d997222f94a8398a95:ce0c392b2960e0d4e1f15c07432727dc$"
+}
+}

@@ -9,12 +9,14 @@
 #include "BattleEnemy.h"
 #include "../Battle.h"
 
-BattleEnemy::BattleEnemy(class MyGame *game, Battle *battle, Enemy *enemy, const std::string &texturePath):
+BattleEnemy::BattleEnemy(class MyGame *game, Battle *battle, Enemy *enemy):
     BattleCharacter(game, battle),
     mEnemy(enemy) {
 
     mSheet = enemy->GetCharacterSheet();
-    mSpriteComponent = new SpriteComponent(this, texturePath, 32, 32, 200);
+    auto img_dims = enemy->GetImgDims();
+    mSpriteComponent = new SpriteComponent(this, enemy->GetImg(), img_dims.x,
+                                           img_dims.y, 200);
 }
 
 Action* BattleEnemy::GetAction() {

@@ -65,8 +65,6 @@ class MyGame : public Game {
 
         // Battle stuff.
         void SetCurrentBattle(Battle *battle) { mCurrentBattle = battle; }
-        void StartBattle(Enemy *enemy);
-        void EndBattle();
 
         void Save();
 };

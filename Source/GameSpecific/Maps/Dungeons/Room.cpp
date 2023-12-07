@@ -12,6 +12,7 @@
 #include "../../../Game/Random.h"
 #include "../../Characters/Enemies/Bat.h"
 #include "../../../GameObjects/Door.h"
+#include "../../../Game/Global.h"
 
 #define TOP 0
 #define DOWN 1
@@ -131,32 +132,28 @@ void Room::Print() {
 
 void Room::Initialize(bool enable) {
     if(Random::GetIntRange(0, 1)) {
-        int a[] = {0, 0, 0, 0, 0, 0};
-        auto bat = new Bat(mGame, a);
-        bat->SetPosition(Vector2(Random::GetIntRange(mArea1.first.x, mArea1.second.x)*24,
+        auto enemy = GenerateRandomEnemy(mGame);
+        enemy->SetPosition(Vector2(Random::GetIntRange(mArea1.first.x, mArea1.second.x)*24,
                                       Random::GetIntRange(mArea1.first.y, mArea1.second.y)*24));
-        AddGameObject(bat);
+        AddGameObject(enemy);
     }
     if(Random::GetIntRange(0, 1)) {
-        int a[] = {0, 0, 0, 0, 0, 0};
-        auto bat = new Bat(mGame, a);
-        bat->SetPosition(Vector2(Random::GetIntRange(mArea2.first.x, mArea2.second.x)*24,
+        auto enemy = GenerateRandomEnemy(mGame);
+        enemy->SetPosition(Vector2(Random::GetIntRange(mArea2.first.x, mArea2.second.x)*24,
                                  Random::GetIntRange(mArea2.first.y, mArea2.second.y)*24));
-        AddGameObject(bat);
+        AddGameObject(enemy);
     }
     if(Random::GetIntRange(0, 1)) {
-        int a[] = {0, 0, 0, 0, 0, 0};
-        auto bat = new Bat(mGame, a);
-        bat->SetPosition(Vector2(Random::GetIntRange(mArea3.first.x, mArea3.second.x)*24,
+        auto enemy = GenerateRandomEnemy(mGame);
+        enemy->SetPosition(Vector2(Random::GetIntRange(mArea3.first.x, mArea3.second.x)*24,
                                  Random::GetIntRange(mArea3.first.y, mArea3.second.y)*24));
-        AddGameObject(bat);
+        AddGameObject(enemy);
     }
     if(Random::GetIntRange(0, 1)) {
-        int a[] = {0, 0, 0, 0, 0, 0};
-        auto bat = new Bat(mGame, a);
-        bat->SetPosition(Vector2(Random::GetIntRange(mArea4.first.x, mArea4.second.x)*24,
+        auto enemy = GenerateRandomEnemy(mGame);
+        enemy->SetPosition(Vector2(Random::GetIntRange(mArea4.first.x, mArea4.second.x)*24,
                                  Random::GetIntRange(mArea4.first.y, mArea4.second.y)*24));
-        AddGameObject(bat);
+        AddGameObject(enemy);
     }
 
     if(!enable) Disable();
