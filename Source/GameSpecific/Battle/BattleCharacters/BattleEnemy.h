@@ -19,6 +19,7 @@ class BattleEnemy : public BattleCharacter {
         SpriteComponent *mSpriteComponent;
 
         Enemy *mEnemy;
+        int mId;
 
     public:
         BattleEnemy(class MyGame *game, Battle *battle, Enemy *enemy);

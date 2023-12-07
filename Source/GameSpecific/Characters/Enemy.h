@@ -19,16 +19,20 @@ class Enemy : public Character {
         std::string mImgPath;
         Vector2 mImgDims;
 
+        int mId;
+
     public:
         // Constructor
         // @param game The current game
         // @params texturePath The enemy texture directory
         // @params attrs A array containing enemy attributes (STR, DEX, CON, WIS, INT, CHA).
         Enemy(class MyGame *game, const std::string &texturePath, const std::string &spriteSheetData,
-                const std::string &img_path, Vector2 img_dims, int attrs[6]);
+                const std::string &img_path, Vector2 img_dims, int attrs[6], int id);
 
         void OnCollision(std::unordered_map<CollisionSide, BoxColliderComponent::Overlap>& responses) override;
 
         const std::string GetImg() { return mImgPath; }
         Vector2 GetImgDims() { return mImgDims; }
+
+        int GetId() { return mId; }
 };

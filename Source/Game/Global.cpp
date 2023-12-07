@@ -1,6 +1,7 @@
 #include "Global.h"
 #include "../GameSpecific/Characters/Enemies/Bat.h"
 #include "../GameSpecific/Characters/Enemies/Slime.h"
+#include "../GameSpecific/Battle/Action.h"
 #include "Random.h"
 
 std::vector<ARMOR> ARMORS;
@@ -37,6 +38,10 @@ const int SUPREME_HEALING_ID = 4;
 // Weapon ID definitions
 const int SHORT_SWORD_ID = 0;
 const int GREAT_SWORD_ID = 1;
+
+
+std::vector<Attack*> EnemyAttacks = std::vector<Attack*>(TOTAL_ENEMY_ATTACKS);
+std::vector<std::vector<int>> EnemyAttackOptions = std::vector<std::vector<int>>(TOTAL_ENEMIES);
 
 std::map<std::string, std::vector<std::vector<INGREDIENT>>> RECIPES;
 
@@ -130,8 +135,29 @@ void DefineGlobalVariables() {
         RECIPES["weapon"].push_back(ingredients);
     }
 
+    // Definir os ataques de Inimigos.
+    std::ifstream enemyAttacks("../Assets/JsonFiles/Actions/enemy_attacks.json");
+    nlohmann::json enemyAttacksData;
+    enemyAttacks >> enemyAttacksData;
 
-    //Fazer para os outros tipos de item também
+    int i = 0;
+    for(const auto& it : enemyAttacksData) {
+        int data[3] = { it["dice"], it["rolls"], it["mod"] };
+        EnemyAttacks[i] = new Attack(it["name"], nullptr, data);
+        i++;
+    }
+
+    enemyAttacks.close();
+
+    // Definir os ataques de Inimigos.
+    std::ifstream enemyAttackOptions("../Assets/JsonFiles/Enemies/enemies.json");
+    nlohmann::json enemyAttackOptionsData;
+    enemyAttackOptions >> enemyAttackOptionsData;
+
+    int e = 0;
+    for(const auto& it : enemyAttackOptionsData)
+        for(int i = 0; i < it["num_attacks"]; i++)
+            EnemyAttackOptions[e].push_back(it["attacks"][i]);
 }
 
 nlohmann::json enemiesData;
@@ -163,6 +189,8 @@ Enemy* GenerateRandomEnemy(MyGame *game) {
             enemy = new Bat(game, enemiesData[pos]["img_dir"], img_dims, attr);
             break;
      }
+
+    enemiesJson.close();
 
      return enemy;
 }

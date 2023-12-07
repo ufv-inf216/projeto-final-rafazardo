@@ -13,7 +13,7 @@
 
 Bat::Bat(class MyGame *game, const std::string &img_path, Vector2 img_dims, int atributes[]):
     Enemy(game, "../Assets/Sprites/Enemies/Bat/bat_sprite.png",
-          "../Assets/Sprites/Enemies/Bat/sprite_sheet_data.json", img_path, img_dims, atributes) {
+          "../Assets/Sprites/Enemies/Bat/sprite_sheet_data.json", img_path, img_dims, atributes, 1) {
 
     mAnimatedSpriteComponent->AddAnimation("flying", { 0, 1 });
     mAnimatedSpriteComponent->SetAnimation("flying");

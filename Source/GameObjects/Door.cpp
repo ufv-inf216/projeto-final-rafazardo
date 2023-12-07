@@ -34,7 +34,7 @@ Door::Door(MyGame *game, const std::string &texturePath, Vector2 position, Vecto
 void Door::OnProcessInput(const uint8_t* state) {
     if(!mTrigger->IsPulled()) return;
     if(!mIsProcessingInput) return;
-    if(state[SDL_SCANCODE_Q]) {
+    if(state[SDL_SCANCODE_SPACE]) {
         std::vector<GameObject*> me{this};
         mFade->In(&me);
         mIsProcessingInput = false;

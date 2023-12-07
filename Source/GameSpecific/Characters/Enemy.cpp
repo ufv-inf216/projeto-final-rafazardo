@@ -12,11 +12,12 @@
 #include "../Battle/Battle.h"
 
 Enemy::Enemy(class MyGame *game, const std::string &texturePath, const std::string &spriteSheetData,
-                const std::string &img_path, Vector2 img_dims, int *attrs):
+                const std::string &img_path, Vector2 img_dims, int *attrs, int id):
     Character(game, texturePath, spriteSheetData, attrs, ColliderLayer::Enemy) {
 
     mImgPath = img_path;
     mImgDims = img_dims;
+    mId = id;
 }
 
 void Enemy::OnCollision(std::unordered_map<CollisionSide, BoxColliderComponent::Overlap>& responses) {

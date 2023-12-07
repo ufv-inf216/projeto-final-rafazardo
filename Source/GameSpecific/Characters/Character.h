@@ -30,6 +30,18 @@ struct CharacterSheet {
         strMod = (str-10)/2; dexMod = (dex-10)/2; conMod = (con-10)/2;
         intcMod = (intc-10)/2; wisMod = (wis-10)/2; chaMod = (cha-10)/2;
     };
+
+    int GetMod(int attr) {
+        switch(attr) {
+            case 0: return strMod;
+            case 1: return dexMod;
+            case 2: return conMod;
+            case 3: return intcMod;
+            case 4: return wisMod;
+            case 5: return chaMod;
+        }
+        return 0;
+    }
 };
 
 class Character : public GameObject {

@@ -4219,6 +4219,7 @@ CMakeFiles/projeto-final-inf216.dir/Source/Game/Global.cpp.obj
  C:/Users/andre/OneDrive/Documentos/UFV/periodo_vi/Jogos/projeto_final/projeto-final-rafazardo/Source/GameSpecific/Characters/Enemies/../../../Components/AIComponents/FSMComponent.h
  C:/Users/andre/OneDrive/Documentos/UFV/periodo_vi/Jogos/projeto_final/projeto-final-rafazardo/Source/Components/AIComponents/FSMState.h
  C:/Users/andre/OneDrive/Documentos/UFV/periodo_vi/Jogos/projeto_final/projeto-final-rafazardo/Source/Game/../GameSpecific/Characters/Enemies/Slime.h
+ C:/Users/andre/OneDrive/Documentos/UFV/periodo_vi/Jogos/projeto_final/projeto-final-rafazardo/Source/Game/../GameSpecific/Battle/Action.h
  C:/Users/andre/OneDrive/Documentos/UFV/periodo_vi/Jogos/projeto_final/projeto-final-rafazardo/Source/Game/Random.h
  C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.37.32822/include/random
  C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.37.32822/include/__msvc_int128.hpp
@@ -5973,6 +5974,9 @@ CMakeFiles/projeto-final-inf216.dir/Source/GameSpecific/Battle/Action.cpp.obj
  C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.37.32822/include/numeric
  C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.37.32822/include/any
  C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.37.32822/include/string_view
+ C:/Users/andre/OneDrive/Documentos/UFV/periodo_vi/Jogos/projeto_final/projeto-final-rafazardo/Source/GameSpecific/Battle/../../Game/Random.h
+ C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.37.32822/include/random
+ C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.37.32822/include/__msvc_int128.hpp
 
 CMakeFiles/projeto-final-inf216.dir/Source/GameSpecific/Battle/Battle.cpp.obj
  C:/Users/andre/OneDrive/Documentos/UFV/periodo_vi/Jogos/projeto_final/projeto-final-rafazardo/Source/GameSpecific/Battle/Battle.cpp
@@ -6976,6 +6980,9 @@ CMakeFiles/projeto-final-inf216.dir/Source/GameSpecific/Battle/BattleCharacters/
  C:/Users/andre/OneDrive/Documentos/UFV/periodo_vi/Jogos/projeto_final/projeto-final-rafazardo/Source/Interfaces/../Components/DrawComponents/DrawRectComponent.h
  C:/Users/andre/OneDrive/Documentos/UFV/periodo_vi/Jogos/projeto_final/projeto-final-rafazardo/Source/GameSpecific/Battle/../../Components/AIComponents/FSMComponent.h
  C:/Users/andre/OneDrive/Documentos/UFV/periodo_vi/Jogos/projeto_final/projeto-final-rafazardo/Source/Components/AIComponents/FSMState.h
+ C:/Users/andre/OneDrive/Documentos/UFV/periodo_vi/Jogos/projeto_final/projeto-final-rafazardo/Source/GameSpecific/Battle/BattleCharacters/../../../Game/Random.h
+ C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.37.32822/include/random
+ C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.37.32822/include/__msvc_int128.hpp
 
 CMakeFiles/projeto-final-inf216.dir/Source/GameSpecific/Battle/BattleCharacters/BattlePlayer.cpp.obj
  C:/Users/andre/OneDrive/Documentos/UFV/periodo_vi/Jogos/projeto_final/projeto-final-rafazardo/Source/GameSpecific/Battle/BattleCharacters/BattlePlayer.cpp

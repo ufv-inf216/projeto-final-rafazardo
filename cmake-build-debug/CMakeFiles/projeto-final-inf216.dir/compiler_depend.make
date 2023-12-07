@@ -4218,6 +4218,7 @@ CMakeFiles\projeto-final-inf216.dir\Source\Game\Global.cpp.obj: C:\Users\andre\O
 CMakeFiles\projeto-final-inf216.dir\Source\Game\Global.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\GameSpecific\Characters\Enemies\..\..\..\Components\AIComponents\FSMComponent.h
 CMakeFiles\projeto-final-inf216.dir\Source\Game\Global.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\Components\AIComponents\FSMState.h
 CMakeFiles\projeto-final-inf216.dir\Source\Game\Global.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\Game\..\GameSpecific\Characters\Enemies\Slime.h
+CMakeFiles\projeto-final-inf216.dir\Source\Game\Global.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\Game\..\GameSpecific\Battle\Action.h
 CMakeFiles\projeto-final-inf216.dir\Source\Game\Global.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\Game\Random.h
 CMakeFiles\projeto-final-inf216.dir\Source\Game\Global.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\random"
 CMakeFiles\projeto-final-inf216.dir\Source\Game\Global.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\__msvc_int128.hpp"
@@ -5972,6 +5973,9 @@ CMakeFiles\projeto-final-inf216.dir\Source\GameSpecific\Battle\Action.cpp.obj: "
 CMakeFiles\projeto-final-inf216.dir\Source\GameSpecific\Battle\Action.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\numeric"
 CMakeFiles\projeto-final-inf216.dir\Source\GameSpecific\Battle\Action.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\any"
 CMakeFiles\projeto-final-inf216.dir\Source\GameSpecific\Battle\Action.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\string_view"
+CMakeFiles\projeto-final-inf216.dir\Source\GameSpecific\Battle\Action.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\GameSpecific\Battle\..\..\Game\Random.h
+CMakeFiles\projeto-final-inf216.dir\Source\GameSpecific\Battle\Action.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\random"
+CMakeFiles\projeto-final-inf216.dir\Source\GameSpecific\Battle\Action.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\__msvc_int128.hpp"
 
 
 CMakeFiles\projeto-final-inf216.dir\Source\GameSpecific\Battle\Battle.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\GameSpecific\Battle\Battle.cpp
@@ -6975,6 +6979,9 @@ CMakeFiles\projeto-final-inf216.dir\Source\GameSpecific\Battle\BattleCharacters\
 CMakeFiles\projeto-final-inf216.dir\Source\GameSpecific\Battle\BattleCharacters\BattleEnemy.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\Interfaces\..\Components\DrawComponents\DrawRectComponent.h
 CMakeFiles\projeto-final-inf216.dir\Source\GameSpecific\Battle\BattleCharacters\BattleEnemy.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\GameSpecific\Battle\..\..\Components\AIComponents\FSMComponent.h
 CMakeFiles\projeto-final-inf216.dir\Source\GameSpecific\Battle\BattleCharacters\BattleEnemy.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\Components\AIComponents\FSMState.h
+CMakeFiles\projeto-final-inf216.dir\Source\GameSpecific\Battle\BattleCharacters\BattleEnemy.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\GameSpecific\Battle\BattleCharacters\..\..\..\Game\Random.h
+CMakeFiles\projeto-final-inf216.dir\Source\GameSpecific\Battle\BattleCharacters\BattleEnemy.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\random"
+CMakeFiles\projeto-final-inf216.dir\Source\GameSpecific\Battle\BattleCharacters\BattleEnemy.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\__msvc_int128.hpp"
 
 
 CMakeFiles\projeto-final-inf216.dir\Source\GameSpecific\Battle\BattleCharacters\BattlePlayer.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\GameSpecific\Battle\BattleCharacters\BattlePlayer.cpp
@@ -14485,6 +14492,8 @@ C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-fi
 
 C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\Components\AIComponents\..\Component.h:
 
+C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\Game\..\GameSpecific\Battle\Action.h:
+
 "C:\Program Files\SDL2-2.28.2\include\SDL_stdinc.h":
 
 C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\GameSpecific\Maps\Dungeons\Room.h:
@@ -14921,6 +14930,8 @@ C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-fi
 
 C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\GameSpecific\Battle\BattleCharacters\..\..\Characters\Character.h:
 
+C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\GameSpecific\Battle\..\..\Game\Random.h:
+
 C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\GameSpecific\Characters\Enemies\States\..\Bat.h:
 
 C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\GameSpecific\Battle\Battle.cpp:
@@ -14938,8 +14949,6 @@ C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-fi
 C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\GameSpecific\Battle\BattleCharacters\..\Action.h:
 
 C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\GameSpecific\Battle\..\..\Components\AIComponents\FSMComponent.h:
-
-C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\GameSpecific\Battle\..\..\Game\Random.h:
 
 C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\GameSpecific\Battle\BattleCharacters\BattleCharacter.cpp:
 

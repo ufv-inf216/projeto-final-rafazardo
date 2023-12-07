@@ -7,14 +7,8 @@
     "img_dims": [102, 158],
     "max_attrs": [13, 100, 16, 8, 8, 4],
     "min_attrs": [11, 100, 14, 8, 8, 4],
-    "actions": [
-      {
-        "name": "Pseudopod",
-        "dice": 4,
-        "rolls": 2,
-        "mod": 0
-      }
-    ]
+    "num_attacks": 1,
+    "attacks": [0]
   },
   {
     "id": 1,
@@ -24,13 +18,7 @@
     "img_dims": [102, 85],
     "max_attrs": [11, 16, 11, 11, 13, 4],
     "min_attrs": [10, 15, 10, 10, 12, 4],
-    "actions": [
-      {
-        "name": "Bite",
-        "dice": 4,
-        "rolls": 1,
-        "mod": 1
-      }
-    ]
+    "num_attacks": 1,
+    "attacks": [1]
   }
 ]

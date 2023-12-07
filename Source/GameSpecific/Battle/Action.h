@@ -14,12 +14,14 @@ class Action {
         class BattleCharacter *mTarget;
 
         // How the action will modify the target's life.
-        int mDeltaHP;
+        int mDice, mNumRolls, mMod;
 
     public:
-        Action(std::string name, class BattleCharacter *character, int delta_hp);
+        Action(std::string name, class BattleCharacter *character, int attack_data[3]);
+        Action() { }
 
-        virtual void Apply();
+        virtual void Apply(BattleCharacter *applier) { }
+        void SetTarget(BattleCharacter *trgt) { mTarget = trgt; }
 };
 
 class Heal : public Action {
@@ -27,19 +29,17 @@ class Heal : public Action {
         int mPotionId;
 
     public:
-        Heal(std::string name, class BattleCharacter *character, int delta_hp, int id);
+        Heal(std::string name, class BattleCharacter *character, int attack_data[3], int id);
 
-        void Apply() override;
+        void Apply(BattleCharacter *applier) override;
 
         int GetPotionId() { return mPotionId; }
 };
 
 class Attack : public Action {
     public:
-        Attack(std::string name, class BattleCharacter *character, int delta_hp);
-};
+        Attack(std::string name, class BattleCharacter *character, int attack_data[3]);
+        Attack(): Action() { }
 
-class Spell : public Action {
-    public:
-        Spell(std::string name, class BattleCharacter *character, int delta_hp);
+        void Apply(BattleCharacter *applier) override;
 };

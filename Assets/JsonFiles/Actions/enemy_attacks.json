@@ -1,0 +1,14 @@
+[
+  {
+    "name": "Pseudopod",
+    "dice": 4,
+    "rolls": 2,
+    "mod": 0
+  },
+  {
+    "name": "Bite",
+    "dice": 4,
+    "rolls": 1,
+    "mod": 1
+  }
+]

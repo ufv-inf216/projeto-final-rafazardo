@@ -8,6 +8,7 @@
 
 #include "BattleEnemy.h"
 #include "../Battle.h"
+#include "../../../Game/Random.h"
 
 BattleEnemy::BattleEnemy(class MyGame *game, Battle *battle, Enemy *enemy):
     BattleCharacter(game, battle),
@@ -30,5 +31,15 @@ Action* BattleEnemy::GetAction() {
             }
         }
     }
-    return new Attack("ataque", mBattle->GetPlayer(), -1);
+
+    SDL_Log("%d", EnemyAttacks.size());
+    SDL_Log("%d", EnemyAttackOptions.size());
+
+    auto aux = EnemyAttacks[EnemyAttackOptions[mEnemy->GetId()][Random::GetIntRange(0,
+                                                                EnemyAttackOptions[mEnemy->GetId()].size()-1)]];
+    auto attack = new Attack();
+    *attack = *aux;
+    attack->SetTarget(mBattle->GetPlayer());
+
+    return attack;
 }

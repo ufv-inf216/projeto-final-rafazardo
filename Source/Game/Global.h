@@ -83,6 +83,12 @@ extern const int SUPREME_HEALING_ID;
 extern const int SHORT_SWORD_ID;
 extern const int GREAT_SWORD_ID;
 
+#define TOTAL_ENEMY_ATTACKS 2
+extern std::vector<class Attack*> EnemyAttacks;
+
+#define TOTAL_ENEMIES 2
+extern std::vector<std::vector<int>>EnemyAttackOptions;
+
 // Function to be used in main file
 void DefineGlobalVariables();
 

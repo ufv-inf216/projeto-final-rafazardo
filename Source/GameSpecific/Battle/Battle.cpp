@@ -107,7 +107,8 @@ void Battle::OnUpdate(float deltaTime) {
             action = mCurrentInitiative->second->GetAction();
             if(!action) return;
 
-            action->Apply();
+            action->Apply(mCurrentInitiative->second);
+            delete action;
 
             // === FOR TESTING PURPOSES ====
             for(int i = 0; i < 1000000000; i++);
@@ -129,7 +130,7 @@ void Battle::OnUpdate(float deltaTime) {
             }
 
             if(!mBattlePlayer->IsAlive()) {
-                mBattleState = BattleState::Ending;
+                mGame->Shutdown();
                 return;
             }
             for(int i = 0; i < mBattleEnemies.size(); i++)
