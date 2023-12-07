@@ -64,15 +64,7 @@ void MyGame::InitializeGameObjects() {
     mCamera->SetWindow(120, 100);
     mCamera->SetScale(2.0f);
 
-    auto bat = new Bat(this, a);
-    bat->SetPosition(Vector2(210, 210));
-
-    auto sndmap = mDungeonsQueue.front()->GetFirstLayer()->GetFirstRoom()->GetNextRoom(ConnectionSide::Top);
-    if(!sndmap) sndmap = mDungeonsQueue.front()->GetFirstLayer()->GetFirstRoom()->GetNextRoom(ConnectionSide::Right);
-    if(!sndmap) sndmap = mDungeonsQueue.front()->GetFirstLayer()->GetFirstRoom()->GetNextRoom(ConnectionSide::Left);
-    if(!sndmap) sndmap = mDungeonsQueue.front()->GetFirstLayer()->GetFirstRoom()->GetNextRoom(ConnectionSide::Down);
-    auto d = new Door(this, "../Assets/Sprites/Player/sprite_sheet_data.json", Vector2(204, 180), Vector2(204, 108));
-    d->SetNextMap(sndmap);
+    mCurrentMap->Enable();
 }
 
 void MyGame::Pause(bool draw) {

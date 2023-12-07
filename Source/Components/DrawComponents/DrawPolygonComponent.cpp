@@ -12,6 +12,9 @@ DrawPolygonComponent::DrawPolygonComponent(class GameObject* owner, std::vector<
         ,mDrawOrder(drawOrder) { }
 
 void DrawPolygonComponent::Draw(SDL_Renderer *renderer) {
+
+    if(!IsEnabled()) return;
+
     // Set draw color to green
     SDL_SetRenderDrawColor(renderer, 0, 255, 0, 255);
 

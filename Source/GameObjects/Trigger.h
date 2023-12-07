@@ -33,7 +33,7 @@ class Trigger : public GameObject {
         DrawPolygonComponent *mDrawPolygonComponent; // temporário
 
         // Function to be called
-        FunctionType mFunction;
+        FunctionType mFunction = [](){};
 
         //std::function<void()> mFunction = []() { std::cout << "trigger acionado" << std::endl; };
 
@@ -58,6 +58,8 @@ class Trigger : public GameObject {
         void SetFunction(FunctionType &function) {
             mFunction = function;
         }
+
+        bool IsPulled();
 };
 
 template<typename FunctionType>
@@ -126,3 +128,8 @@ void Trigger<FunctionType>::Update(float deltaTime) {
     // If no collision was detected, it means that the trigger can be pulled again next time
     if(isEmpty) mIsPulled = false;
 }
+
+template<typename FunctionType>
+bool Trigger<FunctionType>::IsPulled() {
+    return mIsPulled;
+};

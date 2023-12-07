@@ -22,3 +22,5 @@ Map::Map(class MyGame *game, const std::string &texturePath, const std::string &
     // All maps will be placed on (0, 0)
     mPosition = Vector2(0,0);
 }
+
+Map::Map(class MyGame *game): GameObject(game) { }

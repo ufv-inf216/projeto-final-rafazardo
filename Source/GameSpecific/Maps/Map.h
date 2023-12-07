@@ -35,6 +35,8 @@ class Map : public GameObject {
         // @params width and height The map dimensions
         Map(class MyGame *game, const std::string &texturePath, const std::string &collisionPath, int width, int height);
 
+        Map(class MyGame *game);
+
         // Getter for Collision Matrix Component
         // @return A pointer for its collision matrix component
         CollisionMatrixComponent* GetCollisionMatrix() { return mCollisionMatrixComponent; }
@@ -61,4 +63,6 @@ class Map : public GameObject {
         }
 
         Vector2 GetDimension() { return Vector2(mWidth, mHeight); }
+
+        virtual void Initialize(bool enable=false) { return; }
 };

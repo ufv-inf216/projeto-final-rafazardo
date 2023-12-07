@@ -27,13 +27,17 @@ class Room : public Map {
     private:
         // The next rooms accessible from this one.
         std::vector<Room*> mConnectedRooms;
+        Vector2 mDoorTop;
+        Vector2 mDoorRight;
+        Vector2 mDoorDown;
+        Vector2 mDoorLeft;
 
     public:
         // Constructor
         // @param game The current game
         // @params texturePath and collisionPath The map texture and colision directories
         // @params width and height The map dimensions
-        Room(class MyGame *game, const std::string &texturePath, const std::string &collisionPath, int width, int height);
+        Room(class MyGame *game, const std::string &jsonPath);
 
         // Connect a room to another (Note: this is a single-way connection)
         // @params other The other room to connect to this one
@@ -42,4 +46,6 @@ class Room : public Map {
         Room* GetNextRoom(ConnectionSide side);
 
         void Print();
+
+        void Initialize(bool enable) override;
 };

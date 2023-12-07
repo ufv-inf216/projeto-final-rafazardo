@@ -20,6 +20,7 @@
 class Door : public GameObject{
     private:
         bool mIsProcessingInput = false;
+        bool mIsOnTrigger = false;
         Fade *mFade;
 
         class Map *mNextMap;

@@ -10,8 +10,8 @@ Fade::Fade(class MyGame *game, float duration):
 
     SDL_Rect *rect = new SDL_Rect;
     rect->x = 0; rect->y = 0;
-    rect->w = mGame->GetCurrentMap()->GetDimension().x * mGame->GetCamera()->GetScale();
-    rect->h = mGame->GetCurrentMap()->GetDimension().y * mGame->GetCamera()->GetScale();
+    rect->w = 0;
+    rect->h = 0;
     int color[4] {0, 0, 0, 0};
 
     mDrawRectComponent = new DrawRectComponent(this, rect, color, 1000);
@@ -28,6 +28,9 @@ void Fade::In(std::vector<GameObject*> *keep_active) {
     if(keep_active)
         for(auto go : *keep_active)
             go->SetState(GameObjectState::Active);
+
+    mDrawRectComponent->SetRectDimension(mGame->GetCurrentMap()->GetDimension().x * mGame->GetCamera()->GetScale(),
+                                         mGame->GetCurrentMap()->GetDimension().y * mGame->GetCamera()->GetScale());
 
     mDrawRectComponent->SetRectPosition(Vector2(0, 0));
     mDrawRectComponent->SetIsVisible(true);
