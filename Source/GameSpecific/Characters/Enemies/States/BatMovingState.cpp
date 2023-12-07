@@ -11,8 +11,9 @@
 #include "../../../../Game/Random.h"
 #include "../Bat.h"
 
-BatMovingState::BatMovingState(FSMComponent *fsm) :
-    BatState(fsm, "moving") { }
+BatMovingState::BatMovingState(FSMComponent *fsm, float duration) :
+        BatState(fsm, "moving"),
+        mStateDuration(duration) { }
 
 void BatMovingState::Start() {
     mVertical = mHorizontal = 0;
@@ -26,6 +27,6 @@ void BatMovingState::Start() {
 }
 
 void BatMovingState::HandleStateTransition(float stateTime) {
-    if(stateTime > 2.0f)
+    if(stateTime > mStateDuration)
         mFSM->SetState("idle");
 }

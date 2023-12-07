@@ -50,7 +50,7 @@ class Trigger : public GameObject {
         // @param width
         // @param height
         // @param layer The target layer to pull the trigger
-        Trigger(MyGame* game, int width, int height, ColliderLayer layer);
+        Trigger(MyGame* game, int width, int height, ColliderLayer layer, bool draw=false);
 
         // Setter to the function which will be called on collision.
         // @param function The function that will be called on collision
@@ -63,7 +63,7 @@ class Trigger : public GameObject {
 };
 
 template<typename FunctionType>
-Trigger<FunctionType>::Trigger(MyGame *game, int width, int height, ColliderLayer layer):
+Trigger<FunctionType>::Trigger(MyGame *game, int width, int height, ColliderLayer layer, bool draw):
         GameObject(game){
     mWidth = width;
     mHeight = height;
@@ -73,7 +73,8 @@ Trigger<FunctionType>::Trigger(MyGame *game, int width, int height, ColliderLaye
     vertices.push_back(Vector2(width, 0.0));
     vertices.push_back(Vector2(width, height));
     vertices.push_back(Vector2(0.0, height));
-    mDrawPolygonComponent = new DrawPolygonComponent(this, vertices);
+
+    if(draw) mDrawPolygonComponent = new DrawPolygonComponent(this, vertices);
 }
 
 template<typename FunctionType>

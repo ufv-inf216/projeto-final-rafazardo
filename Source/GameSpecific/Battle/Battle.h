@@ -15,8 +15,16 @@
 #include <map>
 #include "../../Components/DrawComponents/SpriteComponent.h"
 
+enum BattleState {
+    Starting,
+    Running,
+    Ending
+};
+
 class Battle : public GameObject {
     private:
+        BattleState mBattleState;
+
         BattlePlayer *mBattlePlayer;
         std::vector<BattleEnemy*> mBattleEnemies;
         Enemy *mMainEnemy;
@@ -29,6 +37,7 @@ class Battle : public GameObject {
         void GenerateEnemies();
 
         bool mIsRunning = false;
+        Fade *mFade;
 
     public:
         Battle(class MyGame *game, Player *player, Enemy *enemy, const std::string &texturePath);
@@ -38,7 +47,7 @@ class Battle : public GameObject {
 
         void OnUpdate(float deltaTime) override;
 
-        void StopBattle() { mIsRunning = false; }
+        void End(); void Start();
 
         BattleEnemy* GetEnemy(int idx) { return mBattleEnemies[idx]; }
         BattlePlayer* GetPlayer() { return mBattlePlayer; }

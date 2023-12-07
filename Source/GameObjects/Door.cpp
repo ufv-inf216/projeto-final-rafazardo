@@ -22,8 +22,8 @@ Door::Door(MyGame *game, const std::string &texturePath, Vector2 position, Vecto
     GameObject(game),
     mNextPosition(player_pos) {
 
-    mFade = new Fade(mGame, 0.8f);
-    mSpriteComponent = new SpriteComponent(this, texturePath, DOOR_WIDTH, DOOR_HEIGHT);
+    mFade = new Fade(mGame, 0.5f);
+    mSpriteComponent = new SpriteComponent(this, texturePath, DOOR_WIDTH, DOOR_HEIGHT, 1);
     mTrigger = new Trigger<std::function<void()>>(game, TRIGGER_WIDTH, TRIGGER_HEIGHT, ColliderLayer::Player);
     mTrigger->SetPosition(position - Vector2((TRIGGER_WIDTH-DOOR_WIDTH)/2, (TRIGGER_HEIGHT-DOOR_HEIGHT)/2));
     mIsProcessingInput = true;

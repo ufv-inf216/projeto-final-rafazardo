@@ -85,5 +85,5 @@ void Player::OnProcessInput(const uint8_t* state) {
     mIsWalkingHorizontal = horizontal;
     mIsWalkingUp = vertical > 0;
     mIsWalkingDown = vertical < 0;
-    mRotation = Math::Pi*(state[SDL_SCANCODE_A]);
+    mRotation = Math::Pi*(state[SDL_SCANCODE_A] & !state[SDL_SCANCODE_D]);
 }

@@ -60,9 +60,10 @@ void MyGame::InitializeGameObjects() {
 
     // Set Camera settings.
     mCamera = new Camera(this, Vector2(0,0), Vector2(30*TILE_SIZE, 15*TILE_SIZE),2.f);
-    mCamera->SetTarget(mPlayer, Vector2(TILE_SIZE/2, TILE_SIZE/2));
-    mCamera->SetWindow(120, 100);
     mCamera->SetScale(2.0f);
+    mCamera->SetTarget(mPlayer, Vector2(TILE_SIZE/2, TILE_SIZE/2));
+    // mCamera->SetMask("../Assets/Sprites/Misc/mask.png", 360, 360, 10000);
+    mCamera->SetWindow(60, 50);
 
     mCurrentMap->Enable();
 }
@@ -94,7 +95,6 @@ void MyGame::StartBattle(Enemy *enemy) {
 }
 
 void MyGame::EndBattle() {
-    mCurrentBattle->StopBattle();
 
     Resume(true);
     mCurrentBattle->SetState(GameObjectState::Destroy);

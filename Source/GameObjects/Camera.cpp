@@ -42,6 +42,8 @@ void Camera::OnUpdate(float deltaTime) {
         mPosition.y += dist;
         mCenter.y += dist;
     }
+
+    if(mMask) mMask->SetPosition(mTarget->GetPosition() - Vector2(mMaskWidth/2, mMaskHeight/2));
 }
 
 void Camera::SetWindow(int width, int height) {

@@ -9,6 +9,7 @@
 #include "Bat.h"
 #include "States/BatIdleState.h"
 #include "States/BatMovingState.h"
+#include "../../../Game/Random.h"
 
 Bat::Bat(class MyGame *game, int atributes[]) : Enemy(game, "../Assets/Sprites/Enemies/Bat/bat_sprite.png", "../Assets/Sprites/Enemies/Bat/sprite_sheet_data.json", atributes) {
 
@@ -17,7 +18,7 @@ Bat::Bat(class MyGame *game, int atributes[]) : Enemy(game, "../Assets/Sprites/E
     mAnimatedSpriteComponent->SetAnimFPS(8.0f);
 
     mFSMComponent = new FSMComponent(this);
-    new BatIdleState(mFSMComponent);
-    new BatMovingState(mFSMComponent);
+    new BatIdleState(mFSMComponent, Random::GetFloatRange(2.0, 4.5));
+    new BatMovingState(mFSMComponent, Random::GetFloatRange(2.0, 4.5));
     mFSMComponent->Start("idle");
 }

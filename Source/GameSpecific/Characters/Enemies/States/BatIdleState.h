@@ -11,8 +11,10 @@
 
 class BatIdleState : public BatState {
     public:
-        BatIdleState(class FSMComponent *fsm);
+        BatIdleState(class FSMComponent *fsm, float duration);
         void Start() override;
         void HandleStateTransition(float stateTime) override;
+
     private:
+        float mStateDuration;
 };

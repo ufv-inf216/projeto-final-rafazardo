@@ -7,9 +7,16 @@
 #include "../GameObjects/GameObject.h"
 #include "../Components/DrawComponents/DrawRectComponent.h"
 
+enum FadeState {
+    In,
+    Out,
+    None
+};
+
 class Fade : public GameObject {
     private:
         DrawRectComponent *mDrawRectComponent;
+        FadeState mFadeState;
 
         float mDuration,
               mTotalFaddingTime;
@@ -20,7 +27,7 @@ class Fade : public GameObject {
     public:
         Fade(class MyGame *game, float duration);
 
-        void In(std::vector<GameObject*> *keep_active);
+        void In(std::vector<GameObject*> *keep_active, Vector2 pos=Vector2::Zero);
         void Out(bool resume=true);
 
         bool IsFadding() { return mFaddingIn | mFaddingOut; }
@@ -28,4 +35,6 @@ class Fade : public GameObject {
         bool IsFaddingOut() { return mFaddingOut; }
 
         void OnUpdate(float deltaTime) override;
+
+        FadeState GetFadeState() { return mFadeState; }
 };

@@ -10,6 +10,7 @@
 #pragma once
 
 #include "GameObject.h"
+#include "../Interfaces/Mask.h"
 
 class Camera : public GameObject {
     private:
@@ -24,6 +25,9 @@ class Camera : public GameObject {
         // Offset
         int mHalfWindowWidth,
             mHalfWindowHeight;
+
+        Mask *mMask = nullptr;
+        int mMaskWidth, mMaskHeight;
 
         // A Target which the camera will follow
         GameObject *mTarget;
@@ -48,6 +52,11 @@ class Camera : public GameObject {
 
         void SetScale(float scale);
         float GetScale() { return mScale; }
+
+        void SetMask(const std::string &maskPath, int width, int height, int order) {
+            mMask = new Mask(mGame, maskPath, width, height, order);
+            mMaskWidth = width; mMaskHeight = height;
+        }
 
         void OnUpdate(float deltaTime) override;
 };

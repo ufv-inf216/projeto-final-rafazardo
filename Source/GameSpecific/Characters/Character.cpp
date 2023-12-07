@@ -14,7 +14,7 @@ Character::Character(class MyGame *game, const std::string &texturePath, const s
         mSpeed(96.0f) {
 
     mRigidBodyComponent = new RigidBodyComponent(this, 1.0f, .0f);
-    mAnimatedSpriteComponent = new AnimatedSpriteComponent(this, texturePath, spriteSheetData);
+    mAnimatedSpriteComponent = new AnimatedSpriteComponent(this, texturePath, spriteSheetData, 1);
     mBoxColliderComponent = new BoxColliderComponent(this, 0, 0, 24, 24, coll_layer);
 
     mSheet = new CharacterSheet(attrs);

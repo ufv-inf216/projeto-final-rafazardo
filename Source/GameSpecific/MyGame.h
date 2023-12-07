@@ -64,6 +64,7 @@ class MyGame : public Game {
         //Chest* GetChest() { return mChest; }
 
         // Battle stuff.
+        void SetCurrentBattle(Battle *battle) { mCurrentBattle = battle; }
         void StartBattle(Enemy *enemy);
         void EndBattle();
 

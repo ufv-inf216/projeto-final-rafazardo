@@ -2,7 +2,15 @@
   {
     "id": 0,
     "name": "Slime",
-    "sprt_dir": "",
-    "attacks": []
+    "sprt_dir": "../Assets/Sprites/Enemies/Slime/sprite_sheet_data.json",
+    "max_attrs": [13, 100, 16, 8, 8, 4],
+    "min_attrs": [11, 100, 14, 8, 8, 4]
+  },
+  {
+    "id": 1,
+    "name": "Bat",
+    "sprt_dir": "../Assets/Sprites/Enemies/Bat/sprite_sheet_data.json",
+    "max_attrs": [11, 16, 11, 11, 13, 4],
+    "min_attrs": [10, 15, 10, 10, 12, 4]
   }
 ]

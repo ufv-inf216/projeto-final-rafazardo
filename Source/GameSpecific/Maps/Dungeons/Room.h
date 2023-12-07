@@ -27,10 +27,12 @@ class Room : public Map {
     private:
         // The next rooms accessible from this one.
         std::vector<Room*> mConnectedRooms;
-        Vector2 mDoorTop;
-        Vector2 mDoorRight;
-        Vector2 mDoorDown;
-        Vector2 mDoorLeft;
+        Vector2 mDoorTop, mDoorRight,
+                mDoorDown, mDoorLeft;
+
+        // The areas where enemies can spawn.
+        std::pair<Vector2, Vector2> mArea1, mArea2,
+                                    mArea3, mArea4;
 
     public:
         // Constructor
@@ -44,6 +46,7 @@ class Room : public Map {
         void Connect(Room *other, ConnectionSide connection);
 
         Room* GetNextRoom(ConnectionSide side);
+        Vector2 GetDoorPosition(ConnectionSide side);
 
         void Print();
 
