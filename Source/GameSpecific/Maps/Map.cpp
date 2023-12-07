@@ -18,4 +18,7 @@ Map::Map(class MyGame *game, const std::string &texturePath, const std::string &
     // Set map components.
     mSpriteComponent = new SpriteComponent(this, texturePath, width, height, 0);
     mCollisionMatrixComponent = new CollisionMatrixComponent(this, collisionPath);
+
+    // All maps will be placed on (0, 0)
+    mPosition = Vector2(0,0);
 }

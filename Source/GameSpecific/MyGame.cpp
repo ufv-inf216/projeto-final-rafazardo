@@ -45,19 +45,17 @@ void MyGame::InitializeGameObjects() {
     Random::Seed(time(NULL));
     DefineGlobalVariables();
 
-    mDungeonsQueue.push(mDungeonGenerator->Generate(1));
-    mDungeonsQueue.front()->GetFirstLayer()->Print();
-
     // Initialize main map, loading its texture and collision matrix.
-    mCurrentMap = new Map(this, "../Assets/Sprites/DungeonMaps/Sq/sq18_18.png",
-            "../Assets/Collisions/Test/Dungeons/sq18_18.collmat", 18*TILE_SIZE, 18*TILE_SIZE);
+    mDungeonsQueue.push(mDungeonGenerator->Generate(1));
+    mCurrentMap = mDungeonsQueue.front()->GetFirstLayer()->GetFirstRoom();
 
     // Allocate main character
     int a[] = {0, 0, 0, 0, 0, 0};
     Inventory *inventory = new Inventory(100);
     inventory->UpdateItems("item", 0, 1);
     inventory->UpdateItems("item", 1, 1);
-    mPlayer = new Player(this, "../Assets/Sprites/Player/sprite_sheet.png", "../Assets/Sprites/Player/sprite_sheet_data.json", a, inventory);
+    mPlayer = new Player(this, "../Assets/Sprites/Player/sprite_sheet.png",
+                         "../Assets/Sprites/Player/sprite_sheet_data.json", a, inventory);
     mPlayer->SetPosition(Vector2(180, 180));
 
     // Set Camera settings.
@@ -68,6 +66,13 @@ void MyGame::InitializeGameObjects() {
 
     auto bat = new Bat(this, a);
     bat->SetPosition(Vector2(210, 210));
+
+    auto sndmap = mDungeonsQueue.front()->GetFirstLayer()->GetFirstRoom()->GetNextRoom(ConnectionSide::Top);
+    if(!sndmap) sndmap = mDungeonsQueue.front()->GetFirstLayer()->GetFirstRoom()->GetNextRoom(ConnectionSide::Right);
+    if(!sndmap) sndmap = mDungeonsQueue.front()->GetFirstLayer()->GetFirstRoom()->GetNextRoom(ConnectionSide::Left);
+    if(!sndmap) sndmap = mDungeonsQueue.front()->GetFirstLayer()->GetFirstRoom()->GetNextRoom(ConnectionSide::Down);
+    auto d = new Door(this, "../Assets/Sprites/Player/sprite_sheet_data.json", Vector2(204, 180), Vector2(204, 108));
+    d->SetNextMap(sndmap);
 }
 
 void MyGame::Pause(bool draw) {

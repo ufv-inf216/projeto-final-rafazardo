@@ -9,4 +9,8 @@
 #include "Dungeon.h"
 
 Dungeon::Dungeon(class MyGame *game, Layer *first, Layer *last):
-    GameObject(game) { }
+    GameObject(game) {
+
+    mFirstLayer = first;
+    mLastLayer = last;
+}

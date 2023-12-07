@@ -8,9 +8,20 @@
 
 #include "DungeonGenerator.h"
 #include "iostream"
+#include "../../../../Game/Random.h"
 
 #define x first
 #define y second
+
+std::string tpaths[] = {
+        "../Assets/Sprites/DungeonMaps/Sq/sq18_18.png",
+        "../Assets/Sprites/DungeonMaps/Sq/sq20_20.png",
+};
+
+std::string cpaths[] = {
+        "../Assets/Collisions/Dungeons/sq18_18.collmat",
+        "../Assets/Collisions/Dungeons/sq20_20.collmat",
+};
 
 Layer* DungeonGenerator::GenerateLayer(char **grid, int gridWidth, int gridHeight, Coord &start, Coord &end, Layer* prev) {
     std::map<Coord, Room*> coord2room;
@@ -28,7 +39,9 @@ Layer* DungeonGenerator::GenerateLayer(char **grid, int gridWidth, int gridHeigh
     for(int i = 0; i < gridHeight; i++)
         for (int j = 0; j < gridWidth; j++) {
             if(grid[i][j] != '1') continue;
-            coord2room[{i, j}] = new Room(mGame, "../Assets/Sprites/DungeonMaps/Sq/sq18_18.png", "../Assets/Collisions/Test/Dungeons/sq18_18.collmat", 18*24, 18*24);
+            int idx = Random::GetIntRange(0, 1);
+            coord2room[{i, j}] = new Room(mGame, tpaths[idx], cpaths[idx],
+                                          18*24, 18*24);
         }
 
     int t, b, r, l;

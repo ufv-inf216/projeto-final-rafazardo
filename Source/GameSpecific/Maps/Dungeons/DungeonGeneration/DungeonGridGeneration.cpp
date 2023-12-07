@@ -107,7 +107,7 @@ char** DungeonGenerator::GenerateLayerGrid(int gridWidth, int gridHeight, Coord 
     // === PROCEDURAL DUNGEON GENEARTION: 3RD STEP ===
     // Finally, we add some loops and extra rooms to te dungeon. Since we don't want to add
     // shortcuts, we won't create loops by using the set of points chosen.
-    int x, y, tries = 20;
+    int x, y, tries = 0;
 
     while(tries--) {
         x = Random::GetIntRange(0, gridWidth-1);

@@ -10,8 +10,8 @@ Fade::Fade(class MyGame *game, float duration):
 
     SDL_Rect *rect = new SDL_Rect;
     rect->x = 0; rect->y = 0;
-    rect->w = mGame->GetCurrentMap()->GetDimension().x;
-    rect->h = mGame->GetCurrentMap()->GetDimension().y;
+    rect->w = mGame->GetCurrentMap()->GetDimension().x * mGame->GetCamera()->GetScale();
+    rect->h = mGame->GetCurrentMap()->GetDimension().y * mGame->GetCamera()->GetScale();
     int color[4] {0, 0, 0, 0};
 
     mDrawRectComponent = new DrawRectComponent(this, rect, color, 1000);
