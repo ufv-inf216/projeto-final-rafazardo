@@ -33,6 +33,7 @@ class BattleCharacter : public GameObject {
         int mHP = 100;
         int mRemoveHeal = -1;
         int mInitiative;
+        int mMaxHP = 100; //TROCAR AQUI HEIN
 
     public:
         // Constructor
@@ -58,4 +59,5 @@ class BattleCharacter : public GameObject {
 
         void RemoveHeal(int id) { mRemoveHeal = id; }
         void SetInitiative(int init) { mInitiative = init; }
+        int GetMaxHP() { return mMaxHP; }
 };

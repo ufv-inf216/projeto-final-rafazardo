@@ -21,10 +21,14 @@ class BattleEnemy : public BattleCharacter {
         Enemy *mEnemy;
         int mId;
 
+        Vector2 mImgDims;
+
     public:
         BattleEnemy(class MyGame *game, Battle *battle, Enemy *enemy);
 
         Action* GetAction() override;
 
         Character* GetCharacter() override { return mEnemy; }
+
+        Vector2 GetImgDims() { return mImgDims; }
 };

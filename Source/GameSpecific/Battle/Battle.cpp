@@ -28,10 +28,23 @@ Battle::Battle(class MyGame *game, Player *player, Enemy *enemy):
                                             mGame->GetWindowWidth(),mGame->GetWindowHeight(), 10);
     mBattleBackground->SetEnabled(false);
 
-    int pos_x = mGame->GetWindowWidth()/2 - 16*mBattleEnemies.size()+3;
+    int color[] = {255, 0, 0, 255};
+
+    int pos_x = mGame->GetWindowWidth()/2 - mBattleEnemies.size()*(mBattleEnemies[0]->GetImgDims().x / 2 + 5);
+    int pos_y = mGame->GetWindowHeight() / 2 - mBattleEnemies[0]->GetImgDims().y / 2;
     for(auto e : mBattleEnemies) {
-        e->SetPosition(Vector2(pos_x, mGame->GetWindowHeight() / 2 - 16));
-        pos_x += 38;
+        e->SetPosition(Vector2(pos_x, pos_y));
+
+        SDL_Rect *rect = new SDL_Rect;
+        rect->w = mBattleEnemies[0]->GetImgDims().x;
+        rect->h = 7;
+        rect->x = pos_x;
+        rect->y = pos_y - 20;
+        mHpBars.push_back(new DrawRectComponent(this, rect, color));
+
+        mHpBars.back()->SetAlpha(0);
+
+        pos_x += mBattleEnemies[0]->GetImgDims().x + 10;
     }
 
     // Rolls initiative for each character.
@@ -44,6 +57,7 @@ Battle::Battle(class MyGame *game, Player *player, Enemy *enemy):
     }
     mCurrentInitiative = mInitiatives.begin();
     mIsRunning = true;
+
 }
 
 Battle::~Battle() {
@@ -58,7 +72,11 @@ void Battle::Start() {
     mGame->SetCurrentBattle(this);
 
     mFade->In(nullptr, GetPosition());
+//    SetPosition(Vector2(0, 0));
+//    mGame->GetCamera()->SetPosition(GetPosition());
     mBattleState = BattleState::Starting;
+
+    SetPosition(Vector2(0, 0));
 }
 
 void Battle::End() {
@@ -75,6 +93,10 @@ void Battle::End() {
 void Battle::OnUpdate(float deltaTime) {
     Action *action;
 
+    for(int i=0; i<mHpBars.size(); i++) {
+        mHpBars[i]->SetRectDimension(mBattleEnemies[i]->GetImgDims().x * mBattleEnemies[i]->GetHP() / mBattleEnemies[i]->GetMaxHP(), 7);
+    }
+
     switch(mBattleState) {
         // Starting the battle with a Fade.
         case Starting:
@@ -85,16 +107,24 @@ void Battle::OnUpdate(float deltaTime) {
                 mBattleBackground->SetEnabled(true);
 
                 mGame->GetCamera()->SetScale(1.f);
-                SetPosition(mGame->GetCamera()->GetPosition());
+
+                for(auto hp : mHpBars)
+                    hp->SetAlpha(255);
 
                 mFade->Out(false);
-            } else if(mFade->GetFadeState() == FadeState::Out)
-                mBattleState = BattleState::Running;
 
+                mGame->GetCamera()->SetPosition(GetPosition());
+
+            } else if(mFade->GetFadeState() == FadeState::Out) {
+                mBattleState = BattleState::Running;
+            }
             break;
 
         // The battle procedure
         case Running:
+            SDL_Log("Posicao da cam: %d %d", mGame->GetCamera()->GetPosition().x, mGame->GetCamera()->GetPosition().y);
+            SDL_Log("Posicao da bat: %d %d", GetPosition().x, GetPosition().y);
+
             if(!mInitiatives[mCurrentInitiative->first]) {
                 mCurrentInitiative++;
                 if(mCurrentInitiative == mInitiatives.end()) {

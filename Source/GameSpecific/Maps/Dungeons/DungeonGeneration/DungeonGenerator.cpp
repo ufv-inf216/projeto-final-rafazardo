@@ -24,8 +24,8 @@ Dungeon* DungeonGenerator::Generate(int total_layers) {
     Layer *curr = nullptr, *first = nullptr;
 
     char **grid; Coord start, end;
-    int gw = Random::GetIntRange(4, 4),
-        gh = Random::GetIntRange(4, 4);
+    int gw = Random::GetIntRange(7, 7),
+        gh = Random::GetIntRange(7, 7);
 
     grid = GenerateLayerGrid(gw, gh, start, end);
     first = GenerateLayer(grid, gw, gh, start, end, nullptr);

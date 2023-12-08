@@ -15,9 +15,8 @@ BattleEnemy::BattleEnemy(class MyGame *game, Battle *battle, Enemy *enemy):
     mEnemy(enemy) {
 
     mSheet = enemy->GetCharacterSheet();
-    auto img_dims = enemy->GetImgDims();
-    mSpriteComponent = new SpriteComponent(this, enemy->GetImg(), img_dims.x,
-                                           img_dims.y, 200);
+    mImgDims = enemy->GetImgDims();
+    mSpriteComponent = new SpriteComponent(this, enemy->GetImg(), mImgDims.x, mImgDims.y, 200);
 }
 
 Action* BattleEnemy::GetAction() {

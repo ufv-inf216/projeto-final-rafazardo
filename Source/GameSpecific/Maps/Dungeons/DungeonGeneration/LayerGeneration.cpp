@@ -40,7 +40,7 @@ Layer* DungeonGenerator::GenerateLayer(char **grid, int gridWidth, int gridHeigh
             r = l = j;
             t = b = i;
 
-            while(--t > 1) {
+            while(--t > -1) {
                 if(grid[t][j] == '0') break;
                 if(grid[t][j] == '1') {
                     coord2room[{i, j}]->Connect(coord2room[{t, j}], ConnectionSide::Top);

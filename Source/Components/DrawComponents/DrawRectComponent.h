@@ -22,6 +22,7 @@ class DrawRectComponent : public DrawComponent {
 
         void Draw(SDL_Renderer* renderer) override;
 
+        Vector2 GetRectDimentions() { return Vector2(mRect->w, mRect->h); }
 
     protected:
         int mDrawOrder;

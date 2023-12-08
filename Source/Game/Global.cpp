@@ -45,6 +45,8 @@ std::vector<std::vector<int>> EnemyAttackOptions = std::vector<std::vector<int>>
 
 std::map<std::string, std::vector<std::vector<INGREDIENT>>> RECIPES;
 
+nlohmann::json enemiesData;
+
 void DefineGlobalVariables() {
     std::ifstream armorsFile("../Assets/JsonFiles/Items/armors.json");
     nlohmann::json armorsData;
@@ -151,20 +153,19 @@ void DefineGlobalVariables() {
 
     // Definir os ataques de Inimigos.
     std::ifstream enemyAttackOptions("../Assets/JsonFiles/Enemies/enemies.json");
-    nlohmann::json enemyAttackOptionsData;
-    enemyAttackOptions >> enemyAttackOptionsData;
+    enemyAttackOptions >> enemiesData;
 
     int e = 0;
-    for(const auto& it : enemyAttackOptionsData)
+    for(const auto& it : enemiesData) {
         for(int i = 0; i < it["num_attacks"]; i++)
             EnemyAttackOptions[e].push_back(it["attacks"][i]);
+        e++;
+    }
+
+    enemyAttackOptions.close();
 }
 
-nlohmann::json enemiesData;
 Enemy* GenerateRandomEnemy(MyGame *game) {
-    std::ifstream enemiesJson("../Assets/JsonFiles/Enemies/enemies.json");
-    enemiesData = nlohmann::json::parse(enemiesJson);
-
      // Chooses a random enemy.
      int pos = Random::GetIntRange(0, 1);
      Enemy *enemy;
@@ -189,8 +190,5 @@ Enemy* GenerateRandomEnemy(MyGame *game) {
             enemy = new Bat(game, enemiesData[pos]["img_dir"], img_dims, attr);
             break;
      }
-
-    enemiesJson.close();
-
      return enemy;
 }

@@ -42,6 +42,8 @@ class Battle : public GameObject {
         bool mIsRunning = false;
         Fade *mFade;
 
+        std::vector<DrawRectComponent*> mHpBars;
+
     public:
         Battle(class MyGame *game, Player *player, Enemy *enemy);
         ~Battle();

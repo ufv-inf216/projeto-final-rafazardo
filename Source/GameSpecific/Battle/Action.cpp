@@ -25,7 +25,7 @@ void Heal::Apply(BattleCharacter *applier) {
         delta_hp += Random::GetIntRange(1, mDice);
     delta_hp += applier->GetCharacterSheet()->GetMod(mMod);
 
-    mTarget->SetHP(mTarget->GetHP() + delta_hp);
+    mTarget->SetHP(std::max(mTarget->GetHP() + delta_hp, mTarget->GetMaxHP()));
     mTarget->GetCharacter()->GetInventory()->UpdateItems("potion", mPotionId, -1);
 
     if(mTarget->GetCharacter()->GetInventory()->GetItemAmount("potion", mPotionId) == 0)
