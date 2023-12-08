@@ -68,6 +68,13 @@ add_executable(${PROJECT_NAME}
         Source/GameSpecific/Characters/Enemies/States/BatMovingState.h
         Source/GameSpecific/Characters/Enemies/States/BatState.cpp
         Source/GameSpecific/Characters/Enemies/States/BatState.h
+        Source/Interfaces/HUDs/BattleHUDs/BattleHUD.cpp
+        Source/Interfaces/HUDs/BattleHUDs/BattleHUD.h
+        Source/Interfaces/HUDs/BattleHUDs/HPBarBattleHUD.cpp
+        Source/Interfaces/HUDs/BattleHUDs/HPBarBattleHUD.h
+        Source/Interfaces/Interface.cpp
+        Source/Interfaces/HUDs/BattleHUDs/ActionSelectorBattleHUD.cpp
+        Source/Interfaces/HUDs/BattleHUDs/ActionSelectorBattleHUD.h
 )
 
 ####### DO NOT EDIT BELLOW

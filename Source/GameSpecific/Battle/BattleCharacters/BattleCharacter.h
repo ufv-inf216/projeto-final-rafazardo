@@ -53,11 +53,11 @@ class BattleCharacter : public GameObject {
         bool IsAlive() { return mHP > 0; }
 
         void SetHP(int new_hp) { mHP = new_hp; }
-        int GetHP() { return mHP; }
+        float GetHP() { return (float)mHP; }
 
         virtual Character* GetCharacter() { return nullptr; }
 
         void RemoveHeal(int id) { mRemoveHeal = id; }
         void SetInitiative(int init) { mInitiative = init; }
-        int GetMaxHP() { return mMaxHP; }
+        float GetMaxHP() { return (float)mMaxHP; }
 };

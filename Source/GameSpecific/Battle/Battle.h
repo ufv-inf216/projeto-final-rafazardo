@@ -37,6 +37,8 @@ class Battle : public GameObject {
 
         SpriteComponent *mBattleBackground;
 
+        class BattleHUD *mBattleHUD;
+
         void GenerateEnemies();
 
         bool mIsRunning = false;

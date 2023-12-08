@@ -9,6 +9,7 @@
 #include "Battle.h"
 #include "Action.h"
 #include "../../Game/Random.h"
+#include "../../Interfaces/HUDs/BattleHUDs/BattleHUD.h"
 
 Battle::Battle(class MyGame *game, Player *player, Enemy *enemy):
     GameObject(game),
@@ -115,6 +116,8 @@ void Battle::OnUpdate(float deltaTime) {
 
                 mGame->GetCamera()->SetPosition(GetPosition());
 
+                mBattleHUD = new BattleHUD(mGame, this);
+
             } else if(mFade->GetFadeState() == FadeState::Out) {
                 mBattleState = BattleState::Running;
             }
@@ -122,8 +125,7 @@ void Battle::OnUpdate(float deltaTime) {
 
         // The battle procedure
         case Running:
-            SDL_Log("Posicao da cam: %d %d", mGame->GetCamera()->GetPosition().x, mGame->GetCamera()->GetPosition().y);
-            SDL_Log("Posicao da bat: %d %d", GetPosition().x, GetPosition().y);
+            SDL_Log("Dentro do switch %d", mBattleHUD->GetState() == GameObjectState::Active);
 
             if(!mInitiatives[mCurrentInitiative->first]) {
                 mCurrentInitiative++;
@@ -179,6 +181,7 @@ void Battle::OnUpdate(float deltaTime) {
             if(mFade->IsFadding()) return;
             if(mFade->GetFadeState() == FadeState::In) {
                 End();
+                mBattleHUD->SetState(GameObjectState::Destroy);
                 mFade->Out(false);
             } else if(mFade->GetFadeState() == FadeState::Out) {
                 SetState(GameObjectState::Destroy);

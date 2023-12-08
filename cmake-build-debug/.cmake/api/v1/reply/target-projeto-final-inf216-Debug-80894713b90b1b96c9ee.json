@@ -35,13 +35,13 @@
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 79,
+				"line" : 86,
 				"parent" : 0
 			},
 			{
 				"command" : 2,
 				"file" : 0,
-				"line" : 78,
+				"line" : 85,
 				"parent" : 0
 			}
 		]
@@ -131,7 +131,11 @@
 				46,
 				48,
 				50,
-				52
+				52,
+				54,
+				56,
+				58,
+				59
 			]
 		}
 	],
@@ -235,7 +239,11 @@
 				46,
 				48,
 				50,
-				52
+				52,
+				54,
+				56,
+				58,
+				59
 			]
 		},
 		{
@@ -247,7 +255,10 @@
 				47,
 				49,
 				51,
-				53
+				53,
+				55,
+				57,
+				60
 			]
 		}
 	],
@@ -569,6 +580,45 @@
 		{
 			"backtrace" : 1,
 			"path" : "Source/GameSpecific/Characters/Enemies/States/BatState.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Source/Interfaces/HUDs/BattleHUDs/BattleHUD.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Source/Interfaces/HUDs/BattleHUDs/BattleHUD.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Source/Interfaces/HUDs/BattleHUDs/HPBarBattleHUD.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Source/Interfaces/HUDs/BattleHUDs/HPBarBattleHUD.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Source/Interfaces/Interface.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Source/Interfaces/HUDs/BattleHUDs/ActionSelectorBattleHUD.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Source/Interfaces/HUDs/BattleHUDs/ActionSelectorBattleHUD.h",
 			"sourceGroupIndex" : 1
 		}
 	],

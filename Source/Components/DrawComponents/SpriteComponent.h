@@ -26,10 +26,16 @@ class SpriteComponent : public DrawComponent {
             mHeight = height;
         }
 
+        void SetOffset(Vector2 position) { mOffset = position; }
+
+        Vector2 GetOffset() { return mOffset; }
+
     protected:
         // Map of textures loaded
         SDL_Texture* mSpriteSheetSurface;
 
         int mWidth;
         int mHeight;
+
+        Vector2 mOffset = Vector2(0, 0);
 };

@@ -22,7 +22,7 @@ void SpriteComponent::Draw(SDL_Renderer *renderer) {
 
     SDL_Rect dstrect;
     dstrect.w = this->mWidth; dstrect.h = this->mHeight;
-    dstrect.x = pos.x-cam_pos.x; dstrect.y = pos.y-cam_pos.y;
+    dstrect.x = pos.x - cam_pos.x + mOffset.x; dstrect.y = pos.y - cam_pos.y + mOffset.y;
 
     SDL_RendererFlip flip = SDL_FLIP_NONE;
     if(this->mOwner->GetRotation() == Math::Pi)
