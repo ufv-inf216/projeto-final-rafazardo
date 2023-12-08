@@ -26,4 +26,6 @@ class BattlePlayer : public BattleCharacter {
         Action* GetAction() override;
 
         Character* GetCharacter() override { return mPlayer; }
+
+        void SetAction(Action *action) { mCurrentAction = action; }
 };

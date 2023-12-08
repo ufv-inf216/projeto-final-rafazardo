@@ -36,7 +36,7 @@ void ActionSelectorBattleHUD::OnProcessInput(const uint8_t *state) {
             case Option::Run:
                 if (state[SDL_SCANCODE_W])
                     mOption = Option::Item;
-                
+
                 break;
         }
     }

@@ -50,11 +50,12 @@ void MyGame::InitializeGameObjects() {
     mCurrentMap = mDungeonsQueue.front()->GetFirstLayer()->GetFirstRoom();
 
     // Allocate main character
-    int a[] = {0, 0, 0, 0, 0, 0};
+    int a[] = {20, 20, 12, 10, 10, 11};
     Inventory *inventory = new Inventory(100);
     inventory->UpdateItems("item", 0, 1);
     inventory->UpdateItems("item", 1, 1);
-    mPlayer = new Player(this, "../Assets/Sprites/Player/sprite_sheet.png",
+    mPlayer = new Player(this, "../Assets/Sprites/Player/sprite_sheet."
+                               "png",
                          "../Assets/Sprites/Player/sprite_sheet_data.json", a, inventory);
     mPlayer->SetPosition(Vector2(180, 180));
 

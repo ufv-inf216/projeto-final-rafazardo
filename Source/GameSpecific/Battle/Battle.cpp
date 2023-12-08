@@ -125,7 +125,6 @@ void Battle::OnUpdate(float deltaTime) {
 
         // The battle procedure
         case Running:
-            SDL_Log("Dentro do switch %d", mBattleHUD->GetState() == GameObjectState::Active);
 
             if(!mInitiatives[mCurrentInitiative->first]) {
                 mCurrentInitiative++;
@@ -147,9 +146,9 @@ void Battle::OnUpdate(float deltaTime) {
 
             SDL_Log("==========================");
             SDL_Log("Iniciativa: %d", mCurrentInitiative->first);
-            SDL_Log("Player: %d", mBattlePlayer->GetHP());
+            SDL_Log("Player: %lf", mBattlePlayer->GetHP());
             for(int i = 0; i < mBattleEnemies.size(); i++) {
-                SDL_Log("Enemy %d: %d", i, mBattleEnemies[i]->GetHP());
+                SDL_Log("Enemy %d: %lf", i, mBattleEnemies[i]->GetHP());
             }
             SDL_Log("==========================");
 
@@ -193,7 +192,7 @@ void Battle::OnUpdate(float deltaTime) {
 }
 
 void Battle::GenerateEnemies() {
-     mBattleEnemies = std::vector<BattleEnemy*>(Random::GetIntRange(1, 4));
+     mBattleEnemies = std::vector<BattleEnemy*>(Random::GetIntRange(1, 1));
 
     for(int i = 0; i < mBattleEnemies.size(); i++) {
         mBattleEnemies[i] = new BattleEnemy(mGame, this, mMainEnemy);
