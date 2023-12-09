@@ -57,6 +57,7 @@ class Camera : public GameObject {
             mMask = new Mask(mGame, maskPath, width, height, order);
             mMaskWidth = width; mMaskHeight = height;
         }
+        Mask *GetMask() { return mMask; }
 
         void OnUpdate(float deltaTime) override;
 };

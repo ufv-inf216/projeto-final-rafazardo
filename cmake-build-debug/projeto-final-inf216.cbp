@@ -1,0 +1,427 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="projeto-final-inf216"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="msvc8"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\..\..\..\Program Files\;CMake Files\..\..\..\..\..\..\..\..\..\Program Files\SDL2-2.28.2\;CMake Files\..\..\..\..\..\..\..\..\..\Program Files\SDL2-2.28.2\cmake\;CMake Files\..\..\..\..\..\..\..\..\..\Program Files\SDL2_image-2.6.3\;CMake Files\..\..\..\..\..\..\..\..\..\Program Files\SDL2_image-2.6.3\cmake\;CMake Files\..\..\..\..\..\..\..\..\..\Program Files\SDL2_mixer-2.6.3\;CMake Files\..\..\..\..\..\..\..\..\..\Program Files\SDL2_mixer-2.6.3\cmake\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/andre/OneDrive/Documentos/UFV/periodo_vi/Jogos/projeto_final/projeto-final-rafazardo/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\cmake-build-debug\Makefile VERBOSE=1 all"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="projeto-final-inf216">
+				<Option output="C:/Users/andre/OneDrive/Documentos/UFV/periodo_vi/Jogos/projeto_final/projeto-final-rafazardo/cmake-build-debug/projeto-final-inf216.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/andre/OneDrive/Documentos/UFV/periodo_vi/Jogos/projeto_final/projeto-final-rafazardo/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:/Program Files/SDL2-2.28.2/cmake/../include"/>
+					<Add directory="C:/Program Files/SDL2_image-2.6.3/cmake/../include"/>
+					<Add directory="C:/Program Files/SDL2_mixer-2.6.3/cmake/../include"/>
+					<Add directory="C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include"/>
+					<Add directory="C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\cppwinrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\cmake-build-debug\Makefile VERBOSE=1 projeto-final-inf216"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="projeto-final-inf216/fast">
+				<Option output="C:/Users/andre/OneDrive/Documentos/UFV/periodo_vi/Jogos/projeto_final/projeto-final-rafazardo/cmake-build-debug/projeto-final-inf216.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/andre/OneDrive/Documentos/UFV/periodo_vi/Jogos/projeto_final/projeto-final-rafazardo/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:/Program Files/SDL2-2.28.2/cmake/../include"/>
+					<Add directory="C:/Program Files/SDL2_image-2.6.3/cmake/../include"/>
+					<Add directory="C:/Program Files/SDL2_mixer-2.6.3/cmake/../include"/>
+					<Add directory="C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include"/>
+					<Add directory="C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\cppwinrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\cmake-build-debug\Makefile VERBOSE=1 projeto-final-inf216/fast"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/andre/OneDrive/Documentos/UFV/periodo_vi/Jogos/projeto_final/projeto-final-rafazardo/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\cmake-build-debug\Makefile VERBOSE=1 edit_cache"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/andre/OneDrive/Documentos/UFV/periodo_vi/Jogos/projeto_final/projeto-final-rafazardo/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\cmake-build-debug\Makefile VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/andre/OneDrive/Documentos/UFV/periodo_vi/Jogos/projeto_final/projeto-final-rafazardo/Source/Components/AIComponents/FSMComponent.cpp">
+			<Option target="projeto-final-inf216"/>
+		</Unit>
+		<Unit filename="C:/Users/andre/OneDrive/Documentos/UFV/periodo_vi/Jogos/projeto_final/projeto-final-rafazardo/Source/Components/AIComponents/FSMComponent.h">
+			<Option target="projeto-final-inf216"/>
+		</Unit>
+		<Unit filename="C:/Users/andre/OneDrive/Documentos/UFV/periodo_vi/Jogos/projeto_final/projeto-final-rafazardo/Source/Components/AIComponents/FSMState.cpp">
+			<Option target="projeto-final-inf216"/>
+		</Unit>
+		<Unit filename="C:/Users/andre/OneDrive/Documentos/UFV/periodo_vi/Jogos/projeto_final/projeto-final-rafazardo/Source/Components/AIComponents/FSMState.h">
+			<Option target="projeto-final-inf216"/>
+		</Unit>
+		<Unit filename="C:/Users/andre/OneDrive/Documentos/UFV/periodo_vi/Jogos/projeto_final/projeto-final-rafazardo/Source/Components/ColliderComponents/BoxColliderComponent.cpp">
+			<Option target="projeto-final-inf216"/>
+		</Unit>
+		<Unit filename="C:/Users/andre/OneDrive/Documentos/UFV/periodo_vi/Jogos/projeto_final/projeto-final-rafazardo/Source/Components/ColliderComponents/BoxColliderComponent.h">
+			<Option target="projeto-final-inf216"/>
+		</Unit>
+		<Unit filename="C:/Users/andre/OneDrive/Documentos/UFV/periodo_vi/Jogos/projeto_final/projeto-final-rafazardo/Source/Components/ColliderComponents/CollisionMatrixComponent.cpp">
+			<Option target="projeto-final-inf216"/>
+		</Unit>
+		<Unit filename="C:/Users/andre/OneDrive/Documentos/UFV/periodo_vi/Jogos/projeto_final/projeto-final-rafazardo/Source/Components/ColliderComponents/CollisionMatrixComponent.h">
+			<Option target="projeto-final-inf216"/>
+		</Unit>
+		<Unit filename="C:/Users/andre/OneDrive/Documentos/UFV/periodo_vi/Jogos/projeto_final/projeto-final-rafazardo/Source/Components/Component.cpp">
+			<Option target="projeto-final-inf216"/>
+		</Unit>
+		<Unit filename="C:/Users/andre/OneDrive/Documentos/UFV/periodo_vi/Jogos/projeto_final/projeto-final-rafazardo/Source/Components/Component.h">
+			<Option target="projeto-final-inf216"/>
+		</Unit>
+		<Unit filename="C:/Users/andre/OneDrive/Documentos/UFV/periodo_vi/Jogos/projeto_final/projeto-final-rafazardo/Source/Components/DrawComponents/AnimatedSpriteComponent.cpp">
+			<Option target="projeto-final-inf216"/>
+		</Unit>
+		<Unit filename="C:/Users/andre/OneDrive/Documentos/UFV/periodo_vi/Jogos/projeto_final/projeto-final-rafazardo/Source/Components/DrawComponents/AnimatedSpriteComponent.h">
+			<Option target="projeto-final-inf216"/>
+		</Unit>
+		<Unit filename="C:/Users/andre/OneDrive/Documentos/UFV/periodo_vi/Jogos/projeto_final/projeto-final-rafazardo/Source/Components/DrawComponents/DrawComponent.cpp">
+			<Option target="projeto-final-inf216"/>
+		</Unit>
+		<Unit filename="C:/Users/andre/OneDrive/Documentos/UFV/periodo_vi/Jogos/projeto_final/projeto-final-rafazardo/Source/Components/DrawComponents/DrawComponent.h">
+			<Option target="projeto-final-inf216"/>
+		</Unit>
+		<Unit filename="C:/Users/andre/OneDrive/Documentos/UFV/periodo_vi/Jogos/projeto_final/projeto-final-rafazardo/Source/Components/DrawComponents/DrawPolygonComponent.cpp">
+			<Option target="projeto-final-inf216"/>
+		</Unit>
+		<Unit filename="C:/Users/andre/OneDrive/Documentos/UFV/periodo_vi/Jogos/projeto_final/projeto-final-rafazardo/Source/Components/DrawComponents/DrawPolygonComponent.h">
+			<Option target="projeto-final-inf216"/>
+		</Unit>
+		<Unit filename="C:/Users/andre/OneDrive/Documentos/UFV/periodo_vi/Jogos/projeto_final/projeto-final-rafazardo/Source/Components/DrawComponents/DrawRectComponent.cpp">
+			<Option target="projeto-final-inf216"/>
+		</Unit>
+		<Unit filename="C:/Users/andre/OneDrive/Documentos/UFV/periodo_vi/Jogos/projeto_final/projeto-final-rafazardo/Source/Components/DrawComponents/DrawRectComponent.h">
+			<Option target="projeto-final-inf216"/>
+		</Unit>
+		<Unit filename="C:/Users/andre/OneDrive/Documentos/UFV/periodo_vi/Jogos/projeto_final/projeto-final-rafazardo/Source/Components/DrawComponents/SpriteComponent.cpp">
+			<Option target="projeto-final-inf216"/>
+		</Unit>
+		<Unit filename="C:/Users/andre/OneDrive/Documentos/UFV/periodo_vi/Jogos/projeto_final/projeto-final-rafazardo/Source/Components/DrawComponents/SpriteComponent.h">
+			<Option target="projeto-final-inf216"/>
+		</Unit>
+		<Unit filename="C:/Users/andre/OneDrive/Documentos/UFV/periodo_vi/Jogos/projeto_final/projeto-final-rafazardo/Source/Components/PhysicsComponents/RigidBodyComponent.cpp">
+			<Option target="projeto-final-inf216"/>
+		</Unit>
+		<Unit filename="C:/Users/andre/OneDrive/Documentos/UFV/periodo_vi/Jogos/projeto_final/projeto-final-rafazardo/Source/Components/PhysicsComponents/RigidBodyComponent.h">
+			<Option target="projeto-final-inf216"/>
+		</Unit>
+		<Unit filename="C:/Users/andre/OneDrive/Documentos/UFV/periodo_vi/Jogos/projeto_final/projeto-final-rafazardo/Source/Game/AudioSystem.cpp">
+			<Option target="projeto-final-inf216"/>
+		</Unit>
+		<Unit filename="C:/Users/andre/OneDrive/Documentos/UFV/periodo_vi/Jogos/projeto_final/projeto-final-rafazardo/Source/Game/AudioSystem.h">
+			<Option target="projeto-final-inf216"/>
+		</Unit>
+		<Unit filename="C:/Users/andre/OneDrive/Documentos/UFV/periodo_vi/Jogos/projeto_final/projeto-final-rafazardo/Source/Game/Game.cpp">
+			<Option target="projeto-final-inf216"/>
+		</Unit>
+		<Unit filename="C:/Users/andre/OneDrive/Documentos/UFV/periodo_vi/Jogos/projeto_final/projeto-final-rafazardo/Source/Game/Game.h">
+			<Option target="projeto-final-inf216"/>
+		</Unit>
+		<Unit filename="C:/Users/andre/OneDrive/Documentos/UFV/periodo_vi/Jogos/projeto_final/projeto-final-rafazardo/Source/Game/Global.cpp">
+			<Option target="projeto-final-inf216"/>
+		</Unit>
+		<Unit filename="C:/Users/andre/OneDrive/Documentos/UFV/periodo_vi/Jogos/projeto_final/projeto-final-rafazardo/Source/Game/Global.h">
+			<Option target="projeto-final-inf216"/>
+		</Unit>
+		<Unit filename="C:/Users/andre/OneDrive/Documentos/UFV/periodo_vi/Jogos/projeto_final/projeto-final-rafazardo/Source/Game/Math.cpp">
+			<Option target="projeto-final-inf216"/>
+		</Unit>
+		<Unit filename="C:/Users/andre/OneDrive/Documentos/UFV/periodo_vi/Jogos/projeto_final/projeto-final-rafazardo/Source/Game/Math.h">
+			<Option target="projeto-final-inf216"/>
+		</Unit>
+		<Unit filename="C:/Users/andre/OneDrive/Documentos/UFV/periodo_vi/Jogos/projeto_final/projeto-final-rafazardo/Source/Game/Random.cpp">
+			<Option target="projeto-final-inf216"/>
+		</Unit>
+		<Unit filename="C:/Users/andre/OneDrive/Documentos/UFV/periodo_vi/Jogos/projeto_final/projeto-final-rafazardo/Source/Game/Random.h">
+			<Option target="projeto-final-inf216"/>
+		</Unit>
+		<Unit filename="C:/Users/andre/OneDrive/Documentos/UFV/periodo_vi/Jogos/projeto_final/projeto-final-rafazardo/Source/GameObjects/Camera.cpp">
+			<Option target="projeto-final-inf216"/>
+		</Unit>
+		<Unit filename="C:/Users/andre/OneDrive/Documentos/UFV/periodo_vi/Jogos/projeto_final/projeto-final-rafazardo/Source/GameObjects/Camera.h">
+			<Option target="projeto-final-inf216"/>
+		</Unit>
+		<Unit filename="C:/Users/andre/OneDrive/Documentos/UFV/periodo_vi/Jogos/projeto_final/projeto-final-rafazardo/Source/GameObjects/Door.cpp">
+			<Option target="projeto-final-inf216"/>
+		</Unit>
+		<Unit filename="C:/Users/andre/OneDrive/Documentos/UFV/periodo_vi/Jogos/projeto_final/projeto-final-rafazardo/Source/GameObjects/Door.h">
+			<Option target="projeto-final-inf216"/>
+		</Unit>
+		<Unit filename="C:/Users/andre/OneDrive/Documentos/UFV/periodo_vi/Jogos/projeto_final/projeto-final-rafazardo/Source/GameObjects/GameObject.cpp">
+			<Option target="projeto-final-inf216"/>
+		</Unit>
+		<Unit filename="C:/Users/andre/OneDrive/Documentos/UFV/periodo_vi/Jogos/projeto_final/projeto-final-rafazardo/Source/GameObjects/GameObject.h">
+			<Option target="projeto-final-inf216"/>
+		</Unit>
+		<Unit filename="C:/Users/andre/OneDrive/Documentos/UFV/periodo_vi/Jogos/projeto_final/projeto-final-rafazardo/Source/GameObjects/Spawner.cpp">
+			<Option target="projeto-final-inf216"/>
+		</Unit>
+		<Unit filename="C:/Users/andre/OneDrive/Documentos/UFV/periodo_vi/Jogos/projeto_final/projeto-final-rafazardo/Source/GameObjects/Spawner.h">
+			<Option target="projeto-final-inf216"/>
+		</Unit>
+		<Unit filename="C:/Users/andre/OneDrive/Documentos/UFV/periodo_vi/Jogos/projeto_final/projeto-final-rafazardo/Source/GameObjects/Trigger.cpp">
+			<Option target="projeto-final-inf216"/>
+		</Unit>
+		<Unit filename="C:/Users/andre/OneDrive/Documentos/UFV/periodo_vi/Jogos/projeto_final/projeto-final-rafazardo/Source/GameObjects/Trigger.h">
+			<Option target="projeto-final-inf216"/>
+		</Unit>
+		<Unit filename="C:/Users/andre/OneDrive/Documentos/UFV/periodo_vi/Jogos/projeto_final/projeto-final-rafazardo/Source/GameSpecific/Battle/Action.cpp">
+			<Option target="projeto-final-inf216"/>
+		</Unit>
+		<Unit filename="C:/Users/andre/OneDrive/Documentos/UFV/periodo_vi/Jogos/projeto_final/projeto-final-rafazardo/Source/GameSpecific/Battle/Action.h">
+			<Option target="projeto-final-inf216"/>
+		</Unit>
+		<Unit filename="C:/Users/andre/OneDrive/Documentos/UFV/periodo_vi/Jogos/projeto_final/projeto-final-rafazardo/Source/GameSpecific/Battle/Battle.cpp">
+			<Option target="projeto-final-inf216"/>
+		</Unit>
+		<Unit filename="C:/Users/andre/OneDrive/Documentos/UFV/periodo_vi/Jogos/projeto_final/projeto-final-rafazardo/Source/GameSpecific/Battle/Battle.h">
+			<Option target="projeto-final-inf216"/>
+		</Unit>
+		<Unit filename="C:/Users/andre/OneDrive/Documentos/UFV/periodo_vi/Jogos/projeto_final/projeto-final-rafazardo/Source/GameSpecific/Battle/BattleCharacters/BattleCharacter.cpp">
+			<Option target="projeto-final-inf216"/>
+		</Unit>
+		<Unit filename="C:/Users/andre/OneDrive/Documentos/UFV/periodo_vi/Jogos/projeto_final/projeto-final-rafazardo/Source/GameSpecific/Battle/BattleCharacters/BattleCharacter.h">
+			<Option target="projeto-final-inf216"/>
+		</Unit>
+		<Unit filename="C:/Users/andre/OneDrive/Documentos/UFV/periodo_vi/Jogos/projeto_final/projeto-final-rafazardo/Source/GameSpecific/Battle/BattleCharacters/BattleEnemy.cpp">
+			<Option target="projeto-final-inf216"/>
+		</Unit>
+		<Unit filename="C:/Users/andre/OneDrive/Documentos/UFV/periodo_vi/Jogos/projeto_final/projeto-final-rafazardo/Source/GameSpecific/Battle/BattleCharacters/BattleEnemy.h">
+			<Option target="projeto-final-inf216"/>
+		</Unit>
+		<Unit filename="C:/Users/andre/OneDrive/Documentos/UFV/periodo_vi/Jogos/projeto_final/projeto-final-rafazardo/Source/GameSpecific/Battle/BattleCharacters/BattlePlayer.cpp">
+			<Option target="projeto-final-inf216"/>
+		</Unit>
+		<Unit filename="C:/Users/andre/OneDrive/Documentos/UFV/periodo_vi/Jogos/projeto_final/projeto-final-rafazardo/Source/GameSpecific/Battle/BattleCharacters/BattlePlayer.h">
+			<Option target="projeto-final-inf216"/>
+		</Unit>
+		<Unit filename="C:/Users/andre/OneDrive/Documentos/UFV/periodo_vi/Jogos/projeto_final/projeto-final-rafazardo/Source/GameSpecific/Characters/Character.cpp">
+			<Option target="projeto-final-inf216"/>
+		</Unit>
+		<Unit filename="C:/Users/andre/OneDrive/Documentos/UFV/periodo_vi/Jogos/projeto_final/projeto-final-rafazardo/Source/GameSpecific/Characters/Character.h">
+			<Option target="projeto-final-inf216"/>
+		</Unit>
+		<Unit filename="C:/Users/andre/OneDrive/Documentos/UFV/periodo_vi/Jogos/projeto_final/projeto-final-rafazardo/Source/GameSpecific/Characters/Crafter.cpp">
+			<Option target="projeto-final-inf216"/>
+		</Unit>
+		<Unit filename="C:/Users/andre/OneDrive/Documentos/UFV/periodo_vi/Jogos/projeto_final/projeto-final-rafazardo/Source/GameSpecific/Characters/Crafter.h">
+			<Option target="projeto-final-inf216"/>
+		</Unit>
+		<Unit filename="C:/Users/andre/OneDrive/Documentos/UFV/periodo_vi/Jogos/projeto_final/projeto-final-rafazardo/Source/GameSpecific/Characters/Enemies/Bat.cpp">
+			<Option target="projeto-final-inf216"/>
+		</Unit>
+		<Unit filename="C:/Users/andre/OneDrive/Documentos/UFV/periodo_vi/Jogos/projeto_final/projeto-final-rafazardo/Source/GameSpecific/Characters/Enemies/Bat.h">
+			<Option target="projeto-final-inf216"/>
+		</Unit>
+		<Unit filename="C:/Users/andre/OneDrive/Documentos/UFV/periodo_vi/Jogos/projeto_final/projeto-final-rafazardo/Source/GameSpecific/Characters/Enemies/States/BatIdleState.cpp">
+			<Option target="projeto-final-inf216"/>
+		</Unit>
+		<Unit filename="C:/Users/andre/OneDrive/Documentos/UFV/periodo_vi/Jogos/projeto_final/projeto-final-rafazardo/Source/GameSpecific/Characters/Enemies/States/BatIdleState.h">
+			<Option target="projeto-final-inf216"/>
+		</Unit>
+		<Unit filename="C:/Users/andre/OneDrive/Documentos/UFV/periodo_vi/Jogos/projeto_final/projeto-final-rafazardo/Source/GameSpecific/Characters/Enemies/States/BatMovingState.cpp">
+			<Option target="projeto-final-inf216"/>
+		</Unit>
+		<Unit filename="C:/Users/andre/OneDrive/Documentos/UFV/periodo_vi/Jogos/projeto_final/projeto-final-rafazardo/Source/GameSpecific/Characters/Enemies/States/BatMovingState.h">
+			<Option target="projeto-final-inf216"/>
+		</Unit>
+		<Unit filename="C:/Users/andre/OneDrive/Documentos/UFV/periodo_vi/Jogos/projeto_final/projeto-final-rafazardo/Source/GameSpecific/Characters/Enemies/States/BatState.cpp">
+			<Option target="projeto-final-inf216"/>
+		</Unit>
+		<Unit filename="C:/Users/andre/OneDrive/Documentos/UFV/periodo_vi/Jogos/projeto_final/projeto-final-rafazardo/Source/GameSpecific/Characters/Enemies/States/BatState.h">
+			<Option target="projeto-final-inf216"/>
+		</Unit>
+		<Unit filename="C:/Users/andre/OneDrive/Documentos/UFV/periodo_vi/Jogos/projeto_final/projeto-final-rafazardo/Source/GameSpecific/Characters/Enemy.cpp">
+			<Option target="projeto-final-inf216"/>
+		</Unit>
+		<Unit filename="C:/Users/andre/OneDrive/Documentos/UFV/periodo_vi/Jogos/projeto_final/projeto-final-rafazardo/Source/GameSpecific/Characters/Enemy.h">
+			<Option target="projeto-final-inf216"/>
+		</Unit>
+		<Unit filename="C:/Users/andre/OneDrive/Documentos/UFV/periodo_vi/Jogos/projeto_final/projeto-final-rafazardo/Source/GameSpecific/Characters/NPC.cpp">
+			<Option target="projeto-final-inf216"/>
+		</Unit>
+		<Unit filename="C:/Users/andre/OneDrive/Documentos/UFV/periodo_vi/Jogos/projeto_final/projeto-final-rafazardo/Source/GameSpecific/Characters/NPC.h">
+			<Option target="projeto-final-inf216"/>
+		</Unit>
+		<Unit filename="C:/Users/andre/OneDrive/Documentos/UFV/periodo_vi/Jogos/projeto_final/projeto-final-rafazardo/Source/GameSpecific/Characters/Player.cpp">
+			<Option target="projeto-final-inf216"/>
+		</Unit>
+		<Unit filename="C:/Users/andre/OneDrive/Documentos/UFV/periodo_vi/Jogos/projeto_final/projeto-final-rafazardo/Source/GameSpecific/Characters/Player.h">
+			<Option target="projeto-final-inf216"/>
+		</Unit>
+		<Unit filename="C:/Users/andre/OneDrive/Documentos/UFV/periodo_vi/Jogos/projeto_final/projeto-final-rafazardo/Source/GameSpecific/Chest.cpp">
+			<Option target="projeto-final-inf216"/>
+		</Unit>
+		<Unit filename="C:/Users/andre/OneDrive/Documentos/UFV/periodo_vi/Jogos/projeto_final/projeto-final-rafazardo/Source/GameSpecific/Chest.h">
+			<Option target="projeto-final-inf216"/>
+		</Unit>
+		<Unit filename="C:/Users/andre/OneDrive/Documentos/UFV/periodo_vi/Jogos/projeto_final/projeto-final-rafazardo/Source/GameSpecific/Inventory.cpp">
+			<Option target="projeto-final-inf216"/>
+		</Unit>
+		<Unit filename="C:/Users/andre/OneDrive/Documentos/UFV/periodo_vi/Jogos/projeto_final/projeto-final-rafazardo/Source/GameSpecific/Inventory.h">
+			<Option target="projeto-final-inf216"/>
+		</Unit>
+		<Unit filename="C:/Users/andre/OneDrive/Documentos/UFV/periodo_vi/Jogos/projeto_final/projeto-final-rafazardo/Source/GameSpecific/Maps/Dungeons/Dungeon.cpp">
+			<Option target="projeto-final-inf216"/>
+		</Unit>
+		<Unit filename="C:/Users/andre/OneDrive/Documentos/UFV/periodo_vi/Jogos/projeto_final/projeto-final-rafazardo/Source/GameSpecific/Maps/Dungeons/Dungeon.h">
+			<Option target="projeto-final-inf216"/>
+		</Unit>
+		<Unit filename="C:/Users/andre/OneDrive/Documentos/UFV/periodo_vi/Jogos/projeto_final/projeto-final-rafazardo/Source/GameSpecific/Maps/Dungeons/DungeonGeneration/DungeonGenerator.cpp">
+			<Option target="projeto-final-inf216"/>
+		</Unit>
+		<Unit filename="C:/Users/andre/OneDrive/Documentos/UFV/periodo_vi/Jogos/projeto_final/projeto-final-rafazardo/Source/GameSpecific/Maps/Dungeons/DungeonGeneration/DungeonGenerator.h">
+			<Option target="projeto-final-inf216"/>
+		</Unit>
+		<Unit filename="C:/Users/andre/OneDrive/Documentos/UFV/periodo_vi/Jogos/projeto_final/projeto-final-rafazardo/Source/GameSpecific/Maps/Dungeons/DungeonGeneration/DungeonGridGeneration.cpp">
+			<Option target="projeto-final-inf216"/>
+		</Unit>
+		<Unit filename="C:/Users/andre/OneDrive/Documentos/UFV/periodo_vi/Jogos/projeto_final/projeto-final-rafazardo/Source/GameSpecific/Maps/Dungeons/DungeonGeneration/LayerGeneration.cpp">
+			<Option target="projeto-final-inf216"/>
+		</Unit>
+		<Unit filename="C:/Users/andre/OneDrive/Documentos/UFV/periodo_vi/Jogos/projeto_final/projeto-final-rafazardo/Source/GameSpecific/Maps/Dungeons/Layer.cpp">
+			<Option target="projeto-final-inf216"/>
+		</Unit>
+		<Unit filename="C:/Users/andre/OneDrive/Documentos/UFV/periodo_vi/Jogos/projeto_final/projeto-final-rafazardo/Source/GameSpecific/Maps/Dungeons/Layer.h">
+			<Option target="projeto-final-inf216"/>
+		</Unit>
+		<Unit filename="C:/Users/andre/OneDrive/Documentos/UFV/periodo_vi/Jogos/projeto_final/projeto-final-rafazardo/Source/GameSpecific/Maps/Dungeons/Room.cpp">
+			<Option target="projeto-final-inf216"/>
+		</Unit>
+		<Unit filename="C:/Users/andre/OneDrive/Documentos/UFV/periodo_vi/Jogos/projeto_final/projeto-final-rafazardo/Source/GameSpecific/Maps/Dungeons/Room.h">
+			<Option target="projeto-final-inf216"/>
+		</Unit>
+		<Unit filename="C:/Users/andre/OneDrive/Documentos/UFV/periodo_vi/Jogos/projeto_final/projeto-final-rafazardo/Source/GameSpecific/Maps/Map.cpp">
+			<Option target="projeto-final-inf216"/>
+		</Unit>
+		<Unit filename="C:/Users/andre/OneDrive/Documentos/UFV/periodo_vi/Jogos/projeto_final/projeto-final-rafazardo/Source/GameSpecific/Maps/Map.h">
+			<Option target="projeto-final-inf216"/>
+		</Unit>
+		<Unit filename="C:/Users/andre/OneDrive/Documentos/UFV/periodo_vi/Jogos/projeto_final/projeto-final-rafazardo/Source/GameSpecific/MyGame.cpp">
+			<Option target="projeto-final-inf216"/>
+		</Unit>
+		<Unit filename="C:/Users/andre/OneDrive/Documentos/UFV/periodo_vi/Jogos/projeto_final/projeto-final-rafazardo/Source/GameSpecific/MyGame.h">
+			<Option target="projeto-final-inf216"/>
+		</Unit>
+		<Unit filename="C:/Users/andre/OneDrive/Documentos/UFV/periodo_vi/Jogos/projeto_final/projeto-final-rafazardo/Source/GameSpecific/Saver.cpp">
+			<Option target="projeto-final-inf216"/>
+		</Unit>
+		<Unit filename="C:/Users/andre/OneDrive/Documentos/UFV/periodo_vi/Jogos/projeto_final/projeto-final-rafazardo/Source/GameSpecific/Saver.h">
+			<Option target="projeto-final-inf216"/>
+		</Unit>
+		<Unit filename="C:/Users/andre/OneDrive/Documentos/UFV/periodo_vi/Jogos/projeto_final/projeto-final-rafazardo/Source/Interfaces/Fade.cpp">
+			<Option target="projeto-final-inf216"/>
+		</Unit>
+		<Unit filename="C:/Users/andre/OneDrive/Documentos/UFV/periodo_vi/Jogos/projeto_final/projeto-final-rafazardo/Source/Interfaces/Fade.h">
+			<Option target="projeto-final-inf216"/>
+		</Unit>
+		<Unit filename="C:/Users/andre/OneDrive/Documentos/UFV/periodo_vi/Jogos/projeto_final/projeto-final-rafazardo/Source/Interfaces/HUDs/BattleHUDs/ActionSelectorBattleHUD.cpp">
+			<Option target="projeto-final-inf216"/>
+		</Unit>
+		<Unit filename="C:/Users/andre/OneDrive/Documentos/UFV/periodo_vi/Jogos/projeto_final/projeto-final-rafazardo/Source/Interfaces/HUDs/BattleHUDs/ActionSelectorBattleHUD.h">
+			<Option target="projeto-final-inf216"/>
+		</Unit>
+		<Unit filename="C:/Users/andre/OneDrive/Documentos/UFV/periodo_vi/Jogos/projeto_final/projeto-final-rafazardo/Source/Interfaces/HUDs/BattleHUDs/BattleHUD.cpp">
+			<Option target="projeto-final-inf216"/>
+		</Unit>
+		<Unit filename="C:/Users/andre/OneDrive/Documentos/UFV/periodo_vi/Jogos/projeto_final/projeto-final-rafazardo/Source/Interfaces/HUDs/BattleHUDs/BattleHUD.h">
+			<Option target="projeto-final-inf216"/>
+		</Unit>
+		<Unit filename="C:/Users/andre/OneDrive/Documentos/UFV/periodo_vi/Jogos/projeto_final/projeto-final-rafazardo/Source/Interfaces/HUDs/BattleHUDs/HPBarBattleHUD.cpp">
+			<Option target="projeto-final-inf216"/>
+		</Unit>
+		<Unit filename="C:/Users/andre/OneDrive/Documentos/UFV/periodo_vi/Jogos/projeto_final/projeto-final-rafazardo/Source/Interfaces/HUDs/BattleHUDs/HPBarBattleHUD.h">
+			<Option target="projeto-final-inf216"/>
+		</Unit>
+		<Unit filename="C:/Users/andre/OneDrive/Documentos/UFV/periodo_vi/Jogos/projeto_final/projeto-final-rafazardo/Source/Interfaces/HUDs/BattleHUDs/ItemSelectorBattleHUD.cpp">
+			<Option target="projeto-final-inf216"/>
+		</Unit>
+		<Unit filename="C:/Users/andre/OneDrive/Documentos/UFV/periodo_vi/Jogos/projeto_final/projeto-final-rafazardo/Source/Interfaces/HUDs/BattleHUDs/ItemSelectorBattleHUD.h">
+			<Option target="projeto-final-inf216"/>
+		</Unit>
+		<Unit filename="C:/Users/andre/OneDrive/Documentos/UFV/periodo_vi/Jogos/projeto_final/projeto-final-rafazardo/Source/Interfaces/HUDs/GameHUDs/PressSpaceHUD.h">
+			<Option target="projeto-final-inf216"/>
+		</Unit>
+		<Unit filename="C:/Users/andre/OneDrive/Documentos/UFV/periodo_vi/Jogos/projeto_final/projeto-final-rafazardo/Source/Interfaces/Interface.cpp">
+			<Option target="projeto-final-inf216"/>
+		</Unit>
+		<Unit filename="C:/Users/andre/OneDrive/Documentos/UFV/periodo_vi/Jogos/projeto_final/projeto-final-rafazardo/Source/Interfaces/Interface.h">
+			<Option target="projeto-final-inf216"/>
+		</Unit>
+		<Unit filename="C:/Users/andre/OneDrive/Documentos/UFV/periodo_vi/Jogos/projeto_final/projeto-final-rafazardo/Source/Main.cpp">
+			<Option target="projeto-final-inf216"/>
+		</Unit>
+		<Unit filename="C:/Users/andre/OneDrive/Documentos/UFV/periodo_vi/Jogos/projeto_final/projeto-final-rafazardo/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="C:/Users/andre/OneDrive/Documentos/UFV/periodo_vi/Jogos/projeto_final/projeto-final-rafazardo/../../../../../../../../../Program Files/SDL2-2.28.2/cmake/sdl2-config-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\..\Program Files\SDL2-2.28.2\cmake\"/>
+		</Unit>
+		<Unit filename="C:/Users/andre/OneDrive/Documentos/UFV/periodo_vi/Jogos/projeto_final/projeto-final-rafazardo/../../../../../../../../../Program Files/SDL2-2.28.2/cmake/sdl2-config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\..\Program Files\SDL2-2.28.2\cmake\"/>
+		</Unit>
+		<Unit filename="C:/Users/andre/OneDrive/Documentos/UFV/periodo_vi/Jogos/projeto_final/projeto-final-rafazardo/../../../../../../../../../Program Files/SDL2_image-2.6.3/cmake/sdl2_image-config-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\..\Program Files\SDL2_image-2.6.3\cmake\"/>
+		</Unit>
+		<Unit filename="C:/Users/andre/OneDrive/Documentos/UFV/periodo_vi/Jogos/projeto_final/projeto-final-rafazardo/../../../../../../../../../Program Files/SDL2_image-2.6.3/cmake/sdl2_image-config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\..\Program Files\SDL2_image-2.6.3\cmake\"/>
+		</Unit>
+		<Unit filename="C:/Users/andre/OneDrive/Documentos/UFV/periodo_vi/Jogos/projeto_final/projeto-final-rafazardo/../../../../../../../../../Program Files/SDL2_mixer-2.6.3/cmake/sdl2_mixer-config-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\..\Program Files\SDL2_mixer-2.6.3\cmake\"/>
+		</Unit>
+		<Unit filename="C:/Users/andre/OneDrive/Documentos/UFV/periodo_vi/Jogos/projeto_final/projeto-final-rafazardo/../../../../../../../../../Program Files/SDL2_mixer-2.6.3/cmake/sdl2_mixer-config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\..\Program Files\SDL2_mixer-2.6.3\cmake\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

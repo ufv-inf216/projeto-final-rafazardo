@@ -72,19 +72,19 @@ void Room::Connect(Room *other, ConnectionSide connection) {
             break;
         case ConnectionSide::Down:
             mConnectedRooms[DOWN] = other;
-            door = new Door(mGame, "../Assets/Sprites/Misc/door.png", mDoorDown,
+            door = new Door(mGame, "", mDoorDown,
                             other->GetDoorPosition(ConnectionSide::Top) + Vector2(0, 48));
             AddGameObject(door);
             break;
         case ConnectionSide::Right:
             mConnectedRooms[RIGHT] = other;
-            door = new Door(mGame, "../Assets/Sprites/Misc/door.png", mDoorRight,
+            door = new Door(mGame, "", mDoorRight,
                             other->GetDoorPosition(ConnectionSide::Left) + Vector2(24, 0));
             AddGameObject(door);
             break;
         case ConnectionSide::Left:
             mConnectedRooms[LEFT] = other;
-            door = new Door(mGame, "../Assets/Sprites/Misc/door.png", mDoorLeft,
+            door = new Door(mGame, "", mDoorLeft,
                             other->GetDoorPosition(ConnectionSide::Right) - Vector2(24, 0));
             AddGameObject(door);
             break;

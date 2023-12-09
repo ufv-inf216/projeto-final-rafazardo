@@ -50,7 +50,7 @@ void MyGame::InitializeGameObjects() {
     mCurrentMap = mDungeonsQueue.front()->GetFirstLayer()->GetFirstRoom();
 
     // Allocate main character
-    int a[] = {20, 20, 12, 10, 10, 11};
+    int a[] = {15, 13, 12, 10, 10, 11};
     Inventory *inventory = new Inventory(100);
     inventory->UpdateItems("item", 0, 1);
     inventory->UpdateItems("item", 1, 1);
@@ -61,9 +61,10 @@ void MyGame::InitializeGameObjects() {
 
     // Set Camera settings.
     mCamera = new Camera(this, Vector2(0,0), Vector2(30*TILE_SIZE, 15*TILE_SIZE),2.f);
-    mCamera->SetScale(2.0f);
+    mCamera->SetScale(4.0f);
     mCamera->SetTarget(mPlayer, Vector2(TILE_SIZE/2, TILE_SIZE/2));
-    // mCamera->SetMask("../Assets/Sprites/Misc/mask.png", 360, 360, 10000);
+    mCamera->SetMask("../Assets/Sprites/Misc/mask.png", 360, 360, 99);
+    mCamera->GetMask()->GetComponent<SpriteComponent>()->SetOffset(Vector2(10, 10));
     mCamera->SetWindow(60, 50);
 
     mCurrentMap->Enable();

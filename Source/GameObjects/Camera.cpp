@@ -16,7 +16,7 @@ Camera::Camera(class MyGame* game, const Vector2 &min, const Vector2 &max, float
 void Camera::SetTarget(class GameObject *target, const Vector2 &offset) {
     mTarget = target;
     mCenter = target->GetPosition() + offset;
-    mPosition = mCenter - Vector2(mGame->GetWindowWidth()/(2*mScale), mGame->GetWindowHeight()/(2*mScale));
+    mPosition = mCenter - Vector2(mGame->GetWindowWidth()/(2*2*mScale), mGame->GetWindowHeight()/(2*2*mScale));
 }
 
 void Camera::OnUpdate(float deltaTime) {

@@ -77,6 +77,7 @@ add_executable(${PROJECT_NAME}
         Source/Interfaces/HUDs/BattleHUDs/ActionSelectorBattleHUD.h
         Source/Interfaces/HUDs/BattleHUDs/ItemSelectorBattleHUD.cpp
         Source/Interfaces/HUDs/BattleHUDs/ItemSelectorBattleHUD.h
+        Source/Interfaces/HUDs/GameHUDs/PressSpaceHUD.h
 )
 
 ####### DO NOT EDIT BELLOW

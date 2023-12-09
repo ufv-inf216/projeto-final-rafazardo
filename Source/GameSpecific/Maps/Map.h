@@ -50,7 +50,7 @@ class Map : public GameObject {
             mSpriteComponent->SetEnabled(false);
             mCollisionMatrixComponent->SetEnabled(false);
             for(auto obj : mGameObjects)
-                obj->Disable();
+                if(obj) obj->Disable();
         }
 
         // Enable Outputs and GameObjects.
@@ -59,10 +59,17 @@ class Map : public GameObject {
             mSpriteComponent->SetEnabled(true);
             mCollisionMatrixComponent->SetEnabled(true);
             for(auto obj : mGameObjects)
-                obj->Enable();
+                if(obj) obj->Enable();
         }
 
         Vector2 GetDimension() { return Vector2(mWidth, mHeight); }
 
         virtual void Initialize(bool enable=false) { return; }
+
+        void Remove(GameObject *game_obj) {
+            game_obj->SetState(GameObjectState::Destroy);
+            auto it = std::find(mGameObjects.begin(), mGameObjects.end(), game_obj);
+            if(it != mGameObjects.end())
+                mGameObjects.erase(it);
+        }
 };

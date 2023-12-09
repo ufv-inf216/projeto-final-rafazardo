@@ -57,8 +57,7 @@ Battle::Battle(class MyGame *game, Player *player, Enemy *enemy):
         e->SetInitiative(init);
     }
     mCurrentInitiative = mInitiatives.begin();
-    mIsRunning = true;
-
+    mIsRunning = false;
 }
 
 Battle::~Battle() {
@@ -78,24 +77,31 @@ void Battle::Start() {
     mBattleState = BattleState::Starting;
 
     SetPosition(Vector2(0, 0));
+    mIsRunning = true;
 }
 
 void Battle::End() {
     mIsRunning = false;
 
-    mGame->Resume(true);
+    // mGame->Resume(false);
+    mGame->GetCurrentMap()->Enable();
+    mGame->GetPlayer()->Enable();
+    mGame->GetCamera()->Enable();
 
     mGame->GetCamera()->SetTarget(mGame->GetPlayer(), Vector2(12, 12));
     mGame->GetCamera()->SetWindow(60, 40);
-    mGame->GetCamera()->SetScale(2.0f);
+    mGame->GetCamera()->SetScale(4.0f);
 
 }
 
 void Battle::OnUpdate(float deltaTime) {
+    if(!mIsRunning) return;
     Action *action;
 
     for(int i=0; i<mHpBars.size(); i++) {
-        mHpBars[i]->SetRectDimension(mBattleEnemies[i]->GetImgDims().x * mBattleEnemies[i]->GetHP() / mBattleEnemies[i]->GetMaxHP(), 7);
+        if(mBattleEnemies[i]->IsAlive())
+            mHpBars[i]->SetRectDimension(mBattleEnemies[i]->GetImgDims().x * mBattleEnemies[i]->GetHP() / mBattleEnemies[i]->GetMaxHP(), 7);
+        else mHpBars[i]->SetRectDimension(0, 7);
     }
 
     switch(mBattleState) {
@@ -115,6 +121,8 @@ void Battle::OnUpdate(float deltaTime) {
                 mFade->Out(false);
 
                 mGame->GetCamera()->SetPosition(GetPosition());
+                if(mGame->GetCamera()->GetMask())
+                    mGame->GetCamera()->GetMask()->Disable();
 
                 mBattleHUD = new BattleHUD(mGame, this);
 
@@ -130,7 +138,6 @@ void Battle::OnUpdate(float deltaTime) {
                 mCurrentInitiative++;
                 if(mCurrentInitiative == mInitiatives.end()) {
                     mCurrentInitiative = mInitiatives.begin();
-                    SDL_Log("\n\n");
                 }
                 return;
             }
@@ -161,31 +168,43 @@ void Battle::OnUpdate(float deltaTime) {
             }
 
             if(!mBattlePlayer->IsAlive()) {
-                mGame->Shutdown();
+                mGame->Quit();
                 return;
             }
             for(int i = 0; i < mBattleEnemies.size(); i++)
                 if(!mBattleEnemies[i]->IsAlive()) {
                     mInitiatives[mBattleEnemies[i]->GetInitiative()] = nullptr;
                     mBattleEnemies[i]->SetState(GameObjectState::Destroy);
-                    mBattleEnemies.erase(mBattleEnemies.begin()+i);
+                    mBattleState = BattleState::Ending;
                 }
-            if(!mBattleEnemies.size())
-                mBattleState = BattleState::Ending;
 
             break;
 
         // Finishing the battle with a Fade.
         case Ending:
-            if(mFade->IsFadding()) return;
-            if(mFade->GetFadeState() == FadeState::In) {
+//            SDL_Log("ENTREIIII\n");
+//            if(QUIT) { mFade->In(nullptr); QUIT = false; }
+//            if(mFade->IsFadding()) return;
+//            if(mFade->GetFadeState() == FadeState::In) {
+//                SDL_Log("ENTREIIII1\n");
+//                End();
+//                mIsRunning = false;
+//                mBattleHUD->SetState(GameObjectState::Destroy);
+//                if(mGame->GetCamera()->GetMask())
+//                    mGame->GetCamera()->GetMask()->Enable();
+//                mFade->Out(false);
+//            } else if(mFade->GetFadeState() == FadeState::Out) {
+//                SDL_Log("ENTREIIII2\n");
+//                SetState(GameObjectState::Destroy);
+//                return;
+//            }
+
                 End();
+                mIsRunning = false;
                 mBattleHUD->SetState(GameObjectState::Destroy);
-                mFade->Out(false);
-            } else if(mFade->GetFadeState() == FadeState::Out) {
+                mGame->GetCamera()->GetMask()->Enable();
                 SetState(GameObjectState::Destroy);
-                return;
-            }
+                mGame->GetCurrentMap()->Remove(mMainEnemy);
 
             break;
     }

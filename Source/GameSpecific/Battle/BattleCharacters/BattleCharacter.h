@@ -30,10 +30,10 @@ class BattleCharacter : public GameObject {
 
         bool mHasAttacked;
 
-        int mHP = 20;
+        int mHP;     // TROCAR
         int mRemoveHeal = -1;
         int mInitiative;
-        int mMaxHP = 100; //TROCAR AQUI HEIN
+        int mMaxHP; //TROCAR AQUI HEIN
 
     public:
         // Constructor

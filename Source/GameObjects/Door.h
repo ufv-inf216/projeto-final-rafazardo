@@ -16,6 +16,7 @@
 #include <string>
 #include <functional>
 #include "../Interfaces/Fade.h"
+#include "../Interfaces/HUDs/GameHUDs/PressSpaceHUD.h"
 
 class Door : public GameObject{
     private:
@@ -28,6 +29,8 @@ class Door : public GameObject{
 
         SpriteComponent *mSpriteComponent;
         Trigger<std::function<void()>> *mTrigger;
+
+        PressSpaceHUD *mHUD;
 
     public:
         Door(MyGame *game, const std::string &texturePath, Vector2 position, Vector2 player_pos);

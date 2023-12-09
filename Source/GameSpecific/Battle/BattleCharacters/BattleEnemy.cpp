@@ -17,6 +17,7 @@ BattleEnemy::BattleEnemy(class MyGame *game, Battle *battle, Enemy *enemy):
     mSheet = enemy->GetCharacterSheet();
     mImgDims = enemy->GetImgDims();
     mSpriteComponent = new SpriteComponent(this, enemy->GetImg(), mImgDims.x, mImgDims.y, 200);
+    mHP = 20; mMaxHP = 20;
 }
 
 Action* BattleEnemy::GetAction() {
@@ -30,9 +31,6 @@ Action* BattleEnemy::GetAction() {
             }
         }
     }
-
-    SDL_Log("%d", EnemyAttacks.size());
-    SDL_Log("%d", EnemyAttackOptions.size());
 
     auto aux = EnemyAttacks[EnemyAttackOptions[mEnemy->GetId()][Random::GetIntRange(0,
                                                                 EnemyAttackOptions[mEnemy->GetId()].size()-1)]];

@@ -42,7 +42,5 @@ void Attack::Apply(BattleCharacter *applier) {
         delta_hp += Random::GetIntRange(1, mDice);
     delta_hp += applier->GetCharacterSheet()->GetMod(mMod);
 
-    SDL_Log("O mMod do venom %d", applier->GetCharacterSheet()->GetMod(mMod));
-
     mTarget->SetHP(mTarget->GetHP() - delta_hp);
 }
