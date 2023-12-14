@@ -97,6 +97,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/projeto-final-inf216.dir/Source/Interfaces/HUDs/BattleHUDs/ActionSelectorBattleHUD.cpp.obj.d"
   "CMakeFiles/projeto-final-inf216.dir/Source/Interfaces/HUDs/BattleHUDs/BattleHUD.cpp.obj"
   "CMakeFiles/projeto-final-inf216.dir/Source/Interfaces/HUDs/BattleHUDs/BattleHUD.cpp.obj.d"
+  "CMakeFiles/projeto-final-inf216.dir/Source/Interfaces/HUDs/BattleHUDs/EnemySelectorBattleHUD.cpp.obj"
+  "CMakeFiles/projeto-final-inf216.dir/Source/Interfaces/HUDs/BattleHUDs/EnemySelectorBattleHUD.cpp.obj.d"
   "CMakeFiles/projeto-final-inf216.dir/Source/Interfaces/HUDs/BattleHUDs/HPBarBattleHUD.cpp.obj"
   "CMakeFiles/projeto-final-inf216.dir/Source/Interfaces/HUDs/BattleHUDs/HPBarBattleHUD.cpp.obj.d"
   "CMakeFiles/projeto-final-inf216.dir/Source/Interfaces/HUDs/BattleHUDs/ItemSelectorBattleHUD.cpp.obj"

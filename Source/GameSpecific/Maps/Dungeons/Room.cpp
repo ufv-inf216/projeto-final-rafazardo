@@ -59,6 +59,44 @@ Room::Room(class MyGame *game, const std::string &jsonPath): Map(game) {
     mArea4 = { v4, v4 + Vector2(jsonData[pos]["areas"][14], jsonData[pos]["areas"][15]) };
 }
 
+Room::Room(class MyGame *game, const std::string &jsonPath, int idx): Map(game) {
+    mConnectedRooms = { nullptr, nullptr, nullptr, nullptr };
+
+    std::ifstream json(jsonPath);
+    nlohmann::json jsonData = nlohmann::json::parse(json);
+
+    // Set map dimensions.
+    mWidth = jsonData[idx]["width"]; mHeight = jsonData[idx]["height"];
+    mWidth *= 24;
+    mHeight *= 24;
+
+    // Set map components.
+    mSpriteComponent = new SpriteComponent(this, jsonData[idx]["dirImg"], mWidth, mHeight, 0);
+    mCollisionMatrixComponent = new CollisionMatrixComponent(this, jsonData[idx]["dirColl"]);
+
+    // All maps will be placed on (0, 0)
+    mPosition = Vector2(0,0);
+
+    // Setting doors idxitions.
+    mDoorTop = 24 * Vector2(jsonData[idx]["doors"][0], jsonData[idx]["doors"][1]);
+    mDoorDown = 24 * Vector2(jsonData[idx]["doors"][2], jsonData[idx]["doors"][3]);
+    mDoorRight = 24 * Vector2(jsonData[idx]["doors"][4], jsonData[idx]["doors"][5]);
+    mDoorLeft = 24 * Vector2(jsonData[idx]["doors"][6], jsonData[idx]["doors"][7]);
+
+    // Setting areas vertices.
+    auto v1 = Vector2(jsonData[idx]["areas"][0], jsonData[idx]["areas"][1]);
+    mArea1 = { v1, v1 + Vector2(jsonData[idx]["areas"][2], jsonData[idx]["areas"][3]) };
+
+    auto v2 = Vector2(jsonData[idx]["areas"][4], jsonData[idx]["areas"][5]);
+    mArea2 = { v2, v2 + Vector2(jsonData[idx]["areas"][6], jsonData[idx]["areas"][7]) };
+
+    auto v3 = Vector2(jsonData[idx]["areas"][8], jsonData[idx]["areas"][9]);
+    mArea3 = { v3, v3 + Vector2(jsonData[idx]["areas"][10], jsonData[idx]["areas"][11]) };
+
+    auto v4 = Vector2(jsonData[idx]["areas"][12], jsonData[idx]["areas"][13]);
+    mArea4 = { v4, v4 + Vector2(jsonData[idx]["areas"][14], jsonData[idx]["areas"][15]) };
+}
+
 void Room::Connect(Room *other, ConnectionSide connection) {
 
     Door *door;

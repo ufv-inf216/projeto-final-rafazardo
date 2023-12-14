@@ -16,8 +16,11 @@ BattleEnemy::BattleEnemy(class MyGame *game, Battle *battle, Enemy *enemy):
 
     mSheet = enemy->GetCharacterSheet();
     mImgDims = enemy->GetImgDims();
-    mSpriteComponent = new SpriteComponent(this, enemy->GetImg(), mImgDims.x, mImgDims.y, 200);
-    mHP = 20; mMaxHP = 20;
+    mSpriteComponent = new SpriteComponent(this, enemy->GetImg(),
+                                           mImgDims.x, mImgDims.y, 200);
+
+    mMaxHP = enemy->GetMaxHP();
+    mHP = enemy->GetCurrentHP();
 }
 
 Action* BattleEnemy::GetAction() {

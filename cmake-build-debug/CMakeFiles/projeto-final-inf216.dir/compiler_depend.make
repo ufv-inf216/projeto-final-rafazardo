@@ -846,6 +846,10 @@ CMakeFiles\projeto-final-inf216.dir\Source\Components\ColliderComponents\BoxColl
 CMakeFiles\projeto-final-inf216.dir\Source\Components\ColliderComponents\BoxColliderComponent.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\GameSpecific\Characters\Enemy.h
 CMakeFiles\projeto-final-inf216.dir\Source\Components\ColliderComponents\BoxColliderComponent.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\GameSpecific\..\Interfaces\Fade.h
 CMakeFiles\projeto-final-inf216.dir\Source\Components\ColliderComponents\BoxColliderComponent.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\Interfaces\..\Components\DrawComponents\DrawRectComponent.h
+CMakeFiles\projeto-final-inf216.dir\Source\Components\ColliderComponents\BoxColliderComponent.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\GameSpecific\..\Interfaces\Menus\MainMenu.h
+CMakeFiles\projeto-final-inf216.dir\Source\Components\ColliderComponents\BoxColliderComponent.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\Interfaces\Menus\Menu.h
+CMakeFiles\projeto-final-inf216.dir\Source\Components\ColliderComponents\BoxColliderComponent.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\GameSpecific\..\Interfaces\Menus\CharacterCreationMenu.h
+CMakeFiles\projeto-final-inf216.dir\Source\Components\ColliderComponents\BoxColliderComponent.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\GameSpecific\..\Interfaces\Menus\GameOver.h
 
 
 CMakeFiles\projeto-final-inf216.dir\Source\Components\ColliderComponents\CollisionMatrixComponent.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\Components\ColliderComponents\CollisionMatrixComponent.cpp
@@ -1718,6 +1722,10 @@ CMakeFiles\projeto-final-inf216.dir\Source\Components\DrawComponents\AnimatedSpr
 CMakeFiles\projeto-final-inf216.dir\Source\Components\DrawComponents\AnimatedSpriteComponent.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\GameSpecific\Characters\Enemy.h
 CMakeFiles\projeto-final-inf216.dir\Source\Components\DrawComponents\AnimatedSpriteComponent.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\GameSpecific\..\Interfaces\Fade.h
 CMakeFiles\projeto-final-inf216.dir\Source\Components\DrawComponents\AnimatedSpriteComponent.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\Interfaces\..\Components\DrawComponents\DrawRectComponent.h
+CMakeFiles\projeto-final-inf216.dir\Source\Components\DrawComponents\AnimatedSpriteComponent.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\GameSpecific\..\Interfaces\Menus\MainMenu.h
+CMakeFiles\projeto-final-inf216.dir\Source\Components\DrawComponents\AnimatedSpriteComponent.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\Interfaces\Menus\Menu.h
+CMakeFiles\projeto-final-inf216.dir\Source\Components\DrawComponents\AnimatedSpriteComponent.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\GameSpecific\..\Interfaces\Menus\CharacterCreationMenu.h
+CMakeFiles\projeto-final-inf216.dir\Source\Components\DrawComponents\AnimatedSpriteComponent.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\GameSpecific\..\Interfaces\Menus\GameOver.h
 
 
 CMakeFiles\projeto-final-inf216.dir\Source\Components\DrawComponents\DrawComponent.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\Components\DrawComponents\DrawComponent.cpp
@@ -2051,6 +2059,10 @@ CMakeFiles\projeto-final-inf216.dir\Source\Components\DrawComponents\DrawCompone
 CMakeFiles\projeto-final-inf216.dir\Source\Components\DrawComponents\DrawComponent.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\GameSpecific\Characters\Enemy.h
 CMakeFiles\projeto-final-inf216.dir\Source\Components\DrawComponents\DrawComponent.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\GameSpecific\..\Interfaces\Fade.h
 CMakeFiles\projeto-final-inf216.dir\Source\Components\DrawComponents\DrawComponent.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\Interfaces\..\Components\DrawComponents\DrawRectComponent.h
+CMakeFiles\projeto-final-inf216.dir\Source\Components\DrawComponents\DrawComponent.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\GameSpecific\..\Interfaces\Menus\MainMenu.h
+CMakeFiles\projeto-final-inf216.dir\Source\Components\DrawComponents\DrawComponent.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\Interfaces\Menus\Menu.h
+CMakeFiles\projeto-final-inf216.dir\Source\Components\DrawComponents\DrawComponent.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\GameSpecific\..\Interfaces\Menus\CharacterCreationMenu.h
+CMakeFiles\projeto-final-inf216.dir\Source\Components\DrawComponents\DrawComponent.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\GameSpecific\..\Interfaces\Menus\GameOver.h
 
 
 CMakeFiles\projeto-final-inf216.dir\Source\Components\DrawComponents\DrawPolygonComponent.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\Components\DrawComponents\DrawPolygonComponent.cpp
@@ -2385,6 +2397,10 @@ CMakeFiles\projeto-final-inf216.dir\Source\Components\DrawComponents\DrawPolygon
 CMakeFiles\projeto-final-inf216.dir\Source\Components\DrawComponents\DrawPolygonComponent.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\GameSpecific\Characters\Enemy.h
 CMakeFiles\projeto-final-inf216.dir\Source\Components\DrawComponents\DrawPolygonComponent.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\GameSpecific\..\Interfaces\Fade.h
 CMakeFiles\projeto-final-inf216.dir\Source\Components\DrawComponents\DrawPolygonComponent.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\Interfaces\..\Components\DrawComponents\DrawRectComponent.h
+CMakeFiles\projeto-final-inf216.dir\Source\Components\DrawComponents\DrawPolygonComponent.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\GameSpecific\..\Interfaces\Menus\MainMenu.h
+CMakeFiles\projeto-final-inf216.dir\Source\Components\DrawComponents\DrawPolygonComponent.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\Interfaces\Menus\Menu.h
+CMakeFiles\projeto-final-inf216.dir\Source\Components\DrawComponents\DrawPolygonComponent.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\GameSpecific\..\Interfaces\Menus\CharacterCreationMenu.h
+CMakeFiles\projeto-final-inf216.dir\Source\Components\DrawComponents\DrawPolygonComponent.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\GameSpecific\..\Interfaces\Menus\GameOver.h
 
 
 CMakeFiles\projeto-final-inf216.dir\Source\Components\DrawComponents\DrawRectComponent.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\Components\DrawComponents\DrawRectComponent.cpp
@@ -2718,6 +2734,10 @@ CMakeFiles\projeto-final-inf216.dir\Source\Components\DrawComponents\DrawRectCom
 CMakeFiles\projeto-final-inf216.dir\Source\Components\DrawComponents\DrawRectComponent.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\deque"
 CMakeFiles\projeto-final-inf216.dir\Source\Components\DrawComponents\DrawRectComponent.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\GameSpecific\Characters\Enemy.h
 CMakeFiles\projeto-final-inf216.dir\Source\Components\DrawComponents\DrawRectComponent.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\GameSpecific\..\Interfaces\Fade.h
+CMakeFiles\projeto-final-inf216.dir\Source\Components\DrawComponents\DrawRectComponent.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\GameSpecific\..\Interfaces\Menus\MainMenu.h
+CMakeFiles\projeto-final-inf216.dir\Source\Components\DrawComponents\DrawRectComponent.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\Interfaces\Menus\Menu.h
+CMakeFiles\projeto-final-inf216.dir\Source\Components\DrawComponents\DrawRectComponent.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\GameSpecific\..\Interfaces\Menus\CharacterCreationMenu.h
+CMakeFiles\projeto-final-inf216.dir\Source\Components\DrawComponents\DrawRectComponent.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\GameSpecific\..\Interfaces\Menus\GameOver.h
 
 
 CMakeFiles\projeto-final-inf216.dir\Source\Components\DrawComponents\SpriteComponent.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\Components\DrawComponents\SpriteComponent.cpp
@@ -3051,6 +3071,10 @@ CMakeFiles\projeto-final-inf216.dir\Source\Components\DrawComponents\SpriteCompo
 CMakeFiles\projeto-final-inf216.dir\Source\Components\DrawComponents\SpriteComponent.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\GameSpecific\Characters\Enemy.h
 CMakeFiles\projeto-final-inf216.dir\Source\Components\DrawComponents\SpriteComponent.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\GameSpecific\..\Interfaces\Fade.h
 CMakeFiles\projeto-final-inf216.dir\Source\Components\DrawComponents\SpriteComponent.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\Interfaces\..\Components\DrawComponents\DrawRectComponent.h
+CMakeFiles\projeto-final-inf216.dir\Source\Components\DrawComponents\SpriteComponent.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\GameSpecific\..\Interfaces\Menus\MainMenu.h
+CMakeFiles\projeto-final-inf216.dir\Source\Components\DrawComponents\SpriteComponent.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\Interfaces\Menus\Menu.h
+CMakeFiles\projeto-final-inf216.dir\Source\Components\DrawComponents\SpriteComponent.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\GameSpecific\..\Interfaces\Menus\CharacterCreationMenu.h
+CMakeFiles\projeto-final-inf216.dir\Source\Components\DrawComponents\SpriteComponent.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\GameSpecific\..\Interfaces\Menus\GameOver.h
 
 
 CMakeFiles\projeto-final-inf216.dir\Source\Components\PhysicsComponents\RigidBodyComponent.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\Components\PhysicsComponents\RigidBodyComponent.cpp
@@ -4724,6 +4748,10 @@ CMakeFiles\projeto-final-inf216.dir\Source\GameObjects\Camera.cpp.obj: "C:\Progr
 CMakeFiles\projeto-final-inf216.dir\Source\GameObjects\Camera.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\GameSpecific\Characters\Enemy.h
 CMakeFiles\projeto-final-inf216.dir\Source\GameObjects\Camera.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\GameSpecific\..\Interfaces\Fade.h
 CMakeFiles\projeto-final-inf216.dir\Source\GameObjects\Camera.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\Interfaces\..\Components\DrawComponents\DrawRectComponent.h
+CMakeFiles\projeto-final-inf216.dir\Source\GameObjects\Camera.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\GameSpecific\..\Interfaces\Menus\MainMenu.h
+CMakeFiles\projeto-final-inf216.dir\Source\GameObjects\Camera.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\Interfaces\Menus\Menu.h
+CMakeFiles\projeto-final-inf216.dir\Source\GameObjects\Camera.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\GameSpecific\..\Interfaces\Menus\CharacterCreationMenu.h
+CMakeFiles\projeto-final-inf216.dir\Source\GameObjects\Camera.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\GameSpecific\..\Interfaces\Menus\GameOver.h
 
 
 CMakeFiles\projeto-final-inf216.dir\Source\GameObjects\Door.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\GameObjects\Door.cpp
@@ -5058,6 +5086,10 @@ CMakeFiles\projeto-final-inf216.dir\Source\GameObjects\Door.cpp.obj: "C:\Program
 CMakeFiles\projeto-final-inf216.dir\Source\GameObjects\Door.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\GameSpecific\Characters\Enemy.h
 CMakeFiles\projeto-final-inf216.dir\Source\GameObjects\Door.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\GameSpecific\..\Interfaces\Fade.h
 CMakeFiles\projeto-final-inf216.dir\Source\GameObjects\Door.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\Interfaces\..\Components\DrawComponents\DrawRectComponent.h
+CMakeFiles\projeto-final-inf216.dir\Source\GameObjects\Door.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\GameSpecific\..\Interfaces\Menus\MainMenu.h
+CMakeFiles\projeto-final-inf216.dir\Source\GameObjects\Door.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\Interfaces\Menus\Menu.h
+CMakeFiles\projeto-final-inf216.dir\Source\GameObjects\Door.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\GameSpecific\..\Interfaces\Menus\CharacterCreationMenu.h
+CMakeFiles\projeto-final-inf216.dir\Source\GameObjects\Door.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\GameSpecific\..\Interfaces\Menus\GameOver.h
 CMakeFiles\projeto-final-inf216.dir\Source\GameObjects\Door.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\GameObjects\Trigger.h
 CMakeFiles\projeto-final-inf216.dir\Source\GameObjects\Door.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\GameObjects\..\Components\DrawComponents\DrawPolygonComponent.h
 CMakeFiles\projeto-final-inf216.dir\Source\GameObjects\Door.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\GameObjects\..\Interfaces\HUDs\GameHUDs\PressSpaceHUD.h
@@ -5394,6 +5426,10 @@ CMakeFiles\projeto-final-inf216.dir\Source\GameObjects\GameObject.cpp.obj: "C:\P
 CMakeFiles\projeto-final-inf216.dir\Source\GameObjects\GameObject.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\GameSpecific\Characters\Enemy.h
 CMakeFiles\projeto-final-inf216.dir\Source\GameObjects\GameObject.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\GameSpecific\..\Interfaces\Fade.h
 CMakeFiles\projeto-final-inf216.dir\Source\GameObjects\GameObject.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\Interfaces\..\Components\DrawComponents\DrawRectComponent.h
+CMakeFiles\projeto-final-inf216.dir\Source\GameObjects\GameObject.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\GameSpecific\..\Interfaces\Menus\MainMenu.h
+CMakeFiles\projeto-final-inf216.dir\Source\GameObjects\GameObject.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\Interfaces\Menus\Menu.h
+CMakeFiles\projeto-final-inf216.dir\Source\GameObjects\GameObject.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\GameSpecific\..\Interfaces\Menus\CharacterCreationMenu.h
+CMakeFiles\projeto-final-inf216.dir\Source\GameObjects\GameObject.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\GameSpecific\..\Interfaces\Menus\GameOver.h
 
 
 CMakeFiles\projeto-final-inf216.dir\Source\GameObjects\Spawner.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\GameObjects\Spawner.cpp
@@ -6312,6 +6348,10 @@ CMakeFiles\projeto-final-inf216.dir\Source\GameSpecific\Battle\Battle.cpp.obj: "
 CMakeFiles\projeto-final-inf216.dir\Source\GameSpecific\Battle\Battle.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\GameSpecific\Characters\Enemy.h
 CMakeFiles\projeto-final-inf216.dir\Source\GameSpecific\Battle\Battle.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\GameSpecific\..\Interfaces\Fade.h
 CMakeFiles\projeto-final-inf216.dir\Source\GameSpecific\Battle\Battle.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\Interfaces\..\Components\DrawComponents\DrawRectComponent.h
+CMakeFiles\projeto-final-inf216.dir\Source\GameSpecific\Battle\Battle.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\GameSpecific\..\Interfaces\Menus\MainMenu.h
+CMakeFiles\projeto-final-inf216.dir\Source\GameSpecific\Battle\Battle.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\Interfaces\Menus\Menu.h
+CMakeFiles\projeto-final-inf216.dir\Source\GameSpecific\Battle\Battle.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\GameSpecific\..\Interfaces\Menus\CharacterCreationMenu.h
+CMakeFiles\projeto-final-inf216.dir\Source\GameSpecific\Battle\Battle.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\GameSpecific\..\Interfaces\Menus\GameOver.h
 CMakeFiles\projeto-final-inf216.dir\Source\GameSpecific\Battle\Battle.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\GameSpecific\Battle\BattleCharacters\BattleCharacter.h
 CMakeFiles\projeto-final-inf216.dir\Source\GameSpecific\Battle\Battle.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\GameSpecific\Battle\BattleCharacters\..\Action.h
 CMakeFiles\projeto-final-inf216.dir\Source\GameSpecific\Battle\Battle.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\GameSpecific\Battle\BattleCharacters\BattleEnemy.h
@@ -6325,6 +6365,7 @@ CMakeFiles\projeto-final-inf216.dir\Source\GameSpecific\Battle\Battle.cpp.obj: C
 CMakeFiles\projeto-final-inf216.dir\Source\GameSpecific\Battle\Battle.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\Interfaces\HUDs\BattleHUDs\.\HPBarBattleHUD.h
 CMakeFiles\projeto-final-inf216.dir\Source\GameSpecific\Battle\Battle.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\Interfaces\HUDs\BattleHUDs\.\ActionSelectorBattleHUD.h
 CMakeFiles\projeto-final-inf216.dir\Source\GameSpecific\Battle\Battle.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\Interfaces\HUDs\BattleHUDs\.\ItemSelectorBattleHUD.h
+CMakeFiles\projeto-final-inf216.dir\Source\GameSpecific\Battle\Battle.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\Interfaces\HUDs\BattleHUDs\.\EnemySelectorBattleHUD.h
 
 
 CMakeFiles\projeto-final-inf216.dir\Source\GameSpecific\Battle\BattleCharacters\BattleCharacter.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\GameSpecific\Battle\BattleCharacters\BattleCharacter.cpp
@@ -6983,6 +7024,10 @@ CMakeFiles\projeto-final-inf216.dir\Source\GameSpecific\Battle\BattleCharacters\
 CMakeFiles\projeto-final-inf216.dir\Source\GameSpecific\Battle\BattleCharacters\BattleEnemy.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\deque"
 CMakeFiles\projeto-final-inf216.dir\Source\GameSpecific\Battle\BattleCharacters\BattleEnemy.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\GameSpecific\..\Interfaces\Fade.h
 CMakeFiles\projeto-final-inf216.dir\Source\GameSpecific\Battle\BattleCharacters\BattleEnemy.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\Interfaces\..\Components\DrawComponents\DrawRectComponent.h
+CMakeFiles\projeto-final-inf216.dir\Source\GameSpecific\Battle\BattleCharacters\BattleEnemy.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\GameSpecific\..\Interfaces\Menus\MainMenu.h
+CMakeFiles\projeto-final-inf216.dir\Source\GameSpecific\Battle\BattleCharacters\BattleEnemy.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\Interfaces\Menus\Menu.h
+CMakeFiles\projeto-final-inf216.dir\Source\GameSpecific\Battle\BattleCharacters\BattleEnemy.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\GameSpecific\..\Interfaces\Menus\CharacterCreationMenu.h
+CMakeFiles\projeto-final-inf216.dir\Source\GameSpecific\Battle\BattleCharacters\BattleEnemy.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\GameSpecific\..\Interfaces\Menus\GameOver.h
 CMakeFiles\projeto-final-inf216.dir\Source\GameSpecific\Battle\BattleCharacters\BattleEnemy.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\GameSpecific\Battle\..\..\Components\AIComponents\FSMComponent.h
 CMakeFiles\projeto-final-inf216.dir\Source\GameSpecific\Battle\BattleCharacters\BattleEnemy.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\Components\AIComponents\FSMState.h
 CMakeFiles\projeto-final-inf216.dir\Source\GameSpecific\Battle\BattleCharacters\BattleEnemy.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\GameSpecific\Battle\BattleCharacters\..\..\..\Game\Random.h
@@ -7322,6 +7367,10 @@ CMakeFiles\projeto-final-inf216.dir\Source\GameSpecific\Battle\BattleCharacters\
 CMakeFiles\projeto-final-inf216.dir\Source\GameSpecific\Battle\BattleCharacters\BattlePlayer.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\GameSpecific\Characters\Enemy.h
 CMakeFiles\projeto-final-inf216.dir\Source\GameSpecific\Battle\BattleCharacters\BattlePlayer.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\GameSpecific\..\Interfaces\Fade.h
 CMakeFiles\projeto-final-inf216.dir\Source\GameSpecific\Battle\BattleCharacters\BattlePlayer.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\Interfaces\..\Components\DrawComponents\DrawRectComponent.h
+CMakeFiles\projeto-final-inf216.dir\Source\GameSpecific\Battle\BattleCharacters\BattlePlayer.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\GameSpecific\..\Interfaces\Menus\MainMenu.h
+CMakeFiles\projeto-final-inf216.dir\Source\GameSpecific\Battle\BattleCharacters\BattlePlayer.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\Interfaces\Menus\Menu.h
+CMakeFiles\projeto-final-inf216.dir\Source\GameSpecific\Battle\BattleCharacters\BattlePlayer.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\GameSpecific\..\Interfaces\Menus\CharacterCreationMenu.h
+CMakeFiles\projeto-final-inf216.dir\Source\GameSpecific\Battle\BattleCharacters\BattlePlayer.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\GameSpecific\..\Interfaces\Menus\GameOver.h
 CMakeFiles\projeto-final-inf216.dir\Source\GameSpecific\Battle\BattleCharacters\BattlePlayer.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\GameSpecific\Battle\BattleCharacters\BattleCharacter.h
 CMakeFiles\projeto-final-inf216.dir\Source\GameSpecific\Battle\BattleCharacters\BattlePlayer.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\GameSpecific\Battle\BattleCharacters\..\Action.h
 CMakeFiles\projeto-final-inf216.dir\Source\GameSpecific\Battle\BattleCharacters\BattlePlayer.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\GameSpecific\Battle\BattleCharacters\..\Battle.h
@@ -9583,6 +9632,10 @@ CMakeFiles\projeto-final-inf216.dir\Source\GameSpecific\Characters\Enemy.cpp.obj
 CMakeFiles\projeto-final-inf216.dir\Source\GameSpecific\Characters\Enemy.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\deque"
 CMakeFiles\projeto-final-inf216.dir\Source\GameSpecific\Characters\Enemy.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\GameSpecific\..\Interfaces\Fade.h
 CMakeFiles\projeto-final-inf216.dir\Source\GameSpecific\Characters\Enemy.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\Interfaces\..\Components\DrawComponents\DrawRectComponent.h
+CMakeFiles\projeto-final-inf216.dir\Source\GameSpecific\Characters\Enemy.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\GameSpecific\..\Interfaces\Menus\MainMenu.h
+CMakeFiles\projeto-final-inf216.dir\Source\GameSpecific\Characters\Enemy.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\Interfaces\Menus\Menu.h
+CMakeFiles\projeto-final-inf216.dir\Source\GameSpecific\Characters\Enemy.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\GameSpecific\..\Interfaces\Menus\CharacterCreationMenu.h
+CMakeFiles\projeto-final-inf216.dir\Source\GameSpecific\Characters\Enemy.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\GameSpecific\..\Interfaces\Menus\GameOver.h
 CMakeFiles\projeto-final-inf216.dir\Source\GameSpecific\Characters\Enemy.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\GameSpecific\Characters\..\Battle\Battle.h
 CMakeFiles\projeto-final-inf216.dir\Source\GameSpecific\Characters\Enemy.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\GameSpecific\Battle\BattleCharacters\BattlePlayer.h
 CMakeFiles\projeto-final-inf216.dir\Source\GameSpecific\Characters\Enemy.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\GameSpecific\Battle\BattleCharacters\BattleCharacter.h
@@ -9909,6 +9962,7 @@ CMakeFiles\projeto-final-inf216.dir\Source\GameSpecific\Characters\NPC.cpp.obj: 
 CMakeFiles\projeto-final-inf216.dir\Source\GameSpecific\Characters\NPC.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\GameSpecific\Characters\..\..\Game\Game.h
 CMakeFiles\projeto-final-inf216.dir\Source\GameSpecific\Characters\NPC.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\Game\..\GameObjects\Camera.h
 CMakeFiles\projeto-final-inf216.dir\Source\GameSpecific\Characters\NPC.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\GameObjects\..\Interfaces\Mask.h
+CMakeFiles\projeto-final-inf216.dir\Source\GameSpecific\Characters\NPC.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\GameSpecific\Characters\..\Quests\Quest.h
 
 
 CMakeFiles\projeto-final-inf216.dir\Source\GameSpecific\Characters\Player.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\GameSpecific\Characters\Player.cpp
@@ -10242,6 +10296,10 @@ CMakeFiles\projeto-final-inf216.dir\Source\GameSpecific\Characters\Player.cpp.ob
 CMakeFiles\projeto-final-inf216.dir\Source\GameSpecific\Characters\Player.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\GameSpecific\Characters\Enemy.h
 CMakeFiles\projeto-final-inf216.dir\Source\GameSpecific\Characters\Player.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\GameSpecific\..\Interfaces\Fade.h
 CMakeFiles\projeto-final-inf216.dir\Source\GameSpecific\Characters\Player.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\Interfaces\..\Components\DrawComponents\DrawRectComponent.h
+CMakeFiles\projeto-final-inf216.dir\Source\GameSpecific\Characters\Player.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\GameSpecific\..\Interfaces\Menus\MainMenu.h
+CMakeFiles\projeto-final-inf216.dir\Source\GameSpecific\Characters\Player.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\Interfaces\Menus\Menu.h
+CMakeFiles\projeto-final-inf216.dir\Source\GameSpecific\Characters\Player.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\GameSpecific\..\Interfaces\Menus\CharacterCreationMenu.h
+CMakeFiles\projeto-final-inf216.dir\Source\GameSpecific\Characters\Player.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\GameSpecific\..\Interfaces\Menus\GameOver.h
 
 
 CMakeFiles\projeto-final-inf216.dir\Source\GameSpecific\Chest.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\GameSpecific\Chest.cpp
@@ -10575,6 +10633,10 @@ CMakeFiles\projeto-final-inf216.dir\Source\GameSpecific\Chest.cpp.obj: "C:\Progr
 CMakeFiles\projeto-final-inf216.dir\Source\GameSpecific\Chest.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\GameSpecific\Characters\Enemy.h
 CMakeFiles\projeto-final-inf216.dir\Source\GameSpecific\Chest.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\GameSpecific\..\Interfaces\Fade.h
 CMakeFiles\projeto-final-inf216.dir\Source\GameSpecific\Chest.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\Interfaces\..\Components\DrawComponents\DrawRectComponent.h
+CMakeFiles\projeto-final-inf216.dir\Source\GameSpecific\Chest.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\GameSpecific\..\Interfaces\Menus\MainMenu.h
+CMakeFiles\projeto-final-inf216.dir\Source\GameSpecific\Chest.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\Interfaces\Menus\Menu.h
+CMakeFiles\projeto-final-inf216.dir\Source\GameSpecific\Chest.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\GameSpecific\..\Interfaces\Menus\CharacterCreationMenu.h
+CMakeFiles\projeto-final-inf216.dir\Source\GameSpecific\Chest.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\GameSpecific\..\Interfaces\Menus\GameOver.h
 
 
 CMakeFiles\projeto-final-inf216.dir\Source\GameSpecific\Inventory.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\GameSpecific\Inventory.cpp
@@ -12629,6 +12691,10 @@ CMakeFiles\projeto-final-inf216.dir\Source\GameSpecific\Maps\Dungeons\Room.cpp.o
 CMakeFiles\projeto-final-inf216.dir\Source\GameSpecific\Maps\Dungeons\Room.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\deque"
 CMakeFiles\projeto-final-inf216.dir\Source\GameSpecific\Maps\Dungeons\Room.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\GameSpecific\..\Interfaces\Fade.h
 CMakeFiles\projeto-final-inf216.dir\Source\GameSpecific\Maps\Dungeons\Room.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\Interfaces\..\Components\DrawComponents\DrawRectComponent.h
+CMakeFiles\projeto-final-inf216.dir\Source\GameSpecific\Maps\Dungeons\Room.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\GameSpecific\..\Interfaces\Menus\MainMenu.h
+CMakeFiles\projeto-final-inf216.dir\Source\GameSpecific\Maps\Dungeons\Room.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\Interfaces\Menus\Menu.h
+CMakeFiles\projeto-final-inf216.dir\Source\GameSpecific\Maps\Dungeons\Room.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\GameSpecific\..\Interfaces\Menus\CharacterCreationMenu.h
+CMakeFiles\projeto-final-inf216.dir\Source\GameSpecific\Maps\Dungeons\Room.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\GameSpecific\..\Interfaces\Menus\GameOver.h
 CMakeFiles\projeto-final-inf216.dir\Source\GameSpecific\Maps\Dungeons\Room.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\GameObjects\Trigger.h
 CMakeFiles\projeto-final-inf216.dir\Source\GameSpecific\Maps\Dungeons\Room.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\GameObjects\..\Components\DrawComponents\DrawPolygonComponent.h
 CMakeFiles\projeto-final-inf216.dir\Source\GameSpecific\Maps\Dungeons\Room.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\GameObjects\..\Interfaces\HUDs\GameHUDs\PressSpaceHUD.h
@@ -13225,6 +13291,10 @@ CMakeFiles\projeto-final-inf216.dir\Source\GameSpecific\MyGame.cpp.obj: "C:\Prog
 CMakeFiles\projeto-final-inf216.dir\Source\GameSpecific\MyGame.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\GameSpecific\Characters\Enemy.h
 CMakeFiles\projeto-final-inf216.dir\Source\GameSpecific\MyGame.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\GameSpecific\..\Interfaces\Fade.h
 CMakeFiles\projeto-final-inf216.dir\Source\GameSpecific\MyGame.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\Interfaces\..\Components\DrawComponents\DrawRectComponent.h
+CMakeFiles\projeto-final-inf216.dir\Source\GameSpecific\MyGame.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\GameSpecific\..\Interfaces\Menus\MainMenu.h
+CMakeFiles\projeto-final-inf216.dir\Source\GameSpecific\MyGame.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\Interfaces\Menus\Menu.h
+CMakeFiles\projeto-final-inf216.dir\Source\GameSpecific\MyGame.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\GameSpecific\..\Interfaces\Menus\CharacterCreationMenu.h
+CMakeFiles\projeto-final-inf216.dir\Source\GameSpecific\MyGame.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\GameSpecific\..\Interfaces\Menus\GameOver.h
 CMakeFiles\projeto-final-inf216.dir\Source\GameSpecific\MyGame.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\GameSpecific\..\GameSpecific\Characters\Enemies\Bat.h
 CMakeFiles\projeto-final-inf216.dir\Source\GameSpecific\MyGame.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\GameSpecific\Characters\Enemies\..\..\..\Components\AIComponents\FSMComponent.h
 CMakeFiles\projeto-final-inf216.dir\Source\GameSpecific\MyGame.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\Components\AIComponents\FSMState.h
@@ -13576,6 +13646,10 @@ CMakeFiles\projeto-final-inf216.dir\Source\GameSpecific\Saver.cpp.obj: "C:\Progr
 CMakeFiles\projeto-final-inf216.dir\Source\GameSpecific\Saver.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\GameSpecific\Characters\Enemy.h
 CMakeFiles\projeto-final-inf216.dir\Source\GameSpecific\Saver.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\GameSpecific\..\Interfaces\Fade.h
 CMakeFiles\projeto-final-inf216.dir\Source\GameSpecific\Saver.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\Interfaces\..\Components\DrawComponents\DrawRectComponent.h
+CMakeFiles\projeto-final-inf216.dir\Source\GameSpecific\Saver.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\GameSpecific\..\Interfaces\Menus\MainMenu.h
+CMakeFiles\projeto-final-inf216.dir\Source\GameSpecific\Saver.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\Interfaces\Menus\Menu.h
+CMakeFiles\projeto-final-inf216.dir\Source\GameSpecific\Saver.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\GameSpecific\..\Interfaces\Menus\CharacterCreationMenu.h
+CMakeFiles\projeto-final-inf216.dir\Source\GameSpecific\Saver.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\GameSpecific\..\Interfaces\Menus\GameOver.h
 CMakeFiles\projeto-final-inf216.dir\Source\GameSpecific\Saver.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\GameObjects\..\Components\DrawComponents\DrawPolygonComponent.h
 
 
@@ -13910,6 +13984,10 @@ CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\Fade.cpp.obj: C:\Users\and
 CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\Fade.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\queue"
 CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\Fade.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\deque"
 CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\Fade.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\GameSpecific\Characters\Enemy.h
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\Fade.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\GameSpecific\..\Interfaces\Menus\MainMenu.h
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\Fade.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\Interfaces\Menus\Menu.h
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\Fade.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\GameSpecific\..\Interfaces\Menus\CharacterCreationMenu.h
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\Fade.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\GameSpecific\..\Interfaces\Menus\GameOver.h
 
 
 CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\ActionSelectorBattleHUD.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\Interfaces\HUDs\BattleHUDs\ActionSelectorBattleHUD.cpp
@@ -14244,6 +14322,10 @@ CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\ActionSele
 CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\ActionSelectorBattleHUD.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\GameSpecific\Characters\Enemy.h
 CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\ActionSelectorBattleHUD.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\GameSpecific\..\Interfaces\Fade.h
 CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\ActionSelectorBattleHUD.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\Interfaces\..\Components\DrawComponents\DrawRectComponent.h
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\ActionSelectorBattleHUD.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\GameSpecific\..\Interfaces\Menus\MainMenu.h
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\ActionSelectorBattleHUD.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\Interfaces\Menus\Menu.h
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\ActionSelectorBattleHUD.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\GameSpecific\..\Interfaces\Menus\CharacterCreationMenu.h
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\ActionSelectorBattleHUD.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\GameSpecific\..\Interfaces\Menus\GameOver.h
 CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\ActionSelectorBattleHUD.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\Interfaces\HUDs\BattleHUDs\..\..\..\GameSpecific\Battle\BattleCharacters\BattlePlayer.h
 CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\ActionSelectorBattleHUD.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\GameSpecific\Battle\BattleCharacters\BattleCharacter.h
 CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\ActionSelectorBattleHUD.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\GameSpecific\Battle\BattleCharacters\..\Action.h
@@ -14583,15 +14665,366 @@ CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\BattleHUD.
 CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\BattleHUD.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\GameSpecific\Characters\Enemy.h
 CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\BattleHUD.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\GameSpecific\..\Interfaces\Fade.h
 CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\BattleHUD.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\Interfaces\..\Components\DrawComponents\DrawRectComponent.h
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\BattleHUD.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\GameSpecific\..\Interfaces\Menus\MainMenu.h
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\BattleHUD.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\Interfaces\Menus\Menu.h
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\BattleHUD.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\GameSpecific\..\Interfaces\Menus\CharacterCreationMenu.h
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\BattleHUD.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\GameSpecific\..\Interfaces\Menus\GameOver.h
 CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\BattleHUD.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\Interfaces\HUDs\BattleHUDs\..\..\..\GameSpecific\Battle\BattleCharacters\BattlePlayer.h
 CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\BattleHUD.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\GameSpecific\Battle\BattleCharacters\BattleCharacter.h
 CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\BattleHUD.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\GameSpecific\Battle\BattleCharacters\..\Action.h
 CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\BattleHUD.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\Interfaces\HUDs\BattleHUDs\.\ActionSelectorBattleHUD.h
 CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\BattleHUD.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\Interfaces\HUDs\BattleHUDs\.\ItemSelectorBattleHUD.h
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\BattleHUD.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\Interfaces\HUDs\BattleHUDs\.\EnemySelectorBattleHUD.h
 CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\BattleHUD.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\Interfaces\HUDs\BattleHUDs\..\..\..\GameSpecific\Battle\Battle.h
 CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\BattleHUD.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\GameSpecific\Battle\BattleCharacters\BattleEnemy.h
 CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\BattleHUD.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\GameSpecific\Battle\..\..\Components\AIComponents\FSMComponent.h
 CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\BattleHUD.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\Components\AIComponents\FSMState.h
+
+
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.h
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\Interfaces\HUDs\BattleHUDs\..\..\Interface.h
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\Interfaces\..\GameObjects\GameObject.h
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\vector"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\yvals_core.h"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\vcruntime.h"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\sal.h"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\concurrencysal.h"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\vadefs.h"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\xkeycheck.h"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\xmemory"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\cstdint"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\stdint.h"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\cstdlib"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\math.h"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\corecrt_math.h"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\corecrt.h"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\stdlib.h"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\corecrt_malloc.h"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\corecrt_search.h"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\stddef.h"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\corecrt_wstdlib.h"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\limits.h"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\limits"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\cfloat"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\float.h"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\climits"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\cwchar"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\cstdio"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\stdio.h"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\corecrt_wstdio.h"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\corecrt_stdio_config.h"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\wchar.h"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\corecrt_memcpy_s.h"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\errno.h"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\vcruntime_string.h"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\corecrt_wconio.h"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\corecrt_wctype.h"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\corecrt_wdirect.h"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\corecrt_wio.h"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\corecrt_share.h"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\corecrt_wprocess.h"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\corecrt_wstring.h"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\corecrt_wtime.h"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\sys\stat.h"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\sys\types.h"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\isa_availability.h"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\xtr1common"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\intrin0.h"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\intrin0.inl.h"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\new"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\exception"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\yvals.h"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\crtdbg.h"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\vcruntime_new_debug.h"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\vcruntime_new.h"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\crtdefs.h"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\use_ansi.h"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\type_traits"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\cstddef"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\malloc.h"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\vcruntime_exception.h"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\eh.h"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\corecrt_terminate.h"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\xatomic.h"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\xutility"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\__msvc_iter_core.hpp"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\utility"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\initializer_list"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\cstring"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\string.h"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\corecrt_memory.h"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\xpolymorphic_allocator.h"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\tuple"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\__msvc_sanitizer_annotate_container.hpp"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\SDL2-2.28.2\include\SDL_stdinc.h"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\SDL2-2.28.2\include\SDL_config.h"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\SDL2-2.28.2\include\SDL_platform.h"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\shared\winapifamily.h"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\shared\winpackagefamily.h"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\SDL2-2.28.2\include\begin_code.h"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\SDL2-2.28.2\include\close_code.h"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\um\winsdkver.h"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\shared\sdkddkver.h"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\stdarg.h"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\SDL2-2.28.2\include\begin_code.h"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\SDL2-2.28.2\include\close_code.h"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\GameObjects\..\Game\Math.h
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\cmath"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\memory.h"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\GameObjects\..\Components\ColliderComponents\BoxColliderComponent.h
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\Components\ColliderComponents\..\Component.h
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\Components\ColliderComponents\..\PhysicsComponents\RigidBodyComponent.h
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\set"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\xtree"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\xnode_handle.h"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\Components\ColliderComponents\CollisionUtils.h
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\Components\ColliderComponents\CollisionMatrixComponent.h
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\SDL2-2.28.2\include\SDL.h"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\SDL2-2.28.2\include\SDL_main.h"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\SDL2-2.28.2\include\begin_code.h"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\SDL2-2.28.2\include\close_code.h"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\SDL2-2.28.2\include\SDL_assert.h"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\SDL2-2.28.2\include\begin_code.h"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\SDL2-2.28.2\include\close_code.h"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\SDL2-2.28.2\include\SDL_atomic.h"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\SDL2-2.28.2\include\begin_code.h"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\SDL2-2.28.2\include\close_code.h"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\SDL2-2.28.2\include\SDL_audio.h"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\SDL2-2.28.2\include\SDL_error.h"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\SDL2-2.28.2\include\begin_code.h"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\SDL2-2.28.2\include\close_code.h"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\SDL2-2.28.2\include\SDL_endian.h"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\intrin.h"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\setjmp.h"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\immintrin.h"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\wmmintrin.h"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\nmmintrin.h"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\smmintrin.h"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\tmmintrin.h"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\pmmintrin.h"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\emmintrin.h"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\xmmintrin.h"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\mmintrin.h"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\zmmintrin.h"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\ammintrin.h"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\SDL2-2.28.2\include\begin_code.h"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\SDL2-2.28.2\include\close_code.h"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\SDL2-2.28.2\include\SDL_mutex.h"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\SDL2-2.28.2\include\begin_code.h"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\SDL2-2.28.2\include\close_code.h"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\SDL2-2.28.2\include\SDL_thread.h"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\process.h"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\corecrt_startup.h"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\math.h"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\vcruntime_startup.h"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\SDL2-2.28.2\include\begin_code.h"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\SDL2-2.28.2\include\close_code.h"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\SDL2-2.28.2\include\SDL_rwops.h"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\SDL2-2.28.2\include\begin_code.h"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\SDL2-2.28.2\include\close_code.h"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\SDL2-2.28.2\include\begin_code.h"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\SDL2-2.28.2\include\close_code.h"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\SDL2-2.28.2\include\SDL_clipboard.h"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\SDL2-2.28.2\include\begin_code.h"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\SDL2-2.28.2\include\close_code.h"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\SDL2-2.28.2\include\SDL_cpuinfo.h"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\SDL2-2.28.2\include\begin_code.h"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\SDL2-2.28.2\include\close_code.h"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\SDL2-2.28.2\include\SDL_events.h"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\SDL2-2.28.2\include\SDL_video.h"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\SDL2-2.28.2\include\SDL_pixels.h"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\SDL2-2.28.2\include\begin_code.h"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\SDL2-2.28.2\include\close_code.h"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\SDL2-2.28.2\include\SDL_rect.h"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\SDL2-2.28.2\include\begin_code.h"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\SDL2-2.28.2\include\close_code.h"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\SDL2-2.28.2\include\SDL_surface.h"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\SDL2-2.28.2\include\SDL_blendmode.h"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\SDL2-2.28.2\include\begin_code.h"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\SDL2-2.28.2\include\close_code.h"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\SDL2-2.28.2\include\begin_code.h"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\SDL2-2.28.2\include\close_code.h"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\SDL2-2.28.2\include\begin_code.h"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\SDL2-2.28.2\include\close_code.h"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\SDL2-2.28.2\include\SDL_keyboard.h"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\SDL2-2.28.2\include\SDL_keycode.h"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\SDL2-2.28.2\include\SDL_scancode.h"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\SDL2-2.28.2\include\begin_code.h"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\SDL2-2.28.2\include\close_code.h"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\SDL2-2.28.2\include\SDL_mouse.h"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\SDL2-2.28.2\include\begin_code.h"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\SDL2-2.28.2\include\close_code.h"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\SDL2-2.28.2\include\SDL_joystick.h"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\SDL2-2.28.2\include\SDL_guid.h"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\SDL2-2.28.2\include\begin_code.h"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\SDL2-2.28.2\include\close_code.h"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\SDL2-2.28.2\include\begin_code.h"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\SDL2-2.28.2\include\close_code.h"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\SDL2-2.28.2\include\SDL_gamecontroller.h"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\SDL2-2.28.2\include\SDL_sensor.h"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\SDL2-2.28.2\include\begin_code.h"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\SDL2-2.28.2\include\close_code.h"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\SDL2-2.28.2\include\begin_code.h"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\SDL2-2.28.2\include\close_code.h"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\SDL2-2.28.2\include\SDL_quit.h"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\SDL2-2.28.2\include\SDL_gesture.h"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\SDL2-2.28.2\include\SDL_touch.h"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\SDL2-2.28.2\include\begin_code.h"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\SDL2-2.28.2\include\close_code.h"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\SDL2-2.28.2\include\begin_code.h"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\SDL2-2.28.2\include\close_code.h"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\SDL2-2.28.2\include\begin_code.h"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\SDL2-2.28.2\include\close_code.h"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\SDL2-2.28.2\include\SDL_filesystem.h"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\SDL2-2.28.2\include\begin_code.h"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\SDL2-2.28.2\include\close_code.h"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\SDL2-2.28.2\include\SDL_haptic.h"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\SDL2-2.28.2\include\begin_code.h"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\SDL2-2.28.2\include\close_code.h"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\SDL2-2.28.2\include\SDL_hidapi.h"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\SDL2-2.28.2\include\begin_code.h"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\SDL2-2.28.2\include\close_code.h"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\SDL2-2.28.2\include\SDL_hints.h"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\SDL2-2.28.2\include\begin_code.h"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\SDL2-2.28.2\include\close_code.h"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\SDL2-2.28.2\include\SDL_loadso.h"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\SDL2-2.28.2\include\begin_code.h"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\SDL2-2.28.2\include\close_code.h"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\SDL2-2.28.2\include\SDL_log.h"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\SDL2-2.28.2\include\begin_code.h"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\SDL2-2.28.2\include\close_code.h"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\SDL2-2.28.2\include\SDL_messagebox.h"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\SDL2-2.28.2\include\begin_code.h"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\SDL2-2.28.2\include\close_code.h"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\SDL2-2.28.2\include\SDL_metal.h"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\SDL2-2.28.2\include\begin_code.h"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\SDL2-2.28.2\include\close_code.h"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\SDL2-2.28.2\include\SDL_power.h"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\SDL2-2.28.2\include\begin_code.h"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\SDL2-2.28.2\include\close_code.h"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\SDL2-2.28.2\include\SDL_render.h"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\SDL2-2.28.2\include\begin_code.h"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\SDL2-2.28.2\include\close_code.h"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\SDL2-2.28.2\include\SDL_shape.h"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\SDL2-2.28.2\include\begin_code.h"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\SDL2-2.28.2\include\close_code.h"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\SDL2-2.28.2\include\SDL_system.h"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\SDL2-2.28.2\include\begin_code.h"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\SDL2-2.28.2\include\close_code.h"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\SDL2-2.28.2\include\SDL_timer.h"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\SDL2-2.28.2\include\begin_code.h"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\SDL2-2.28.2\include\close_code.h"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\SDL2-2.28.2\include\SDL_version.h"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\SDL2-2.28.2\include\begin_code.h"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\SDL2-2.28.2\include\close_code.h"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\SDL2-2.28.2\include\SDL_locale.h"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\SDL2-2.28.2\include\begin_code.h"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\SDL2-2.28.2\include\close_code.h"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\SDL2-2.28.2\include\SDL_misc.h"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\SDL2-2.28.2\include\begin_code.h"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\SDL2-2.28.2\include\close_code.h"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\SDL2-2.28.2\include\begin_code.h"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\SDL2-2.28.2\include\close_code.h"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\string"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\xstring"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\iosfwd"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\cctype"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\ctype.h"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\unordered_map"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\xhash"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\list"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\xbit_ops.h"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\Interfaces\HUDs\BattleHUDs\..\..\..\Components\DrawComponents\SpriteComponent.h
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\Components\DrawComponents\DrawComponent.h
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\Interfaces\HUDs\BattleHUDs\..\..\..\GameSpecific\Battle\Battle.h
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\GameSpecific\Battle\BattleCharacters\BattlePlayer.h
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\GameSpecific\Battle\BattleCharacters\..\..\Characters\Player.h
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\iostream"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\istream"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\ostream"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\ios"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\xlocnum"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\iterator"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\streambuf"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\xiosbase"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\share.h"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\system_error"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\__msvc_system_error_abi.hpp"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\cerrno"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\stdexcept"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\xcall_once.h"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\xerrc.h"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\atomic"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\xthreads.h"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\xtimec.h"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\ctime"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\time.h"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\xlocale"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\memory"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\typeinfo"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\vcruntime_typeinfo.h"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\xfacet"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\xlocinfo"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\__msvc_xlocinfo_types.hpp"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\clocale"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\locale.h"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\GameSpecific\Characters\Character.h
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\GameSpecific\Characters\..\..\Components\DrawComponents\AnimatedSpriteComponent.h
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\GameSpecific\Characters\..\Inventory.h
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\GameSpecific\..\Game\Global.h
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\map"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\fstream"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\__msvc_filebuf.hpp"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\Game\Json.h
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\algorithm"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\functional"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\array"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\forward_list"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\valarray"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\version"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\cassert"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\assert.h"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\filesystem"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\chrono"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\__msvc_chrono.hpp"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\ratio"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\xfilesystem_abi.h"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\iomanip"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\xlocmon"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\xloctime"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\locale"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\xlocbuf"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\xlocmes"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\numeric"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\any"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\string_view"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\GameSpecific\Characters\..\..\GameSpecific\MyGame.h
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\GameSpecific\..\Game\Game.h
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\Game\..\GameObjects\Camera.h
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\GameObjects\..\Interfaces\Mask.h
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\GameSpecific\Maps\Map.h
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\GameSpecific\Characters\Crafter.h
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\GameSpecific\Characters\NPC.h
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\GameSpecific\Chest.h
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\GameSpecific\Maps\Dungeons\DungeonGeneration\DungeonGenerator.h
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\GameSpecific\Maps\Dungeons\DungeonGeneration\..\Dungeon.h
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\GameSpecific\Maps\Dungeons\Layer.h
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\GameSpecific\Maps\Dungeons\Room.h
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\queue"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\deque"
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\GameSpecific\Characters\Enemy.h
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\GameSpecific\..\Interfaces\Fade.h
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\Interfaces\..\Components\DrawComponents\DrawRectComponent.h
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\GameSpecific\..\Interfaces\Menus\MainMenu.h
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\Interfaces\Menus\Menu.h
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\GameSpecific\..\Interfaces\Menus\CharacterCreationMenu.h
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\GameSpecific\..\Interfaces\Menus\GameOver.h
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\GameSpecific\Battle\BattleCharacters\BattleCharacter.h
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\GameSpecific\Battle\BattleCharacters\..\Action.h
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\GameSpecific\Battle\BattleCharacters\BattleEnemy.h
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\GameSpecific\Battle\..\..\Components\AIComponents\FSMComponent.h
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\Components\AIComponents\FSMState.h
 
 
 CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\HPBarBattleHUD.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\Interfaces\HUDs\BattleHUDs\HPBarBattleHUD.cpp
@@ -14926,6 +15359,10 @@ CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\HPBarBattl
 CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\HPBarBattleHUD.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\GameSpecific\Characters\Enemy.h
 CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\HPBarBattleHUD.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\GameSpecific\..\Interfaces\Fade.h
 CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\HPBarBattleHUD.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\Interfaces\..\Components\DrawComponents\DrawRectComponent.h
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\HPBarBattleHUD.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\GameSpecific\..\Interfaces\Menus\MainMenu.h
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\HPBarBattleHUD.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\Interfaces\Menus\Menu.h
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\HPBarBattleHUD.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\GameSpecific\..\Interfaces\Menus\CharacterCreationMenu.h
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\HPBarBattleHUD.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\GameSpecific\..\Interfaces\Menus\GameOver.h
 CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\HPBarBattleHUD.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\Interfaces\HUDs\BattleHUDs\..\..\..\GameSpecific\Battle\BattleCharacters\BattlePlayer.h
 CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\HPBarBattleHUD.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\GameSpecific\Battle\BattleCharacters\BattleCharacter.h
 CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\HPBarBattleHUD.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\GameSpecific\Battle\BattleCharacters\..\Action.h
@@ -15263,6 +15700,10 @@ CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\ItemSelect
 CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\ItemSelectorBattleHUD.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\GameSpecific\Characters\Enemy.h
 CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\ItemSelectorBattleHUD.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\GameSpecific\..\Interfaces\Fade.h
 CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\ItemSelectorBattleHUD.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\Interfaces\..\Components\DrawComponents\DrawRectComponent.h
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\ItemSelectorBattleHUD.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\GameSpecific\..\Interfaces\Menus\MainMenu.h
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\ItemSelectorBattleHUD.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\Interfaces\Menus\Menu.h
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\ItemSelectorBattleHUD.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\GameSpecific\..\Interfaces\Menus\CharacterCreationMenu.h
+CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\ItemSelectorBattleHUD.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\GameSpecific\..\Interfaces\Menus\GameOver.h
 CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\ItemSelectorBattleHUD.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\Interfaces\HUDs\BattleHUDs\..\..\..\GameSpecific\Battle\BattleCharacters\BattlePlayer.h
 CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\ItemSelectorBattleHUD.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\GameSpecific\Battle\BattleCharacters\BattleCharacter.h
 CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\ItemSelectorBattleHUD.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\GameSpecific\Battle\BattleCharacters\..\Action.h
@@ -15858,6 +16299,10 @@ CMakeFiles\projeto-final-inf216.dir\Source\Main.cpp.obj: "C:\Program Files\Micro
 CMakeFiles\projeto-final-inf216.dir\Source\Main.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\GameSpecific\Characters\Enemy.h
 CMakeFiles\projeto-final-inf216.dir\Source\Main.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\GameSpecific\..\Interfaces\Fade.h
 CMakeFiles\projeto-final-inf216.dir\Source\Main.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\Interfaces\..\Components\DrawComponents\DrawRectComponent.h
+CMakeFiles\projeto-final-inf216.dir\Source\Main.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\GameSpecific\..\Interfaces\Menus\MainMenu.h
+CMakeFiles\projeto-final-inf216.dir\Source\Main.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\Interfaces\Menus\Menu.h
+CMakeFiles\projeto-final-inf216.dir\Source\Main.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\GameSpecific\..\Interfaces\Menus\CharacterCreationMenu.h
+CMakeFiles\projeto-final-inf216.dir\Source\Main.cpp.obj: C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\GameSpecific\..\Interfaces\Menus\GameOver.h
 
 
 
@@ -15975,6 +16420,8 @@ C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-fi
 
 "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\corecrt_wstring.h":
 
+C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\Interfaces\HUDs\BattleHUDs\.\EnemySelectorBattleHUD.h:
+
 "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\stdio.h":
 
 "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\crtdefs.h":
@@ -15984,6 +16431,8 @@ C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-fi
 "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\cstdio":
 
 "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\errno.h":
+
+C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\GameSpecific\Characters\..\Quests\Quest.h:
 
 "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\locale.h":
 
@@ -16000,6 +16449,8 @@ C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-fi
 C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\GameSpecific\Characters\Enemies\Bat.h:
 
 "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\corecrt_memcpy_s.h":
+
+C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\GameSpecific\..\Interfaces\Menus\CharacterCreationMenu.h:
 
 "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\locale":
 
@@ -16351,6 +16802,8 @@ C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-fi
 
 C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\Components\ColliderComponents\..\..\GameSpecific\MyGame.h:
 
+C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\GameSpecific\..\Interfaces\Menus\GameOver.h:
+
 C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\GameSpecific\..\Game\Game.h:
 
 "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\version":
@@ -16483,6 +16936,10 @@ C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-fi
 
 C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\GameSpecific\Characters\Enemy.h:
 
+C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\GameSpecific\..\Interfaces\Menus\MainMenu.h:
+
+C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\Interfaces\Menus\Menu.h:
+
 C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\Components\ColliderComponents\CollisionMatrixComponent.cpp:
 
 C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\Components\Component.cpp:
@@ -16583,6 +17040,8 @@ C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-fi
 
 C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\GameSpecific\Battle\BattleCharacters\BattlePlayer.h:
 
+C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp:
+
 C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\GameSpecific\Battle\BattleCharacters\..\..\Characters\Player.h:
 
 C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\GameSpecific\Characters\..\..\GameSpecific\MyGame.h:
@@ -16660,6 +17119,10 @@ C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-fi
 C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\Interfaces\HUDs\BattleHUDs\..\..\..\GameSpecific\MyGame.h:
 
 C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\Interfaces\HUDs\BattleHUDs\..\..\..\GameSpecific\Battle\Battle.h:
+
+C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.h:
+
+C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\Interfaces\HUDs\BattleHUDs\..\..\..\Components\DrawComponents\SpriteComponent.h:
 
 C:\Users\andre\OneDrive\Documentos\UFV\periodo_vi\Jogos\projeto_final\projeto-final-rafazardo\Source\Interfaces\Interface.h:
 

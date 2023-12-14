@@ -33,6 +33,9 @@ Layer* DungeonGenerator::GenerateLayer(char **grid, int gridWidth, int gridHeigh
             coord2room[{i, j}]->Initialize(false);
         }
 
+    delete coord2room[start];
+    coord2room[start] = new Room(mGame, "../Assets/JsonFiles/Dungeons/sq.json", 0);
+
     int t, b, r, l;
     for(int i = 0; i < gridHeight; i++)
         for (int j = 0; j < gridWidth; j++) {

@@ -89,10 +89,16 @@ extern std::vector<class Attack*> EnemyAttacks;
 #define TOTAL_ENEMIES 2
 extern std::vector<std::vector<int>>EnemyAttackOptions;
 
+extern std::vector<int> GLOBAL_TotalEnemiesKilled;
+
 // Function to be used in main file
 void DefineGlobalVariables();
 
 // Returns a random enemy
 class Enemy* GenerateRandomEnemy(class MyGame *game);
+
+// Returns a random assets for the Safe Room.
+class Quest* GLOBAL_GenerateRandomQuest(MyGame *game);
+class Chest* GLOBAL_GenerateRandomChest();
 
 #endif //PROJETO_FINAL_INF216_GLOBAL_H

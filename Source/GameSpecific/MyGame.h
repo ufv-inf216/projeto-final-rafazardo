@@ -19,6 +19,9 @@
 #include <queue>
 #include "Characters/Enemy.h"
 #include "../Interfaces/Fade.h"
+#include "../Interfaces/Menus/MainMenu.h"
+#include "../Interfaces/Menus/CharacterCreationMenu.h"
+#include "../Interfaces/Menus/GameOver.h"
 
 class MyGame : public Game {
     private:
@@ -45,6 +48,11 @@ class MyGame : public Game {
 
         std::vector<class BattleEnemy*> GenerateEnemies(Enemy *enemy);
 
+        // Menus dos Jogo.
+        MainMenu *mMainMenu;
+        CharacterCreationMenu *mCharacterCreationMenu;
+        GameOverScreen *mGameOverScreen;
+
     public:
         // Constructor
         // @params windowWidth and windowHeight The input integers the represents the window width and height
@@ -65,6 +73,10 @@ class MyGame : public Game {
 
         // Battle stuff.
         void SetCurrentBattle(Battle *battle) { mCurrentBattle = battle; }
+
+        MainMenu* GetMainMenu() { return mMainMenu; }
+        CharacterCreationMenu* GetCharacterCreationMenu() { return mCharacterCreationMenu; }
+        void GameOver() { mGameOverScreen->Open(); }
 
         void Save();
 };

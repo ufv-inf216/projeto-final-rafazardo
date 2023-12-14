@@ -40,6 +40,7 @@ class Room : public Map {
         // @params texturePath and collisionPath The map texture and colision directories
         // @params width and height The map dimensions
         Room(class MyGame *game, const std::string &jsonPath);
+        Room(class MyGame *game, const std::string &jsonPath, int idx);
 
         // Connect a room to another (Note: this is a single-way connection)
         // @params other The other room to connect to this one

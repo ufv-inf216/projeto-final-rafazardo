@@ -329,6 +329,10 @@ C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.37.3282
 C:/Users/andre/OneDrive/Documentos/UFV/periodo_vi/Jogos/projeto_final/projeto-final-rafazardo/Source/GameSpecific/Characters/Enemy.h
 C:/Users/andre/OneDrive/Documentos/UFV/periodo_vi/Jogos/projeto_final/projeto-final-rafazardo/Source/GameSpecific/../Interfaces/Fade.h
 C:/Users/andre/OneDrive/Documentos/UFV/periodo_vi/Jogos/projeto_final/projeto-final-rafazardo/Source/Interfaces/../Components/DrawComponents/DrawRectComponent.h
+C:/Users/andre/OneDrive/Documentos/UFV/periodo_vi/Jogos/projeto_final/projeto-final-rafazardo/Source/GameSpecific/../Interfaces/Menus/MainMenu.h
+C:/Users/andre/OneDrive/Documentos/UFV/periodo_vi/Jogos/projeto_final/projeto-final-rafazardo/Source/Interfaces/Menus/Menu.h
+C:/Users/andre/OneDrive/Documentos/UFV/periodo_vi/Jogos/projeto_final/projeto-final-rafazardo/Source/GameSpecific/../Interfaces/Menus/CharacterCreationMenu.h
+C:/Users/andre/OneDrive/Documentos/UFV/periodo_vi/Jogos/projeto_final/projeto-final-rafazardo/Source/GameSpecific/../Interfaces/Menus/GameOver.h
 C:/Users/andre/OneDrive/Documentos/UFV/periodo_vi/Jogos/projeto_final/projeto-final-rafazardo/Source/GameSpecific/Battle/BattleCharacters/BattleCharacter.h
 C:/Users/andre/OneDrive/Documentos/UFV/periodo_vi/Jogos/projeto_final/projeto-final-rafazardo/Source/GameSpecific/Battle/BattleCharacters/../Action.h
 C:/Users/andre/OneDrive/Documentos/UFV/periodo_vi/Jogos/projeto_final/projeto-final-rafazardo/Source/GameSpecific/Battle/BattleCharacters/../Battle.h

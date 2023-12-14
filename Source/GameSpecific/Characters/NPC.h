@@ -16,6 +16,11 @@
 #include "../../Components/DrawComponents/SpriteComponent.h"
 
 class NPC : public Character {
+    private:
+        std::string mDialogue;
+
+        class Quest *mQuest;
+
     public:
         // Constructor
         // @param game The current game
@@ -23,7 +28,12 @@ class NPC : public Character {
         // @params attrs A array containing NPC attributes (STR, DEX, CON, WIS, INT, CHA).
         NPC(class MyGame *game, const std::string &texturePath, const std::string &spriteSheetData, int attrs[6]);
 
+        void SetDialogue(std::string &dialogue) { mDialogue = dialogue; }
+        std::string& GetDialogue() { return mDialogue; }
+
         virtual void Interact();
+
+        void SetQuest(class Quest *quest);
 };
 
 #endif

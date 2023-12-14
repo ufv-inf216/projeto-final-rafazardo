@@ -314,3 +314,4 @@ C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.37.3282
 C:/Users/andre/OneDrive/Documentos/UFV/periodo_vi/Jogos/projeto_final/projeto-final-rafazardo/Source/GameSpecific/Characters/../../Game/Game.h
 C:/Users/andre/OneDrive/Documentos/UFV/periodo_vi/Jogos/projeto_final/projeto-final-rafazardo/Source/Game/../GameObjects/Camera.h
 C:/Users/andre/OneDrive/Documentos/UFV/periodo_vi/Jogos/projeto_final/projeto-final-rafazardo/Source/GameObjects/../Interfaces/Mask.h
+C:/Users/andre/OneDrive/Documentos/UFV/periodo_vi/Jogos/projeto_final/projeto-final-rafazardo/Source/GameSpecific/Characters/../Quests/Quest.h

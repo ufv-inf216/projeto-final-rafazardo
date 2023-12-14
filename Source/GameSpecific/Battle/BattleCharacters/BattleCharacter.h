@@ -30,10 +30,11 @@ class BattleCharacter : public GameObject {
 
         bool mHasAttacked;
 
-        int mHP;     // TROCAR
+        int mHP = 30;    // default.
+        int mMaxHP = 30; // default.
+
         int mRemoveHeal = -1;
         int mInitiative;
-        int mMaxHP; //TROCAR AQUI HEIN
 
     public:
         // Constructor
@@ -59,6 +60,7 @@ class BattleCharacter : public GameObject {
 
         void RemoveHeal(int id) { mRemoveHeal = id; }
         void SetInitiative(int init) { mInitiative = init; }
+
         float GetMaxHP() { return (float)mMaxHP; }
 
         Battle *GetBattle() { return mBattle; }

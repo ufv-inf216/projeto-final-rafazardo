@@ -1,11 +1,11 @@
-# Projeto Final
-## PlayTest
+# Sine Exitus
+## Build 1: PlayTest
 Olá, aventureiro,
 
 Ficamos muito gratos por tomar um tempo para testar nosso Projeto Final da disicplina de INF216.
 
 Essa versão conta com as das principais mecânicas do jogo: as Batlhas e a Geração Procedural de Dungeons. 
-Pretendemo adicionar mais *features* que já estão sendo desenvolvidas (inventário, quests, objetivos); inimigos e ítens
+Pretendemos adicionar mais *features* que já estão sendo desenvolvidas (inventário, quests, objetivos); inimigos e ítens
 para o final do projeto. Ainda assim, seu *feedback* será muito útil para corrigirmos alguns erros nesses sistemas. :)
 
 Aqui vai um breve tutorial de teclas:
@@ -20,4 +20,7 @@ Esperamos que se divirta (jogando e com eventuais bugs) e aguardamos seu feedbac
 André, Pedro & Rafael.
 
 <br>
-Dezembro de 2023
+8 de Dezembro de 2023
+
+## Build 2: Entrega Final
+

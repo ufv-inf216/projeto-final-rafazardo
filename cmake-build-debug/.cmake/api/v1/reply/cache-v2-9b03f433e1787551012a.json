@@ -27,7 +27,7 @@
 				}
 			],
 			"type" : "STRING",
-			"value" : "Release"
+			"value" : "Debug"
 		},
 		{
 			"name" : "CMAKE_CACHEFILE_DIR",
@@ -39,7 +39,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "c:/Users/andre/OneDrive/Documentos/UFV/periodo_vi/Jogos/projeto_final/projeto-final-rafazardo/cmake-build-release"
+			"value" : "c:/Users/andre/OneDrive/Documentos/UFV/periodo_vi/Jogos/projeto_final/projeto-final-rafazardo/cmake-build-debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -523,7 +523,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/andre/OneDrive/Documentos/UFV/periodo_vi/Jogos/projeto_final/projeto-final-rafazardo/cmake-build-release/CMakeFiles/pkgRedirects"
+			"value" : "C:/Users/andre/OneDrive/Documentos/UFV/periodo_vi/Jogos/projeto_final/projeto-final-rafazardo/cmake-build-debug/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -1162,6 +1162,18 @@
 			"value" : "C:/Program Files/SDL2_mixer-2.6.3/cmake"
 		},
 		{
+			"name" : "SDL2_ttf_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "The directory containing a CMake configuration file for SDL2_ttf."
+				}
+			],
+			"type" : "PATH",
+			"value" : "C:/Program Files/SDL2_ttf-2.20.2/cmake"
+		},
+		{
 			"name" : "projeto-final-inf216_BINARY_DIR",
 			"properties" : 
 			[
@@ -1171,7 +1183,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/andre/OneDrive/Documentos/UFV/periodo_vi/Jogos/projeto_final/projeto-final-rafazardo/cmake-build-release"
+			"value" : "C:/Users/andre/OneDrive/Documentos/UFV/periodo_vi/Jogos/projeto_final/projeto-final-rafazardo/cmake-build-debug"
 		},
 		{
 			"name" : "projeto-final-inf216_IS_TOP_LEVEL",

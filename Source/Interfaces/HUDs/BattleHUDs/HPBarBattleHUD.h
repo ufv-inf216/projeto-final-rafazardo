@@ -11,6 +11,7 @@ class HPBarBattleHUD : public GameObject {
         SpriteComponent *mFrame;
         SpriteComponent *mBar;
         BattlePlayer *mBattlePlayer;
+
     public:
         HPBarBattleHUD(MyGame *myGame, BattlePlayer *battlePlayer);
 

@@ -10,6 +10,7 @@
 
 #include "NPC.h"
 #include "../../Game/Game.h"
+#include "../Quests/Quest.h"
 
 NPC::NPC(class MyGame *game, const std::string &texturePath, const std::string &spriteSheetData, int *attrs):
     Character(game, texturePath, spriteSheetData, attrs, ColliderLayer::NPC) { }
@@ -17,3 +18,8 @@ NPC::NPC(class MyGame *game, const std::string &texturePath, const std::string &
 void NPC::Interact() {
     return;
 }
+
+void NPC::SetQuest(Quest *quest) {
+    mQuest = quest;
+    mQuest->SetNPC(this);
+};

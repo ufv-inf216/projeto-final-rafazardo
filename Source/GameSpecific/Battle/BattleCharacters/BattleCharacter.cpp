@@ -15,11 +15,7 @@ BattleCharacter::BattleCharacter(class MyGame *game, class Battle *battle):
     GameObject(game),
     mHasAttacked(false),
     mCurrentAction(nullptr),
-    mBattle(battle) {
-
-    mHP = 30;
-    mMaxHP = 30;
-}
+    mBattle(battle) { }
 
 int BattleCharacter::RollInitiative() {
     mInitiative = -(Random::GetIntRange(1, 20) + mSheet->dexMod);

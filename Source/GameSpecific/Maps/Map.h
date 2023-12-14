@@ -54,8 +54,10 @@ class Map : public GameObject {
         }
 
         // Enable Outputs and GameObjects.
-        void Enable() override {
-            SetState(GameObjectState::Active);
+        void Enable(bool draw_only = false) override {
+            if(!draw_only)
+                SetState(GameObjectState::Active);
+
             mSpriteComponent->SetEnabled(true);
             mCollisionMatrixComponent->SetEnabled(true);
             for(auto obj : mGameObjects)

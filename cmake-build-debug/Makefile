@@ -1294,6 +1294,30 @@ Source\Interfaces\HUDs\BattleHUDs\BattleHUD.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\projeto-final-inf216.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\BattleHUD.cpp.s
 .PHONY : Source\Interfaces\HUDs\BattleHUDs\BattleHUD.cpp.s
 
+Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.obj: Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj
+.PHONY : Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.obj
+
+# target to build an object file
+Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\projeto-final-inf216.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj
+.PHONY : Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.obj
+
+Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.i: Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.i
+.PHONY : Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.i
+
+# target to preprocess a source file
+Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\projeto-final-inf216.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.i
+.PHONY : Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.i
+
+Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.s: Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.s
+.PHONY : Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.s
+
+# target to generate assembly for a file
+Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\projeto-final-inf216.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.s
+.PHONY : Source\Interfaces\HUDs\BattleHUDs\EnemySelectorBattleHUD.cpp.s
+
 Source\Interfaces\HUDs\BattleHUDs\HPBarBattleHUD.obj: Source\Interfaces\HUDs\BattleHUDs\HPBarBattleHUD.cpp.obj
 .PHONY : Source\Interfaces\HUDs\BattleHUDs\HPBarBattleHUD.obj
 
@@ -1546,6 +1570,9 @@ help:
 	@echo ... Source/Interfaces/HUDs/BattleHUDs/BattleHUD.obj
 	@echo ... Source/Interfaces/HUDs/BattleHUDs/BattleHUD.i
 	@echo ... Source/Interfaces/HUDs/BattleHUDs/BattleHUD.s
+	@echo ... Source/Interfaces/HUDs/BattleHUDs/EnemySelectorBattleHUD.obj
+	@echo ... Source/Interfaces/HUDs/BattleHUDs/EnemySelectorBattleHUD.i
+	@echo ... Source/Interfaces/HUDs/BattleHUDs/EnemySelectorBattleHUD.s
 	@echo ... Source/Interfaces/HUDs/BattleHUDs/HPBarBattleHUD.obj
 	@echo ... Source/Interfaces/HUDs/BattleHUDs/HPBarBattleHUD.i
 	@echo ... Source/Interfaces/HUDs/BattleHUDs/HPBarBattleHUD.s

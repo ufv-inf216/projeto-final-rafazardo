@@ -5,7 +5,7 @@
 		<Option title="projeto-final-inf216"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="msvc8"/>
-		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\..\..\..\Program Files\;CMake Files\..\..\..\..\..\..\..\..\..\Program Files\SDL2-2.28.2\;CMake Files\..\..\..\..\..\..\..\..\..\Program Files\SDL2-2.28.2\cmake\;CMake Files\..\..\..\..\..\..\..\..\..\Program Files\SDL2_image-2.6.3\;CMake Files\..\..\..\..\..\..\..\..\..\Program Files\SDL2_image-2.6.3\cmake\;CMake Files\..\..\..\..\..\..\..\..\..\Program Files\SDL2_mixer-2.6.3\;CMake Files\..\..\..\..\..\..\..\..\..\Program Files\SDL2_mixer-2.6.3\cmake\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\..\..\..\Program Files\;CMake Files\..\..\..\..\..\..\..\..\..\Program Files\SDL2-2.28.2\;CMake Files\..\..\..\..\..\..\..\..\..\Program Files\SDL2-2.28.2\cmake\;CMake Files\..\..\..\..\..\..\..\..\..\Program Files\SDL2_image-2.6.3\;CMake Files\..\..\..\..\..\..\..\..\..\Program Files\SDL2_image-2.6.3\cmake\;CMake Files\..\..\..\..\..\..\..\..\..\Program Files\SDL2_mixer-2.6.3\;CMake Files\..\..\..\..\..\..\..\..\..\Program Files\SDL2_mixer-2.6.3\cmake\;CMake Files\..\..\..\..\..\..\..\..\..\Program Files\SDL2_ttf-2.20.2\;CMake Files\..\..\..\..\..\..\..\..\..\Program Files\SDL2_ttf-2.20.2\cmake\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="C:/Users/andre/OneDrive/Documentos/UFV/periodo_vi/Jogos/projeto_final/projeto-final-rafazardo/cmake-build-debug"/>
@@ -27,6 +27,7 @@
 					<Add directory="C:/Program Files/SDL2-2.28.2/cmake/../include"/>
 					<Add directory="C:/Program Files/SDL2_image-2.6.3/cmake/../include"/>
 					<Add directory="C:/Program Files/SDL2_mixer-2.6.3/cmake/../include"/>
+					<Add directory="C:/Program Files/SDL2_ttf-2.20.2/cmake/../include"/>
 					<Add directory="C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include"/>
 					<Add directory="C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include"/>
 					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt"/>
@@ -53,6 +54,7 @@
 					<Add directory="C:/Program Files/SDL2-2.28.2/cmake/../include"/>
 					<Add directory="C:/Program Files/SDL2_image-2.6.3/cmake/../include"/>
 					<Add directory="C:/Program Files/SDL2_mixer-2.6.3/cmake/../include"/>
+					<Add directory="C:/Program Files/SDL2_ttf-2.20.2/cmake/../include"/>
 					<Add directory="C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include"/>
 					<Add directory="C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include"/>
 					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt"/>
@@ -378,6 +380,12 @@
 		<Unit filename="C:/Users/andre/OneDrive/Documentos/UFV/periodo_vi/Jogos/projeto_final/projeto-final-rafazardo/Source/Interfaces/HUDs/BattleHUDs/BattleHUD.h">
 			<Option target="projeto-final-inf216"/>
 		</Unit>
+		<Unit filename="C:/Users/andre/OneDrive/Documentos/UFV/periodo_vi/Jogos/projeto_final/projeto-final-rafazardo/Source/Interfaces/HUDs/BattleHUDs/EnemySelectorBattleHUD.cpp">
+			<Option target="projeto-final-inf216"/>
+		</Unit>
+		<Unit filename="C:/Users/andre/OneDrive/Documentos/UFV/periodo_vi/Jogos/projeto_final/projeto-final-rafazardo/Source/Interfaces/HUDs/BattleHUDs/EnemySelectorBattleHUD.h">
+			<Option target="projeto-final-inf216"/>
+		</Unit>
 		<Unit filename="C:/Users/andre/OneDrive/Documentos/UFV/periodo_vi/Jogos/projeto_final/projeto-final-rafazardo/Source/Interfaces/HUDs/BattleHUDs/HPBarBattleHUD.cpp">
 			<Option target="projeto-final-inf216"/>
 		</Unit>
@@ -422,6 +430,12 @@
 		</Unit>
 		<Unit filename="C:/Users/andre/OneDrive/Documentos/UFV/periodo_vi/Jogos/projeto_final/projeto-final-rafazardo/../../../../../../../../../Program Files/SDL2_mixer-2.6.3/cmake/sdl2_mixer-config.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\..\Program Files\SDL2_mixer-2.6.3\cmake\"/>
+		</Unit>
+		<Unit filename="C:/Users/andre/OneDrive/Documentos/UFV/periodo_vi/Jogos/projeto_final/projeto-final-rafazardo/../../../../../../../../../Program Files/SDL2_ttf-2.20.2/cmake/sdl2_ttf-config-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\..\Program Files\SDL2_ttf-2.20.2\cmake\"/>
+		</Unit>
+		<Unit filename="C:/Users/andre/OneDrive/Documentos/UFV/periodo_vi/Jogos/projeto_final/projeto-final-rafazardo/../../../../../../../../../Program Files/SDL2_ttf-2.20.2/cmake/sdl2_ttf-config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\..\Program Files\SDL2_ttf-2.20.2\cmake\"/>
 		</Unit>
 	</Project>
 </CodeBlocks_project_file>

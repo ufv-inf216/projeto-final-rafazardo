@@ -58,4 +58,6 @@ class Battle : public GameObject {
 
         BattleEnemy* GetEnemy(int idx) { return mBattleEnemies[idx]; }
         BattlePlayer* GetPlayer() { return mBattlePlayer; }
+
+        int GetNumEnemies() { return mBattleEnemies.size(); }
 };

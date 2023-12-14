@@ -109,8 +109,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "C:/Users/andre/OneDrive/Documentos/UFV/periodo_vi/Jogos/projeto_final/projeto-final-rafazardo/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-dgsky0"
-      binary: "C:/Users/andre/OneDrive/Documentos/UFV/periodo_vi/Jogos/projeto_final/projeto-final-rafazardo/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-dgsky0"
+      source: "C:/Users/andre/OneDrive/Documentos/UFV/periodo_vi/Jogos/projeto_final/projeto-final-rafazardo/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-pra8rk"
+      binary: "C:/Users/andre/OneDrive/Documentos/UFV/periodo_vi/Jogos/projeto_final/projeto-final-rafazardo/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-pra8rk"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
       CMAKE_C_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
@@ -119,27 +119,27 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: C:/Users/andre/OneDrive/Documentos/UFV/periodo_vi/Jogos/projeto_final/projeto-final-rafazardo/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-dgsky0
+        Change Dir: C:/Users/andre/OneDrive/Documentos/UFV/periodo_vi/Jogos/projeto_final/projeto-final-rafazardo/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-pra8rk
         
-        Run Build Command(s):C:/Program Files/JetBrains/CLion 2023.2/bin/cmake/win/x64/bin/cmake.exe -E env VERBOSE=1 nmake -f Makefile /nologo cmTC_a8bda\\fast && 	"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\nmake.exe"  -f CMakeFiles\\cmTC_a8bda.dir\\build.make /nologo -L                  CMakeFiles\\cmTC_a8bda.dir\\build
-        Building C object CMakeFiles/cmTC_a8bda.dir/CMakeCCompilerABI.c.obj
-        	"C:\\Program Files\\JetBrains\\CLion 2023.2\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E cmake_cl_compile_depends --dep-file=CMakeFiles\\cmTC_a8bda.dir\\CMakeCCompilerABI.c.obj.d --working-dir=C:\\Users\\andre\\OneDrive\\Documentos\\UFV\\periodo_vi\\Jogos\\projeto_final\\projeto-final-rafazardo\\cmake-build-debug\\CMakeFiles\\CMakeScratch\\TryCompile-dgsky0 --filter-prefix="ObservaþÒo: incluindo arquivo: " -- "C:\\PROGRA~1\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\Hostx64\\x64\\cl.exe" @C:\\Users\\andre\\AppData\\Local\\Temp\\nm9302.tmp
+        Run Build Command(s):C:/Program Files/JetBrains/CLion 2023.2/bin/cmake/win/x64/bin/cmake.exe -E env VERBOSE=1 nmake -f Makefile /nologo cmTC_c3d99\\fast && 	"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\nmake.exe"  -f CMakeFiles\\cmTC_c3d99.dir\\build.make /nologo -L                  CMakeFiles\\cmTC_c3d99.dir\\build
+        Building C object CMakeFiles/cmTC_c3d99.dir/CMakeCCompilerABI.c.obj
+        	"C:\\Program Files\\JetBrains\\CLion 2023.2\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E cmake_cl_compile_depends --dep-file=CMakeFiles\\cmTC_c3d99.dir\\CMakeCCompilerABI.c.obj.d --working-dir=C:\\Users\\andre\\OneDrive\\Documentos\\UFV\\periodo_vi\\Jogos\\projeto_final\\projeto-final-rafazardo\\cmake-build-debug\\CMakeFiles\\CMakeScratch\\TryCompile-pra8rk --filter-prefix="ObservaþÒo: incluindo arquivo: " -- "C:\\PROGRA~1\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\Hostx64\\x64\\cl.exe" @C:\\Users\\andre\\AppData\\Local\\Temp\\nm339.tmp
         CMakeCCompilerABI.c
-        Linking C executable cmTC_a8bda.exe
-        	"C:\\Program Files\\JetBrains\\CLion 2023.2\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_a8bda.dir --rc="C:\\PROGRA~2\\Windows Kits\\10\\bin\\10.0.22621.0\\x64\\rc.exe" --mt="C:\\PROGRA~2\\Windows Kits\\10\\bin\\10.0.22621.0\\x64\\mt.exe" --manifests -- "C:\\PROGRA~1\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\Hostx64\\x64\\link.exe" /nologo @CMakeFiles\\cmTC_a8bda.dir\\objects1.rsp @C:\\Users\\andre\\AppData\\Local\\Temp\\nm93BF.tmp
+        Linking C executable cmTC_c3d99.exe
+        	"C:\\Program Files\\JetBrains\\CLion 2023.2\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_c3d99.dir --rc="C:\\PROGRA~2\\Windows Kits\\10\\bin\\10.0.22621.0\\x64\\rc.exe" --mt="C:\\PROGRA~2\\Windows Kits\\10\\bin\\10.0.22621.0\\x64\\mt.exe" --manifests -- "C:\\PROGRA~1\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\Hostx64\\x64\\link.exe" /nologo @CMakeFiles\\cmTC_c3d99.dir\\objects1.rsp @C:\\Users\\andre\\AppData\\Local\\Temp\\nm3C8.tmp
         Visual Studio Incremental Link with embedded manifests
-        Create CMakeFiles\\cmTC_a8bda.dir/manifest.rc
-        Create empty: CMakeFiles\\cmTC_a8bda.dir/embed.manifest
+        Create CMakeFiles\\cmTC_c3d99.dir/manifest.rc
+        Create empty: CMakeFiles\\cmTC_c3d99.dir/embed.manifest
         RC Pass 1:
-        C:\\PROGRA~2\\Windows Kits\\10\\bin\\10.0.22621.0\\x64\\rc.exe /fo CMakeFiles\\cmTC_a8bda.dir/manifest.res CMakeFiles\\cmTC_a8bda.dir/manifest.rc
+        C:\\PROGRA~2\\Windows Kits\\10\\bin\\10.0.22621.0\\x64\\rc.exe /fo CMakeFiles\\cmTC_c3d99.dir/manifest.res CMakeFiles\\cmTC_c3d99.dir/manifest.rc
         LINK Pass 1:
-        C:\\PROGRA~1\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_a8bda.dir\\objects1.rsp /out:cmTC_a8bda.exe /implib:cmTC_a8bda.lib /pdb:C:\\Users\\andre\\OneDrive\\Documentos\\UFV\\periodo_vi\\Jogos\\projeto_final\\projeto-final-rafazardo\\cmake-build-debug\\CMakeFiles\\CMakeScratch\\TryCompile-dgsky0\\cmTC_a8bda.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_a8bda.dir/intermediate.manifest CMakeFiles\\cmTC_a8bda.dir/manifest.res
+        C:\\PROGRA~1\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_c3d99.dir\\objects1.rsp /out:cmTC_c3d99.exe /implib:cmTC_c3d99.lib /pdb:C:\\Users\\andre\\OneDrive\\Documentos\\UFV\\periodo_vi\\Jogos\\projeto_final\\projeto-final-rafazardo\\cmake-build-debug\\CMakeFiles\\CMakeScratch\\TryCompile-pra8rk\\cmTC_c3d99.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_c3d99.dir/intermediate.manifest CMakeFiles\\cmTC_c3d99.dir/manifest.res
         MT:
-        C:\\PROGRA~2\\Windows Kits\\10\\bin\\10.0.22621.0\\x64\\mt.exe /nologo /manifest CMakeFiles\\cmTC_a8bda.dir/intermediate.manifest /out:CMakeFiles\\cmTC_a8bda.dir/embed.manifest /notify_update
+        C:\\PROGRA~2\\Windows Kits\\10\\bin\\10.0.22621.0\\x64\\mt.exe /nologo /manifest CMakeFiles\\cmTC_c3d99.dir/intermediate.manifest /out:CMakeFiles\\cmTC_c3d99.dir/embed.manifest /notify_update
         RC Pass 2:
-        C:\\PROGRA~2\\Windows Kits\\10\\bin\\10.0.22621.0\\x64\\rc.exe /fo CMakeFiles\\cmTC_a8bda.dir/manifest.res CMakeFiles\\cmTC_a8bda.dir/manifest.rc
+        C:\\PROGRA~2\\Windows Kits\\10\\bin\\10.0.22621.0\\x64\\rc.exe /fo CMakeFiles\\cmTC_c3d99.dir/manifest.res CMakeFiles\\cmTC_c3d99.dir/manifest.rc
         FINAL LINK:
-        C:\\PROGRA~1\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_a8bda.dir\\objects1.rsp /out:cmTC_a8bda.exe /implib:cmTC_a8bda.lib /pdb:C:\\Users\\andre\\OneDrive\\Documentos\\UFV\\periodo_vi\\Jogos\\projeto_final\\projeto-final-rafazardo\\cmake-build-debug\\CMakeFiles\\CMakeScratch\\TryCompile-dgsky0\\cmTC_a8bda.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_a8bda.dir/intermediate.manifest CMakeFiles\\cmTC_a8bda.dir/manifest.res
+        C:\\PROGRA~1\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_c3d99.dir\\objects1.rsp /out:cmTC_c3d99.exe /implib:cmTC_c3d99.lib /pdb:C:\\Users\\andre\\OneDrive\\Documentos\\UFV\\periodo_vi\\Jogos\\projeto_final\\projeto-final-rafazardo\\cmake-build-debug\\CMakeFiles\\CMakeScratch\\TryCompile-pra8rk\\cmTC_c3d99.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_c3d99.dir/intermediate.manifest CMakeFiles\\cmTC_c3d99.dir/manifest.res
         
       exitCode: 0
   -
@@ -151,8 +151,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "C:/Users/andre/OneDrive/Documentos/UFV/periodo_vi/Jogos/projeto_final/projeto-final-rafazardo/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-pknpic"
-      binary: "C:/Users/andre/OneDrive/Documentos/UFV/periodo_vi/Jogos/projeto_final/projeto-final-rafazardo/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-pknpic"
+      source: "C:/Users/andre/OneDrive/Documentos/UFV/periodo_vi/Jogos/projeto_final/projeto-final-rafazardo/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-vjlluo"
+      binary: "C:/Users/andre/OneDrive/Documentos/UFV/periodo_vi/Jogos/projeto_final/projeto-final-rafazardo/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-vjlluo"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
       CMAKE_CXX_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
@@ -161,27 +161,27 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: C:/Users/andre/OneDrive/Documentos/UFV/periodo_vi/Jogos/projeto_final/projeto-final-rafazardo/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-pknpic
+        Change Dir: C:/Users/andre/OneDrive/Documentos/UFV/periodo_vi/Jogos/projeto_final/projeto-final-rafazardo/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-vjlluo
         
-        Run Build Command(s):C:/Program Files/JetBrains/CLion 2023.2/bin/cmake/win/x64/bin/cmake.exe -E env VERBOSE=1 nmake -f Makefile /nologo cmTC_81d69\\fast && 	"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\nmake.exe"  -f CMakeFiles\\cmTC_81d69.dir\\build.make /nologo -L                  CMakeFiles\\cmTC_81d69.dir\\build
-        Building CXX object CMakeFiles/cmTC_81d69.dir/CMakeCXXCompilerABI.cpp.obj
-        	"C:\\Program Files\\JetBrains\\CLion 2023.2\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E cmake_cl_compile_depends --dep-file=CMakeFiles\\cmTC_81d69.dir\\CMakeCXXCompilerABI.cpp.obj.d --working-dir=C:\\Users\\andre\\OneDrive\\Documentos\\UFV\\periodo_vi\\Jogos\\projeto_final\\projeto-final-rafazardo\\cmake-build-debug\\CMakeFiles\\CMakeScratch\\TryCompile-pknpic --filter-prefix="ObservaþÒo: incluindo arquivo: " -- "C:\\PROGRA~1\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\Hostx64\\x64\\cl.exe" @C:\\Users\\andre\\AppData\\Local\\Temp\\nm96DB.tmp
+        Run Build Command(s):C:/Program Files/JetBrains/CLion 2023.2/bin/cmake/win/x64/bin/cmake.exe -E env VERBOSE=1 nmake -f Makefile /nologo cmTC_3e48e\\fast && 	"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\nmake.exe"  -f CMakeFiles\\cmTC_3e48e.dir\\build.make /nologo -L                  CMakeFiles\\cmTC_3e48e.dir\\build
+        Building CXX object CMakeFiles/cmTC_3e48e.dir/CMakeCXXCompilerABI.cpp.obj
+        	"C:\\Program Files\\JetBrains\\CLion 2023.2\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E cmake_cl_compile_depends --dep-file=CMakeFiles\\cmTC_3e48e.dir\\CMakeCXXCompilerABI.cpp.obj.d --working-dir=C:\\Users\\andre\\OneDrive\\Documentos\\UFV\\periodo_vi\\Jogos\\projeto_final\\projeto-final-rafazardo\\cmake-build-debug\\CMakeFiles\\CMakeScratch\\TryCompile-vjlluo --filter-prefix="ObservaþÒo: incluindo arquivo: " -- "C:\\PROGRA~1\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\Hostx64\\x64\\cl.exe" @C:\\Users\\andre\\AppData\\Local\\Temp\\nm618.tmp
         CMakeCXXCompilerABI.cpp
-        Linking CXX executable cmTC_81d69.exe
-        	"C:\\Program Files\\JetBrains\\CLion 2023.2\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_81d69.dir --rc="C:\\PROGRA~2\\Windows Kits\\10\\bin\\10.0.22621.0\\x64\\rc.exe" --mt="C:\\PROGRA~2\\Windows Kits\\10\\bin\\10.0.22621.0\\x64\\mt.exe" --manifests -- "C:\\PROGRA~1\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\Hostx64\\x64\\link.exe" /nologo @CMakeFiles\\cmTC_81d69.dir\\objects1.rsp @C:\\Users\\andre\\AppData\\Local\\Temp\\nm97A6.tmp
+        Linking CXX executable cmTC_3e48e.exe
+        	"C:\\Program Files\\JetBrains\\CLion 2023.2\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_3e48e.dir --rc="C:\\PROGRA~2\\Windows Kits\\10\\bin\\10.0.22621.0\\x64\\rc.exe" --mt="C:\\PROGRA~2\\Windows Kits\\10\\bin\\10.0.22621.0\\x64\\mt.exe" --manifests -- "C:\\PROGRA~1\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\Hostx64\\x64\\link.exe" /nologo @CMakeFiles\\cmTC_3e48e.dir\\objects1.rsp @C:\\Users\\andre\\AppData\\Local\\Temp\\nm6C4.tmp
         Visual Studio Incremental Link with embedded manifests
-        Create CMakeFiles\\cmTC_81d69.dir/manifest.rc
-        Create empty: CMakeFiles\\cmTC_81d69.dir/embed.manifest
+        Create CMakeFiles\\cmTC_3e48e.dir/manifest.rc
+        Create empty: CMakeFiles\\cmTC_3e48e.dir/embed.manifest
         RC Pass 1:
-        C:\\PROGRA~2\\Windows Kits\\10\\bin\\10.0.22621.0\\x64\\rc.exe /fo CMakeFiles\\cmTC_81d69.dir/manifest.res CMakeFiles\\cmTC_81d69.dir/manifest.rc
+        C:\\PROGRA~2\\Windows Kits\\10\\bin\\10.0.22621.0\\x64\\rc.exe /fo CMakeFiles\\cmTC_3e48e.dir/manifest.res CMakeFiles\\cmTC_3e48e.dir/manifest.rc
         LINK Pass 1:
-        C:\\PROGRA~1\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_81d69.dir\\objects1.rsp /out:cmTC_81d69.exe /implib:cmTC_81d69.lib /pdb:C:\\Users\\andre\\OneDrive\\Documentos\\UFV\\periodo_vi\\Jogos\\projeto_final\\projeto-final-rafazardo\\cmake-build-debug\\CMakeFiles\\CMakeScratch\\TryCompile-pknpic\\cmTC_81d69.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_81d69.dir/intermediate.manifest CMakeFiles\\cmTC_81d69.dir/manifest.res
+        C:\\PROGRA~1\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_3e48e.dir\\objects1.rsp /out:cmTC_3e48e.exe /implib:cmTC_3e48e.lib /pdb:C:\\Users\\andre\\OneDrive\\Documentos\\UFV\\periodo_vi\\Jogos\\projeto_final\\projeto-final-rafazardo\\cmake-build-debug\\CMakeFiles\\CMakeScratch\\TryCompile-vjlluo\\cmTC_3e48e.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_3e48e.dir/intermediate.manifest CMakeFiles\\cmTC_3e48e.dir/manifest.res
         MT:
-        C:\\PROGRA~2\\Windows Kits\\10\\bin\\10.0.22621.0\\x64\\mt.exe /nologo /manifest CMakeFiles\\cmTC_81d69.dir/intermediate.manifest /out:CMakeFiles\\cmTC_81d69.dir/embed.manifest /notify_update
+        C:\\PROGRA~2\\Windows Kits\\10\\bin\\10.0.22621.0\\x64\\mt.exe /nologo /manifest CMakeFiles\\cmTC_3e48e.dir/intermediate.manifest /out:CMakeFiles\\cmTC_3e48e.dir/embed.manifest /notify_update
         RC Pass 2:
-        C:\\PROGRA~2\\Windows Kits\\10\\bin\\10.0.22621.0\\x64\\rc.exe /fo CMakeFiles\\cmTC_81d69.dir/manifest.res CMakeFiles\\cmTC_81d69.dir/manifest.rc
+        C:\\PROGRA~2\\Windows Kits\\10\\bin\\10.0.22621.0\\x64\\rc.exe /fo CMakeFiles\\cmTC_3e48e.dir/manifest.res CMakeFiles\\cmTC_3e48e.dir/manifest.rc
         FINAL LINK:
-        C:\\PROGRA~1\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_81d69.dir\\objects1.rsp /out:cmTC_81d69.exe /implib:cmTC_81d69.lib /pdb:C:\\Users\\andre\\OneDrive\\Documentos\\UFV\\periodo_vi\\Jogos\\projeto_final\\projeto-final-rafazardo\\cmake-build-debug\\CMakeFiles\\CMakeScratch\\TryCompile-pknpic\\cmTC_81d69.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_81d69.dir/intermediate.manifest CMakeFiles\\cmTC_81d69.dir/manifest.res
+        C:\\PROGRA~1\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_3e48e.dir\\objects1.rsp /out:cmTC_3e48e.exe /implib:cmTC_3e48e.lib /pdb:C:\\Users\\andre\\OneDrive\\Documentos\\UFV\\periodo_vi\\Jogos\\projeto_final\\projeto-final-rafazardo\\cmake-build-debug\\CMakeFiles\\CMakeScratch\\TryCompile-vjlluo\\cmTC_3e48e.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_3e48e.dir/intermediate.manifest CMakeFiles\\cmTC_3e48e.dir/manifest.res
         
       exitCode: 0
 ...

@@ -78,12 +78,14 @@ add_executable(${PROJECT_NAME}
         Source/Interfaces/HUDs/BattleHUDs/ItemSelectorBattleHUD.cpp
         Source/Interfaces/HUDs/BattleHUDs/ItemSelectorBattleHUD.h
         Source/Interfaces/HUDs/GameHUDs/PressSpaceHUD.h
+        Source/Interfaces/HUDs/BattleHUDs/EnemySelectorBattleHUD.cpp
 )
 
 ####### DO NOT EDIT BELLOW
 find_package(SDL2 2.28.2 EXACT REQUIRED)
 find_package(SDL2_image REQUIRED)
 find_package(SDL2_mixer REQUIRED)
+find_package(SDL2_ttf REQUIRED)
 
 include_directories(${SDL2_INCLUDE_DIRS})
-target_link_libraries(${PROJECT_NAME} ${SDL2_LIBRARIES} SDL2_image::SDL2_image SDL2_mixer::SDL2_mixer)
+target_link_libraries(${PROJECT_NAME} ${SDL2_LIBRARIES}  SDL2_image::SDL2_image SDL2_mixer::SDL2_mixer SDL2_ttf::SDL2_ttf)

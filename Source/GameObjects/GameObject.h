@@ -75,8 +75,9 @@ class GameObject {
         }
 
         // Enable this game object.
-        virtual void Enable() {
-            SetState(GameObjectState::Active);
+        virtual void Enable(bool draw_only = false) {
+            if(!draw_only)
+                SetState(GameObjectState::Active);
             for(auto c : mComponents)
                 c->SetEnabled(true);
         }

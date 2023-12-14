@@ -34,7 +34,7 @@ class Saver : public GameObject{
         }
 
         // Enable this game object.
-        virtual void Enable() override {
+        virtual void Enable(bool draw_only=false) override {
             SetState(GameObjectState::Active);
             for(auto c : mComponents)
                 c->SetEnabled(true);

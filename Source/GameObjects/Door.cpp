@@ -14,9 +14,6 @@
 #define TRIGGER_WIDTH 30
 #define TRIGGER_HEIGHT 60
 
-void MinhaFuncao() {
-    std::cout << "PORTA" << std::endl;
-}
 
 Door::Door(MyGame *game, const std::string &texturePath, Vector2 position, Vector2 player_pos):
     GameObject(game),

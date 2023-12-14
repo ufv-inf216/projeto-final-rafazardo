@@ -15,6 +15,7 @@
 class BattlePlayer : public BattleCharacter {
     private:
         Player *mPlayer;
+        BattleEnemy *mTarget;
 
     public:
         BattlePlayer(class MyGame *game, Battle *battle, Player *player);
@@ -28,4 +29,6 @@ class BattlePlayer : public BattleCharacter {
         Character* GetCharacter() override { return mPlayer; }
 
         void SetAction(Action *action) { mCurrentAction = action; }
+
+        void SetTarget(int enemy_idx);
 };

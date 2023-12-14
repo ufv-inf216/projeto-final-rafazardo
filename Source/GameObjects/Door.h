@@ -50,8 +50,9 @@ class Door : public GameObject{
         }
 
         // Enable this game object.
-        virtual void Enable() override {
-            SetState(GameObjectState::Active);
+        virtual void Enable(bool draw_only=false) override {
+            if(!draw_only)
+                SetState(GameObjectState::Active);
             for(auto c : mComponents)
                 c->SetEnabled(true);
             mTrigger->Enable();

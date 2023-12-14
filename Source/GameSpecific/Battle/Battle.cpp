@@ -97,6 +97,7 @@ void Battle::End() {
 void Battle::OnUpdate(float deltaTime) {
     if(!mIsRunning) return;
     Action *action;
+    int cnt = 0;
 
     for(int i=0; i<mHpBars.size(); i++) {
         if(mBattleEnemies[i]->IsAlive())
@@ -149,7 +150,7 @@ void Battle::OnUpdate(float deltaTime) {
             delete action;
 
             // === FOR TESTING PURPOSES ====
-            for(int i = 0; i < 1000000000; i++);
+            for(int i = 0; i < 1000000000; i++); // TROCAR PARA SLEEP
 
             SDL_Log("==========================");
             SDL_Log("Iniciativa: %d", mCurrentInitiative->first);
@@ -167,38 +168,28 @@ void Battle::OnUpdate(float deltaTime) {
                 SDL_Log("\n\n");
             }
 
+            // If the player dies, so we'll consider it a Game Over.
             if(!mBattlePlayer->IsAlive()) {
-                mGame->Quit();
+                mGame->GameOver();
                 return;
             }
+
+            // Checks if all enemies died.
             for(int i = 0; i < mBattleEnemies.size(); i++)
                 if(!mBattleEnemies[i]->IsAlive()) {
+                    cnt++;
                     mInitiatives[mBattleEnemies[i]->GetInitiative()] = nullptr;
                     mBattleEnemies[i]->SetState(GameObjectState::Destroy);
-                    mBattleState = BattleState::Ending;
                 }
+            if(cnt == mBattleEnemies.size()) {
+                mBattleState = BattleState::Ending;
+                GLOBAL_TotalEnemiesKilled[mMainEnemy->GetId()] += cnt;
+            }
 
             break;
 
         // Finishing the battle with a Fade.
         case Ending:
-//            SDL_Log("ENTREIIII\n");
-//            if(QUIT) { mFade->In(nullptr); QUIT = false; }
-//            if(mFade->IsFadding()) return;
-//            if(mFade->GetFadeState() == FadeState::In) {
-//                SDL_Log("ENTREIIII1\n");
-//                End();
-//                mIsRunning = false;
-//                mBattleHUD->SetState(GameObjectState::Destroy);
-//                if(mGame->GetCamera()->GetMask())
-//                    mGame->GetCamera()->GetMask()->Enable();
-//                mFade->Out(false);
-//            } else if(mFade->GetFadeState() == FadeState::Out) {
-//                SDL_Log("ENTREIIII2\n");
-//                SetState(GameObjectState::Destroy);
-//                return;
-//            }
-
                 End();
                 mIsRunning = false;
                 mBattleHUD->SetState(GameObjectState::Destroy);
