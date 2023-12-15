@@ -28,3 +28,20 @@ void NPC::SetQuest(Quest *quest) {
     mQuest = quest;
     mQuest->SetNPC(this);
 };
+
+void NPC::OnProcessInput(const Uint8 *state)  {
+    if((mGame->GetPlayer()->GetPosition() - mPosition).Length() > 48) return;
+
+
+    if(!mQuest->IsDone())
+        if(state[SDL_SCANCODE_X] && mPressCounter > .5f) {
+            if(!mIsHUDOpen) { mQuest->Open(); mIsHUDOpen = true; }
+            else mQuest->Close();
+            mPressCounter = .0f;
+        }
+    else
+        if(state[SDL_SCANCODE_X] && mPressCounter > .5f) {
+            mPressCounter = .0f;
+            mGame->Quit();
+        }
+}

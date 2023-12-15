@@ -19,6 +19,9 @@ class NPC : public Character {
     private:
         std::string mDialogue;
 
+        float mPressCounter = .0f;
+        bool mIsHUDOpen = false;
+
         class Quest *mQuest;
 
     public:
@@ -34,6 +37,10 @@ class NPC : public Character {
         virtual void Interact();
 
         void SetQuest(class Quest *quest);
+
+        void OnProcessInput(const Uint8 *state) override;
+
+        void OnUpdate(float deltaTime) override { mPressCounter += deltaTime; }
 };
 
 #endif

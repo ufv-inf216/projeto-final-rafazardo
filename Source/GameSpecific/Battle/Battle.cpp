@@ -78,10 +78,14 @@ void Battle::Start() {
 
     SetPosition(Vector2(0, 0));
     mIsRunning = true;
+
+    battle_music = mGame->GetAudioSystem()->PlaySound("battle.wav");
 }
 
 void Battle::End() {
     mIsRunning = false;
+
+    mGame->GetAudioSystem()->StopAllSounds();
 
     // mGame->Resume(false);
     mGame->GetCurrentMap()->Enable();

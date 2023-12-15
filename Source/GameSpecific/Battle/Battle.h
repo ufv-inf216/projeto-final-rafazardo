@@ -46,6 +46,8 @@ class Battle : public GameObject {
 
         std::vector<DrawRectComponent*> mHpBars;
 
+        SoundHandle battle_music;
+
     public:
         Battle(class MyGame *game, Player *player, Enemy *enemy);
         ~Battle();

@@ -6,40 +6,49 @@
 
 #include "../../GameObjects/GameObject.h"
 #include "../../GameSpecific/Characters/NPC.h"
-
-enum QuestType {
-    KILL_N,
-    GET_ITEM
-};
-
-enum QuestState {
-    UNKOWN,
-    NOT_FINISHED,
-    DONE
-};
+#include "../MyGame.h"
 
 class Quest : public GameObject{
     protected:
-        QuestState mQuestState = UNKOWN;
+        int mObjective = 5,
+            mEnemyIndex = 1;
         NPC *mNPC;
 
-        std::string mDialogues[3];
+        bool mIsDone = false;
+
+        SpriteComponent *mFrame;
 
     public:
-        Quest(class MyGame *game, std::string dialogues[3]):
+        Quest(class MyGame *game, const std::string &frameDir):
             GameObject(game) {
 
-            mDialogues[0] = dialogues[0];
-            mDialogues[1] = dialogues[1];
-            mDialogues[2] = dialogues[2];
-
-            mNPC->SetDialogue(mDialogues[0]);
-        }
-
-        void StartQuest() {
-            mQuestState = NOT_FINISHED;
-            mNPC->SetDialogue(mDialogues[1]);
+            mFrame = new SpriteComponent(this, frameDir, 202, 45);
+            mFrame->SetEnabled(false);
         }
 
         void SetNPC(NPC *npc) { mNPC = npc; }
+
+        void OnUpdate(float deltaTime) override {
+            if(GLOBAL_TotalEnemiesKilled[mEnemyIndex] == mObjective) {
+                mIsDone = true;
+            }
+        }
+
+        void Open() {
+            SetPosition(mGame->GetCamera()->GetPosition());
+            mFrame->SetOffset(Vector2(35, 125));
+
+            mFrame->SetEnabled(true);
+            mGame->GetCamera()->Disable();
+            mGame->GetPlayer()->Disable();
+            mGame->GetPlayer()->Enable(true);
+        }
+
+        void Close() {
+            mGame->GetCamera()->Enable();
+            mGame->GetPlayer()->Enable();
+            mFrame->SetEnabled(false);
+        }
+
+        bool IsDone() { return  mIsDone; }
 };

@@ -3,8 +3,6 @@
 #include "../GameSpecific/Characters/Enemies/Slime.h"
 #include "../GameSpecific/Battle/Action.h"
 #include "Random.h"
-#include "../GameSpecific/Quests/KillNQuest.h"
-#include "../GameSpecific/Quests/GetItemQuest.h"
 
 std::vector<ARMOR> ARMORS;
 std::vector<FOOD> FOODS;
@@ -13,6 +11,12 @@ std::vector<POTION> POTIONS;
 std::vector<WEAPON> WEAPONS;
 
 // nlohmann::json enemiesData;
+
+const std::string GLOBAL_DIAG_DIRS[3] = {
+        "../Assets/Sprites/Dialogues/diag1.png",
+        "../Assets/Sprites/Dialogues/diag2.png",
+        "../Assets/Sprites/Dialogues/diag3.png"
+};
 
 // Armor ID definitions
 const int PADDED_ARMOR_ID = 0;
@@ -197,25 +201,4 @@ Enemy* GenerateRandomEnemy(MyGame *game) {
             break;
      }
      return enemy;
-}
-
-Quest* GLOBAL_GenerateRandomQuest(MyGame *game) {
-    int type = Random::GetIntRange(0, 1);
-    Quest *quest;
-    std::string dialogues[3];
-
-    switch(type) {
-        case QuestType::KILL_N:
-            quest = new KillNQuest(game, dialogues, 0, 0); // TROCAR!
-            break;
-        case QuestType::GET_ITEM:
-            quest = new GetItemQuest(game, dialogues);
-            break;
-    }
-
-    return quest;
-}
-
-Chest* GLOBAL_GenerateRandomChest() {
-    return nullptr;
 }

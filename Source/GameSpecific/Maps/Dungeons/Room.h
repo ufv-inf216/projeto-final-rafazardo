@@ -56,10 +56,31 @@ class Room : public Map {
 
         void Initialize(bool enable) override;
 
+        // Stops Genearting Outputs and Updating its GameObjects.
+        void Disable() override {
+            SetState(GameObjectState::Paused);
+            mSpriteComponent->SetEnabled(false);
+            mCollisionMatrixComponent->SetEnabled(false);
+            for(auto obj : mGameObjects)
+                if(obj) obj->Disable();
+            if(mNPC) mNPC->Disable();
+        }
+
+        // Enable Outputs and GameObjects.
+        void Enable(bool draw_only = false) override {
+            if(!draw_only)
+                SetState(GameObjectState::Active);
+
+            mSpriteComponent->SetEnabled(true);
+            mCollisionMatrixComponent->SetEnabled(true);
+            for(auto obj : mGameObjects)
+                if(obj) obj->Enable();
+            if(mNPC) mNPC->Enable();
+        }
+
         void AddNPC(NPC *npc) {
             mNPC = npc;
             mNPC->SetPosition(Vector2(24*9, 24*8));
-            AddGameObject(mNPC);
             mNPC->Disable();
         }
 };

@@ -20,6 +20,7 @@
 #include "../Interfaces/Fade.h"
 #include "../Interfaces/Menus/MainMenu.h"
 #include "../Interfaces/Menus/GameOver.h"
+#include "../Game/AudioSystem.h"
 
 class MyGame : public Game {
     private:
@@ -47,6 +48,8 @@ class MyGame : public Game {
         MainMenu *mMainMenu;
         GameOverScreen *mGameOverScreen;
 
+        AudioSystem *mAudioSystem = new AudioSystem();
+
     public:
         // Constructor
         // @params windowWidth and windowHeight The input integers the represents the window width and height
@@ -71,4 +74,6 @@ class MyGame : public Game {
         void GameOver() { mGameOverScreen->Open(); }
 
         void Save();
+
+        AudioSystem* GetAudioSystem() { return mAudioSystem; }
 };

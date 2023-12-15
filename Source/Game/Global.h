@@ -85,6 +85,8 @@ extern const int SUPREME_HEALING_ID;
 extern const int SHORT_SWORD_ID;
 extern const int GREAT_SWORD_ID;
 
+extern const std::string GLOBAL_DIAG_DIRS[3];
+
 #define TOTAL_ENEMY_ATTACKS 2
 extern std::vector<class Attack*> EnemyAttacks;
 
@@ -100,9 +102,5 @@ void DefineGlobalVariables();
 
 // Returns a random enemy
 class Enemy* GenerateRandomEnemy(class MyGame *game);
-
-// Returns a random assets for the Safe Room.
-class Quest* GLOBAL_GenerateRandomQuest(MyGame *game);
-class Chest* GLOBAL_GenerateRandomChest();
 
 #endif //PROJETO_FINAL_INF216_GLOBAL_H

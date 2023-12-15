@@ -9,6 +9,7 @@
 #include "DungeonGenerator.h"
 #include "iostream"
 #include "../../../../Game/Random.h"
+#include "../../../../GameSpecific/Quests/Quest.h"
 
 #define x first
 #define y second
@@ -44,9 +45,11 @@ Layer* DungeonGenerator::GenerateLayer(char **grid, int gridWidth, int gridHeigh
 
         if(added.find(idx) == added.end()) {
             int a[6] = {0,0,0,0,0,0};
-            rooms[idx]->AddNPC(new NPC(mGame, "../Assets/Sprites/NPCs/monk_sprite.png",
-                                       "../Assets/Sprites/NPCs/sprite_sheet_data.json", a));
-
+            auto n = new NPC(mGame, "../Assets/Sprites/NPCs/monk_sprite.png",
+                             "../Assets/Sprites/NPCs/sprite_sheet_data.json", a);
+            auto q = new Quest(mGame, GLOBAL_DIAG_DIRS[i]);
+            n->SetQuest(q);
+            rooms[idx]->AddNPC(n);
         } else
             i--;
     }
