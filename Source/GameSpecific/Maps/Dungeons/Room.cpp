@@ -25,7 +25,7 @@ Room::Room(class MyGame *game, const std::string &jsonPath): Map(game) {
     std::ifstream json(jsonPath);
     nlohmann::json jsonData = nlohmann::json::parse(json);
 
-    int pos = Random::GetIntRange(0, 3);
+    int pos = Random::GetIntRange(0, 12);
 
     // Set map dimensions.
     mWidth = jsonData[pos]["width"]; mHeight = jsonData[pos]["height"];

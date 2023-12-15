@@ -254,12 +254,6 @@
 		<Unit filename="C:/Users/andre/OneDrive/Documentos/UFV/periodo_vi/Jogos/projeto_final/projeto-final-rafazardo/Source/GameSpecific/Characters/Character.h">
 			<Option target="projeto-final-inf216"/>
 		</Unit>
-		<Unit filename="C:/Users/andre/OneDrive/Documentos/UFV/periodo_vi/Jogos/projeto_final/projeto-final-rafazardo/Source/GameSpecific/Characters/Crafter.cpp">
-			<Option target="projeto-final-inf216"/>
-		</Unit>
-		<Unit filename="C:/Users/andre/OneDrive/Documentos/UFV/periodo_vi/Jogos/projeto_final/projeto-final-rafazardo/Source/GameSpecific/Characters/Crafter.h">
-			<Option target="projeto-final-inf216"/>
-		</Unit>
 		<Unit filename="C:/Users/andre/OneDrive/Documentos/UFV/periodo_vi/Jogos/projeto_final/projeto-final-rafazardo/Source/GameSpecific/Characters/Enemies/Bat.cpp">
 			<Option target="projeto-final-inf216"/>
 		</Unit>
@@ -399,6 +393,12 @@
 			<Option target="projeto-final-inf216"/>
 		</Unit>
 		<Unit filename="C:/Users/andre/OneDrive/Documentos/UFV/periodo_vi/Jogos/projeto_final/projeto-final-rafazardo/Source/Interfaces/HUDs/GameHUDs/PressSpaceHUD.h">
+			<Option target="projeto-final-inf216"/>
+		</Unit>
+		<Unit filename="C:/Users/andre/OneDrive/Documentos/UFV/periodo_vi/Jogos/projeto_final/projeto-final-rafazardo/Source/Interfaces/HUDs/InventoryHUD.cpp">
+			<Option target="projeto-final-inf216"/>
+		</Unit>
+		<Unit filename="C:/Users/andre/OneDrive/Documentos/UFV/periodo_vi/Jogos/projeto_final/projeto-final-rafazardo/Source/Interfaces/HUDs/InventoryHUD.h">
 			<Option target="projeto-final-inf216"/>
 		</Unit>
 		<Unit filename="C:/Users/andre/OneDrive/Documentos/UFV/periodo_vi/Jogos/projeto_final/projeto-final-rafazardo/Source/Interfaces/Interface.cpp">

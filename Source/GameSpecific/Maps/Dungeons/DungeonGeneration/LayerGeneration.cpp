@@ -15,6 +15,7 @@
 
 Layer* DungeonGenerator::GenerateLayer(char **grid, int gridWidth, int gridHeight, Coord &start, Coord &end, Layer* prev) {
     std::map<Coord, Room*> coord2room;
+    std::vector<Room*> rooms;
 
     std::cout << "==============================\n";
     for(int i = 0; i < gridHeight; i++) {
@@ -29,12 +30,26 @@ Layer* DungeonGenerator::GenerateLayer(char **grid, int gridWidth, int gridHeigh
     for(int i = 0; i < gridHeight; i++)
         for (int j = 0; j < gridWidth; j++) {
             if(grid[i][j] != '1') continue;
-            coord2room[{i, j}] = new Room(mGame, "../Assets/JsonFiles/Dungeons/sq.json");
+            coord2room[{i, j}] = new Room(mGame, "../Assets/JsonFiles/Dungeons/sq.json", Random::GetIntRange(0, 10));
             coord2room[{i, j}]->Initialize(false);
+            rooms.push_back(coord2room[{i, j}]);
         }
 
     delete coord2room[start];
-    coord2room[start] = new Room(mGame, "../Assets/JsonFiles/Dungeons/sq.json", 10);
+    coord2room[start] = new Room(mGame, "../Assets/JsonFiles/Dungeons/sq.json", 0);
+
+    std::set<int> added;
+    for(int i = 0; i < 3; i++) {
+        auto idx = Random::GetIntRange(0, rooms.size()-1);
+
+        if(added.find(idx) == added.end()) {
+            int a[6] = {0,0,0,0,0,0};
+            rooms[idx]->AddNPC(new NPC(mGame, "../Assets/Sprites/NPCs/monk_sprite.png",
+                                       "../Assets/Sprites/NPCs/sprite_sheet_data.json", a));
+
+        } else
+            i--;
+    }
 
     int t, b, r, l;
     for(int i = 0; i < gridHeight; i++)

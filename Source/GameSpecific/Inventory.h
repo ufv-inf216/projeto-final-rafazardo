@@ -33,6 +33,8 @@ private:
 
     bool mIsOpen = false;
 
+    float mPressCounter = .0f;
+
 public:
     // Inventory constructor
     // @param maxWeight is the maximum weight the inventory can support.
@@ -76,4 +78,8 @@ public:
     void Close();
 
     bool IsOpen() { return mIsOpen; }
+
+    void OnUpdate(float deltaTime) override {
+        mPressCounter += deltaTime;
+    }
 };

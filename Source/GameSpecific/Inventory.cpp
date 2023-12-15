@@ -91,14 +91,20 @@ void Inventory::PrintInventory() {
 }
 
 void Inventory::Open() {
-    mPosition = mGame->GetCamera()->GetPosition();
+    if(mPressCounter < .5f) return;
+
+    mInventoryHUD->SetPosition(mGame->GetCamera()->GetPosition());
     mIsOpen = true;
-    mGame->Pause();
     mInventoryHUD->Enable();
+    mPressCounter = .0f;
+    mGame->GetCamera()->Disable();
 }
 
 void Inventory::Close() {
+    if(mPressCounter < .5f) return;
+
     mIsOpen = false;
-    mGame->Resume();
     mInventoryHUD->Disable();
+    mPressCounter = .0f;
+    mGame->GetCamera()->Enable();
 }

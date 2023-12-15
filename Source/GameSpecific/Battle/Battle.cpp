@@ -170,7 +170,7 @@ void Battle::OnUpdate(float deltaTime) {
 
             // If the player dies, so we'll consider it a Game Over.
             if(!mBattlePlayer->IsAlive()) {
-                mGame->GameOver();
+                mGame->Quit();
                 return;
             }
 

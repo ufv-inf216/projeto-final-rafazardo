@@ -65,7 +65,7 @@ void MyGame::InitializeGameObjects() {
     mPlayer = new Player(this, "../Assets/Sprites/Player/sprite_sheet."
                                "png",
                          "../Assets/Sprites/Player/sprite_sheet_data.json", a, inventory);
-    mPlayer->SetPosition(Vector2(204, 204));
+    mPlayer->SetPosition(Vector2(8*24, 8*24));
 
     // Set Camera settings.
     mCamera = new Camera(this, Vector2(0,0), Vector2(30*TILE_SIZE, 15*TILE_SIZE),2.f);

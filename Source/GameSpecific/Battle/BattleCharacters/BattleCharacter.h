@@ -30,8 +30,8 @@ class BattleCharacter : public GameObject {
 
         bool mHasAttacked;
 
-        int mHP = 30;    // default.
-        int mMaxHP = 30; // default.
+        int mHP = 20;    // default.
+        int mMaxHP = 20; // default.
 
         int mRemoveHeal = -1;
         int mInitiative;

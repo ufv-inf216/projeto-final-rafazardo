@@ -766,30 +766,6 @@ Source\GameSpecific\Characters\Character.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\projeto-final-inf216.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\projeto-final-inf216.dir\Source\GameSpecific\Characters\Character.cpp.s
 .PHONY : Source\GameSpecific\Characters\Character.cpp.s
 
-Source\GameSpecific\Characters\Crafter.obj: Source\GameSpecific\Characters\Crafter.cpp.obj
-.PHONY : Source\GameSpecific\Characters\Crafter.obj
-
-# target to build an object file
-Source\GameSpecific\Characters\Crafter.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\projeto-final-inf216.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\projeto-final-inf216.dir\Source\GameSpecific\Characters\Crafter.cpp.obj
-.PHONY : Source\GameSpecific\Characters\Crafter.cpp.obj
-
-Source\GameSpecific\Characters\Crafter.i: Source\GameSpecific\Characters\Crafter.cpp.i
-.PHONY : Source\GameSpecific\Characters\Crafter.i
-
-# target to preprocess a source file
-Source\GameSpecific\Characters\Crafter.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\projeto-final-inf216.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\projeto-final-inf216.dir\Source\GameSpecific\Characters\Crafter.cpp.i
-.PHONY : Source\GameSpecific\Characters\Crafter.cpp.i
-
-Source\GameSpecific\Characters\Crafter.s: Source\GameSpecific\Characters\Crafter.cpp.s
-.PHONY : Source\GameSpecific\Characters\Crafter.s
-
-# target to generate assembly for a file
-Source\GameSpecific\Characters\Crafter.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\projeto-final-inf216.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\projeto-final-inf216.dir\Source\GameSpecific\Characters\Crafter.cpp.s
-.PHONY : Source\GameSpecific\Characters\Crafter.cpp.s
-
 Source\GameSpecific\Characters\Enemies\Bat.obj: Source\GameSpecific\Characters\Enemies\Bat.cpp.obj
 .PHONY : Source\GameSpecific\Characters\Enemies\Bat.obj
 
@@ -1366,6 +1342,30 @@ Source\Interfaces\HUDs\BattleHUDs\ItemSelectorBattleHUD.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\projeto-final-inf216.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\BattleHUDs\ItemSelectorBattleHUD.cpp.s
 .PHONY : Source\Interfaces\HUDs\BattleHUDs\ItemSelectorBattleHUD.cpp.s
 
+Source\Interfaces\HUDs\InventoryHUD.obj: Source\Interfaces\HUDs\InventoryHUD.cpp.obj
+.PHONY : Source\Interfaces\HUDs\InventoryHUD.obj
+
+# target to build an object file
+Source\Interfaces\HUDs\InventoryHUD.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\projeto-final-inf216.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\InventoryHUD.cpp.obj
+.PHONY : Source\Interfaces\HUDs\InventoryHUD.cpp.obj
+
+Source\Interfaces\HUDs\InventoryHUD.i: Source\Interfaces\HUDs\InventoryHUD.cpp.i
+.PHONY : Source\Interfaces\HUDs\InventoryHUD.i
+
+# target to preprocess a source file
+Source\Interfaces\HUDs\InventoryHUD.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\projeto-final-inf216.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\InventoryHUD.cpp.i
+.PHONY : Source\Interfaces\HUDs\InventoryHUD.cpp.i
+
+Source\Interfaces\HUDs\InventoryHUD.s: Source\Interfaces\HUDs\InventoryHUD.cpp.s
+.PHONY : Source\Interfaces\HUDs\InventoryHUD.s
+
+# target to generate assembly for a file
+Source\Interfaces\HUDs\InventoryHUD.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\projeto-final-inf216.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\projeto-final-inf216.dir\Source\Interfaces\HUDs\InventoryHUD.cpp.s
+.PHONY : Source\Interfaces\HUDs\InventoryHUD.cpp.s
+
 Source\Interfaces\Interface.obj: Source\Interfaces\Interface.cpp.obj
 .PHONY : Source\Interfaces\Interface.obj
 
@@ -1504,9 +1504,6 @@ help:
 	@echo ... Source/GameSpecific/Characters/Character.obj
 	@echo ... Source/GameSpecific/Characters/Character.i
 	@echo ... Source/GameSpecific/Characters/Character.s
-	@echo ... Source/GameSpecific/Characters/Crafter.obj
-	@echo ... Source/GameSpecific/Characters/Crafter.i
-	@echo ... Source/GameSpecific/Characters/Crafter.s
 	@echo ... Source/GameSpecific/Characters/Enemies/Bat.obj
 	@echo ... Source/GameSpecific/Characters/Enemies/Bat.i
 	@echo ... Source/GameSpecific/Characters/Enemies/Bat.s
@@ -1579,6 +1576,9 @@ help:
 	@echo ... Source/Interfaces/HUDs/BattleHUDs/ItemSelectorBattleHUD.obj
 	@echo ... Source/Interfaces/HUDs/BattleHUDs/ItemSelectorBattleHUD.i
 	@echo ... Source/Interfaces/HUDs/BattleHUDs/ItemSelectorBattleHUD.s
+	@echo ... Source/Interfaces/HUDs/InventoryHUD.obj
+	@echo ... Source/Interfaces/HUDs/InventoryHUD.i
+	@echo ... Source/Interfaces/HUDs/InventoryHUD.s
 	@echo ... Source/Interfaces/Interface.obj
 	@echo ... Source/Interfaces/Interface.i
 	@echo ... Source/Interfaces/Interface.s

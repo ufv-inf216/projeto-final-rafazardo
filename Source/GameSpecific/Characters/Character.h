@@ -71,7 +71,7 @@ class Character : public GameObject {
         AnimatedSpriteComponent *mAnimatedSpriteComponent;
         BoxColliderComponent *mBoxColliderComponent;
 
-        int mHP, mMaxHP;
+        int mHP = 30, mMaxHP = 30;
 
     public:
         // Constructor

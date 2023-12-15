@@ -31,6 +31,6 @@ public:
 
     // @return The chest's inventory
     Inventory *GetChest();
-    
+
     void SetChest(Inventory *inventory);
 };

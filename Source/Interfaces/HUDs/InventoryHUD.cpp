@@ -3,7 +3,9 @@
 #include "../../GameSpecific/MyGame.h"
 
 InventoryHUD::InventoryHUD(MyGame *myGame) : Interface(myGame) {
-    mFrame = new SpriteComponent(this, "../Assets/Sprites/HUDs/InventoryHUD/inv_hud.png", 167, 110);
+    mFrame = new SpriteComponent(this, "../Assets/Sprites/HUDs/InventoryHUD/inv_hud.png",
+                                 167, 110);
+    mFrame->SetOffset(Vector2(50, 50));
 }
 
 bool InventoryHUD::AddWeapon(int id, std::string txtDir) {

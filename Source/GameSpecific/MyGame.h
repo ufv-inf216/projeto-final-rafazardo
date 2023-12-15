@@ -19,7 +19,6 @@
 #include "Characters/Enemy.h"
 #include "../Interfaces/Fade.h"
 #include "../Interfaces/Menus/MainMenu.h"
-#include "../Interfaces/Menus/CharacterCreationMenu.h"
 #include "../Interfaces/Menus/GameOver.h"
 
 class MyGame : public Game {
@@ -46,7 +45,6 @@ class MyGame : public Game {
 
         // Menus dos Jogo.
         MainMenu *mMainMenu;
-        CharacterCreationMenu *mCharacterCreationMenu;
         GameOverScreen *mGameOverScreen;
 
     public:
@@ -70,7 +68,6 @@ class MyGame : public Game {
         void SetCurrentBattle(Battle *battle) { mCurrentBattle = battle; }
 
         MainMenu* GetMainMenu() { return mMainMenu; }
-        CharacterCreationMenu* GetCharacterCreationMenu() { return mCharacterCreationMenu; }
         void GameOver() { mGameOverScreen->Open(); }
 
         void Save();

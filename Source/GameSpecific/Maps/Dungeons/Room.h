@@ -10,6 +10,7 @@
 #pragma once
 
 #include "../Map.h"
+#include "../../Characters/NPC.h"
 
 enum class ConnectionSide {
     Top,
@@ -34,6 +35,8 @@ class Room : public Map {
         std::pair<Vector2, Vector2> mArea1, mArea2,
                                     mArea3, mArea4;
 
+        NPC *mNPC = nullptr;
+
     public:
         // Constructor
         // @param game The current game
@@ -52,4 +55,11 @@ class Room : public Map {
         void Print();
 
         void Initialize(bool enable) override;
+
+        void AddNPC(NPC *npc) {
+            mNPC = npc;
+            mNPC->SetPosition(Vector2(24*9, 24*8));
+            AddGameObject(mNPC);
+            mNPC->Disable();
+        }
 };

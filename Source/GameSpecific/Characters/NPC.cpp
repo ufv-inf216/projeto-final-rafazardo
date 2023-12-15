@@ -13,7 +13,12 @@
 #include "../Quests/Quest.h"
 
 NPC::NPC(class MyGame *game, const std::string &texturePath, const std::string &spriteSheetData, int *attrs):
-    Character(game, texturePath, spriteSheetData, attrs, ColliderLayer::NPC) { }
+    Character(game, texturePath, spriteSheetData, attrs, ColliderLayer::NPC) {
+
+    mAnimatedSpriteComponent->AddAnimation("idle", {0});
+    mAnimatedSpriteComponent->SetAnimation("idle");
+    mAnimatedSpriteComponent->SetAnimFPS(6.f);
+}
 
 void NPC::Interact() {
     return;
