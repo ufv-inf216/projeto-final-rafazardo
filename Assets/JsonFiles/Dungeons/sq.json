@@ -18,6 +18,60 @@
         ]
     },
     {
+        "dirColl": "../Assets/Collisions/Dungeons/sq17_17-1.collmat",
+        "dirImg": "../Assets/Sprites/DungeonMaps/Sq/sq17_17-1.png",
+        "height": 17,
+        "width": 17,
+        "doors": [
+            8, 1,
+            8, 14,
+            16, 7,
+            0, 7
+        ],
+        "areas": [
+            1, 3, 6, 3,
+            1, 8, 6, 5,
+            9, 3, 6, 3,
+            9, 8, 6, 5
+        ]
+    },
+    {
+        "dirColl": "../Assets/Collisions/Dungeons/sq17_17-2.collmat",
+        "dirImg": "../Assets/Sprites/DungeonMaps/Sq/sq17_17-2.png",
+        "height": 17,
+        "width": 17,
+        "doors": [
+            8, 1,
+            8, 14,
+            16, 7,
+            0, 7
+        ],
+        "areas": [
+            1, 3, 6, 3,
+            1, 8, 6, 5,
+            9, 3, 6, 3,
+            9, 8, 6, 5
+        ]
+    },
+    {
+        "dirColl": "../Assets/Collisions/Dungeons/sq17_17-3.collmat",
+        "dirImg": "../Assets/Sprites/DungeonMaps/Sq/sq17_17-3.png",
+        "height": 17,
+        "width": 17,
+        "doors": [
+            8, 1,
+            8, 14,
+            16, 7,
+            0, 7
+        ],
+        "areas": [
+            1, 3, 6, 3,
+            1, 8, 6, 5,
+            9, 3, 6, 3,
+            9, 8, 6, 5
+        ]
+    },
+    {
         "dirColl": "../Assets/Collisions/Dungeons/sq18_18.collmat",
         "dirImg": "../Assets/Sprites/DungeonMaps/Sq/sq18_18.png",
         "height": 18,
@@ -36,6 +90,96 @@
         ]
     },
     {
+        "dirColl": "../Assets/Collisions/Dungeons/sq18_18-1.collmat",
+        "dirImg": "../Assets/Sprites/DungeonMaps/Sq/sq18_18-1.png",
+        "height": 18,
+        "width": 18,
+        "doors": [
+            9, 1,
+            9, 15,
+            17, 7,
+            0, 7
+        ],
+        "areas": [
+            1, 3, 6, 3,
+            1, 8, 6, 5,
+            9, 3, 6, 3,
+            9, 8, 6, 5
+        ]
+    },
+    {
+        "dirColl": "../Assets/Collisions/Dungeons/sq18_18-2.collmat",
+        "dirImg": "../Assets/Sprites/DungeonMaps/Sq/sq18_18-2.png",
+        "height": 18,
+        "width": 18,
+        "doors": [
+            9, 1,
+            9, 15,
+            17, 7,
+            0, 7
+        ],
+        "areas": [
+            1, 3, 6, 3,
+            1, 8, 6, 5,
+            9, 3, 6, 3,
+            9, 8, 6, 5
+        ]
+    },
+    {
+        "dirColl": "../Assets/Collisions/Dungeons/sq18_18-3.collmat",
+        "dirImg": "../Assets/Sprites/DungeonMaps/Sq/sq18_18-3.png",
+        "height": 18,
+        "width": 18,
+        "doors": [
+            9, 1,
+            9, 15,
+            17, 7,
+            0, 7
+        ],
+        "areas": [
+            1, 3, 6, 3,
+            1, 8, 6, 5,
+            9, 3, 6, 3,
+            9, 8, 6, 5
+        ]
+    },
+    {
+        "dirColl": "../Assets/Collisions/Dungeons/sq18_18-4.collmat",
+        "dirImg": "../Assets/Sprites/DungeonMaps/Sq/sq18_18-4.png",
+        "height": 18,
+        "width": 18,
+        "doors": [
+            9, 1,
+            9, 15,
+            17, 7,
+            0, 7
+        ],
+        "areas": [
+            1, 3, 6, 3,
+            1, 8, 6, 5,
+            9, 3, 6, 3,
+            9, 8, 6, 5
+        ]
+    },
+    {
+        "dirColl": "../Assets/Collisions/Dungeons/sq18_18-5.collmat",
+        "dirImg": "../Assets/Sprites/DungeonMaps/Sq/sq18_18-5.png",
+        "height": 18,
+        "width": 18,
+        "doors": [
+            9, 1,
+            9, 15,
+            17, 7,
+            0, 7
+        ],
+        "areas": [
+            1, 3, 6, 3,
+            1, 8, 6, 5,
+            9, 3, 6, 3,
+            9, 8, 6, 5
+        ]
+    },
+    {
         "dirColl": "../Assets/Collisions/Dungeons/sq19_19.collmat",
         "dirImg": "../Assets/Sprites/DungeonMaps/Sq/sq19_19.png",
         "height": 19,
@@ -44,6 +188,24 @@
             10, 1,
             10, 16,
             18, 7, 
+            0, 7
+        ],
+        "areas": [
+            1, 3, 6, 3,
+            1, 8, 6, 5,
+            9, 3, 6, 3,
+            9, 8, 6, 5
+        ]
+    },
+    {
+        "dirColl": "../Assets/Collisions/Dungeons/sq19_19-1.collmat",
+        "dirImg": "../Assets/Sprites/DungeonMaps/Sq/sq19_19-1.png",
+        "height": 19,
+        "width": 19,
+        "doors": [
+            10, 1,
+            10, 16,
+            18, 7,
             0, 7
         ],
         "areas": [

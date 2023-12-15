@@ -12,26 +12,31 @@
 #include <vector>
 #include <string>
 #include "../Game/Global.h"
+#include "../Interfaces/HUDs/InventoryHUD.h"
 
-class Inventory {
+class Inventory : public GameObject {
 private:
     // Current weight of the inventory
-    float mWeight;
+    int mWeightPotion = 0;
+    int mWeightWeapon = 0;
 
     // Maximum weight the inventory can support
-    float mMaxWeight;
+    int mMaxWeightPotion;
+    int mMaxWeightWeapon;
 
     // Vectors to map an item to his current amount
-    std::vector<int> mArmors;
-    std::vector<int> mFoods;
     std::vector<int> mItems;
     std::vector<int> mPotions;
     std::vector<int> mWeapons;
 
+    InventoryHUD *mInventoryHUD;
+
+    bool mIsOpen = false;
+
 public:
     // Inventory constructor
     // @param maxWeight is the maximum weight the inventory can support.
-    Inventory(float maxWeight);
+    Inventory(MyGame *myGame, int maxWeightPotion, int maxWeightWeapon);
 
     // Update the amount of items in the inventory
     // @param type "armor", "food", "item", "potion or "weapon"
@@ -42,23 +47,33 @@ public:
 
     // @param type "armor", "food", "item", "potion or "weapon"
     // @param id The global ID
-    // @return amount How many of the specified item can be added.
-    int GetAvailableSpace(std::string type, int id);
-
-    // @param type "armor", "food", "item", "potion or "weapon"
-    // @param id The global ID
     // @return The amount of the specified item.
     int GetItemAmount(std::string type, int id);
 
     // @return mWeight
     float GetWeight();
 
-    // @return mMaxWeight
-    float GetMaxWeight();
+    // @return mMaxWeightPotion
+    int GetMaxWeightPotion() { return mMaxWeightPotion; }
+
+    // @return mMaxWeightWeapon
+    int GetMaxWeightWeapon() { return mMaxWeightWeapon; }
+
+    // @return mWeightPotion
+    int GetWeightPotion() { return mWeightPotion; }
+
+    // @return mMaxWeightWeapon
+    int GetWeightWeapon() { return mWeightWeapon; }
 
     // Set the attribute mMaxWeight
     // @param maxWeight Will be the new value for mMaxWeight.
-    void SetMaxWeight(float maxWeight);
+    void SetMaxWeight(int maxWeight);
 
     void PrintInventory();
+
+    void Open();
+
+    void Close();
+
+    bool IsOpen() { return mIsOpen; }
 };

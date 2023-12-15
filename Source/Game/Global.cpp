@@ -105,6 +105,7 @@ void DefineGlobalVariables() {
         potion.name = it["name"];
         potion.kg = it["kg"];
         potion.heal = it["heal"];
+        potion.dir = it["dir"];
         POTIONS.push_back(potion);
     }
 
@@ -119,6 +120,7 @@ void DefineGlobalVariables() {
         weapon.name = it["name"];
         weapon.dam = it["dam"];
         weapon.kg = it["kg"];
+        weapon.dir = it["dir"];
         WEAPONS.push_back(weapon);
     }
 

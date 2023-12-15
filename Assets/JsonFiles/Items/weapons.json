@@ -1,26 +1,44 @@
 [
   {
     "id": 0,
-    "name": "Short Sword",
-    "dam": 6,
-    "kg": 1.5
+    "name": "Sword",
+    "dam": 8,
+    "kg": 1,
+    "dir": "../Assets/Sprites/Items/weapons/sword.png"
   },
   {
     "id": 1,
-    "name": "Great Sword",
-    "dam": 8,
-    "kg": 2.7
+    "name": "Daggers",
+    "dam": 6,
+    "kg": 1,
+    "dir": "../Assets/Sprites/Items/weapons/daggers.png"
   },
   {
     "id": 2,
-    "name": "Short bow",
-    "dam": 6,
-    "kg": 0.5
+    "name": "Picaxe",
+    "dam": 4,
+    "kg": 1,
+    "dir": "../Assets/Sprites/Items/weapons/picaxe.png"
   },
   {
     "id": 3,
-    "name": "Long bow",
-    "dam": 8,
-    "kg": 0.7
+    "name": "Shovel",
+    "dam": 4,
+    "kg": 1,
+    "dir": "../Assets/Sprites/Items/weapons/shovel.png"
+  },
+  {
+    "id": 4,
+    "name": "Whip",
+    "dam": 4,
+    "kg": 1,
+    "dir": "../Assets/Sprites/Items/weapons/whip.png"
+  },
+  {
+    "id": 5,
+    "name": "Bow",
+    "dam": 6,
+    "kg": 1,
+    "dir": "../Assets/Sprites/Items/weapons/bow.png"
   }
 ]

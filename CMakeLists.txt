@@ -37,7 +37,6 @@ add_executable(${PROJECT_NAME}
         Source/GameSpecific/Inventory.cpp
         Source/Game/Global.cpp
         Source/GameSpecific/Characters/Enemy.cpp
-        Source/GameSpecific/Characters/Crafter.cpp
         Source/GameSpecific/Chest.cpp
         Source/GameSpecific/Saver.cpp
         Source/GameObjects/Trigger.cpp
@@ -79,6 +78,8 @@ add_executable(${PROJECT_NAME}
         Source/Interfaces/HUDs/BattleHUDs/ItemSelectorBattleHUD.h
         Source/Interfaces/HUDs/GameHUDs/PressSpaceHUD.h
         Source/Interfaces/HUDs/BattleHUDs/EnemySelectorBattleHUD.cpp
+        Source/Interfaces/HUDs/InventoryHUD.cpp
+        Source/Interfaces/HUDs/InventoryHUD.h
 )
 
 ####### DO NOT EDIT BELLOW

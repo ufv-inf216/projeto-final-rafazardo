@@ -33,12 +33,14 @@ struct POTION {
     std::string name;
     float kg;
     int heal;
+    std::string dir;
 };
 struct WEAPON {
     int id;
     std::string name;
     int dam;
     float kg;
+    std::string dir;
 };
 
 // Item vector declarations
@@ -88,6 +90,8 @@ extern std::vector<class Attack*> EnemyAttacks;
 
 #define TOTAL_ENEMIES 2
 extern std::vector<std::vector<int>>EnemyAttackOptions;
+
+#define START_DEX 4
 
 extern std::vector<int> GLOBAL_TotalEnemiesKilled;
 

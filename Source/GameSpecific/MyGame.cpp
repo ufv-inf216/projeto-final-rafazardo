@@ -14,7 +14,6 @@
 #include "../GameSpecific/Characters/Enemy.h"
 #include "../GameSpecific/Characters/Enemies/Bat.h"
 #include "../GameSpecific/Characters/NPC.h"
-#include "../GameSpecific/Characters/Crafter.h"
 #include "../Components/DrawComponents/DrawPolygonComponent.h"
 #include "../Game/Global.h"
 #include "Inventory.h"
@@ -51,13 +50,22 @@ void MyGame::InitializeGameObjects() {
 
     // Allocate main character
     int a[] = {15, 13, 12, 10, 10, 11};
-    Inventory *inventory = new Inventory(100);
+    Inventory *inventory = new Inventory(this, 3, 3);
     inventory->UpdateItems("item", 0, 1);
     inventory->UpdateItems("item", 1, 1);
+    inventory->UpdateItems("potion", 0, 1);
+    inventory->UpdateItems("weapon", 0, 1);
+    inventory->UpdateItems("weapon", 1, 1);
+    inventory->UpdateItems("weapon", 2, 1);
+    inventory->UpdateItems("weapon", 3, 1);
+    inventory->UpdateItems("weapon", 4, 1);
+    inventory->UpdateItems("weapon", 5, 1);
+    inventory->UpdateItems("weapon", 5, 1);
+
     mPlayer = new Player(this, "../Assets/Sprites/Player/sprite_sheet."
                                "png",
                          "../Assets/Sprites/Player/sprite_sheet_data.json", a, inventory);
-    mPlayer->SetPosition(Vector2(180, 180));
+    mPlayer->SetPosition(Vector2(204, 204));
 
     // Set Camera settings.
     mCamera = new Camera(this, Vector2(0,0), Vector2(30*TILE_SIZE, 15*TILE_SIZE),2.f);

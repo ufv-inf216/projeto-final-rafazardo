@@ -3,30 +3,7 @@
     "id": 0,
     "name": "Healing Elixir",
     "kg": 0.2,
-    "heal": 10
-  },
-  {
-    "id": 1,
-    "name": "Better Healing",
-    "kg": 0.2,
-    "heal": 25
-  },
-  {
-    "id": 2,
-    "name": "Greater Healing",
-    "kg": 0.2,
-    "heal": 50
-  },
-  {
-    "id": 3,
-    "name": "Superior Healing",
-    "kg": 0.2,
-    "heal": 70
-  },
-  {
-    "id": 4,
-    "name": "Supreme Healing",
-    "kg": 0.2,
-    "heal": 100
+    "heal": 10,
+    "dir": "../Assets/Sprites/Items/potions/better_healing.png"
   }
 ]

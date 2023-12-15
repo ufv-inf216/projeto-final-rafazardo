@@ -61,24 +61,15 @@ void Player::OnProcessInput(const uint8_t* state) {
 
     // === END OF PLAYER MOVEMENT ===
 
-    // === CRAFTER INTERACTION ===
-    if(state[SDL_SCANCODE_C]) {
-        std::cout << "==> Before crafting\n";
-        mInventory->PrintInventory();
-        GetGame()->GetCrafter()->Craft("weapon", 0, mInventory);
-        std::cout << "==> After crafting\n";
+    // === CHEST INTERACTION ===
+    if(state[SDL_SCANCODE_I]) {
+        if(mInventory->IsOpen())
+            mInventory->Close();
+        else
+            mInventory->Open();
+
         mInventory->PrintInventory();
     }
-    // === END OF CRAFTER INTERACTION ===
-
-    // === CHEST INTERACTION ===
-//    if(state[SDL_SCANCODE_B]) {
-//        std::cout << "==> Before opening chest\n";
-//        mInventory->PrintInventory();
-//        GetGame()->GetChest()->Interact(mInventory);
-//        std::cout << "==> After opening chest\n";
-//        mInventory->PrintInventory();
-//    }
     // === END OF CHEST INTERACTION ===
 
     // Sets some variables for further animations proposes.

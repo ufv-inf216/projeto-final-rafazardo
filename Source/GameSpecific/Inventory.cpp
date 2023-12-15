@@ -8,69 +8,48 @@
 // ----------------------------------------------------------------
 
 #include "Inventory.h"
+#include "../GameSpecific/MyGame.h"
 
-Inventory::Inventory(float maxWeight) {
-    mMaxWeight = maxWeight;
-    mArmors.resize(ARMORS.size());
-    mFoods.resize(FOODS.size());
+Inventory::Inventory(MyGame *myGame, int maxWeightPotion, int maxWeightWeapon) : GameObject(myGame) {
+    mMaxWeightPotion = maxWeightPotion;
+    mMaxWeightWeapon = maxWeightWeapon;
     mItems.resize(ITEMS.size());
     mPotions.resize(POTIONS.size());
     mWeapons.resize(WEAPONS.size());
+
+    mInventoryHUD = new InventoryHUD(mGame);
+    mInventoryHUD->Disable();
 }
 
 bool Inventory::UpdateItems(std::string type, int id, int amount) {
 
-    if(type == "armor") {
-        mArmors[id] += amount;
-        mWeight += amount * ARMORS[id].kg;
-
-        if(mArmors[id] < 0 || mWeight > mMaxWeight) {
-            mArmors[id] -= amount;
-            mWeight -= amount * ARMORS[id].kg;
-            return false;
-        }
-        return true;
-    }
-    else if(type == "food") {
-        mFoods[id] += amount;
-        mWeight += amount * FOODS[id].kg;
-
-        if(mFoods[id] < 0 || mWeight > mMaxWeight) {
-            mFoods[id] -= amount;
-            mWeight -= amount * FOODS[id].kg;
-            return false;
-        }
-        return true;
-    }
-    else if(type == "item") {
+    if(type == "item") {
         mItems[id] += amount;
-        mWeight += amount * ITEMS[id].kg;
 
-        if(mItems[id] < 0 || mWeight > mMaxWeight) {
+        if(mItems[id] < 0) {
             mItems[id] -= amount;
-            mWeight -= amount * ITEMS[id].kg;
             return false;
         }
         return true;
     }
     else if(type == "potion") {
         mPotions[id] += amount;
-        mWeight += amount * POTIONS[id].kg;
+        mWeightPotion += amount;
 
-        if(mPotions[id] < 0 || mWeight > mMaxWeight) {
+        if(mPotions[id] < 0 || mWeightPotion > mMaxWeightPotion) {
             mPotions[id] -= amount;
-            mWeight -= amount * POTIONS[id].kg;
+            mWeightPotion -= amount;
             return false;
         }
         return true;
     }
     else if(type == "weapon") {
         mWeapons[id] += amount;
-        mWeight += amount * WEAPONS[id].kg;
+        mWeightWeapon += amount;
 
-        if(mWeapons[id] < 0 || mWeight > mMaxWeight) {
+        if(mWeapons[id] < 0 || mWeightWeapon > mMaxWeightWeapon) {
             mWeapons[id] -= amount;
-            mWeight -= amount * WEAPONS[id].kg;
+            mWeightWeapon -= amount;
             return false;
         }
         return true;
@@ -79,53 +58,21 @@ bool Inventory::UpdateItems(std::string type, int id, int amount) {
 }
 
 int Inventory::GetItemAmount(std::string type, int id) {
-    if(type == "armor")
-        return mArmors[id];
-    if(type == "food")
-        return mFoods[id];
+
     if(type == "item")
         return mItems[id];
-    if(type == "potion")
+    else if(type == "potion")
         return mPotions[id];
-    if(type == "weapon")
+    else if(type == "weapon")
         return mWeapons[id];
 
     return 0;
 }
 
-int Inventory::GetAvailableSpace(std::string type, int id) {
-    int amount = 0;
-
-    if(type == "armor")
-        amount = (mMaxWeight - mWeight) / ARMORS[id].kg;
-    else if(type == "food")
-        amount = (mMaxWeight - mWeight) / FOODS[id].kg;
-    else if(type == "item")
-        amount = (mMaxWeight - mWeight) / ITEMS[id].kg;
-    else if(type == "potion")
-        amount = (mMaxWeight - mWeight) / POTIONS[id].kg;
-    else if(type == "weapon")
-        amount = (mMaxWeight - mWeight) / WEAPONS[id].kg;
-
-    return amount;
-}
-
-float Inventory::GetWeight() { return mWeight; }
-
-float Inventory::GetMaxWeight() { return mMaxWeight; }
-
-void Inventory::SetMaxWeight(float maxWeight) { mMaxWeight = maxWeight; }
-
 void Inventory::PrintInventory() {
-    for(int i=0; i<ARMORS.size(); i++) {
-        if(mArmors[i] > 0)
-            std::cout << ARMORS[i].name << ": " << mArmors[i] << std::endl;
-    }
 
-    for(int i=0; i<FOODS.size(); i++) {
-        if(mFoods[i] > 0)
-            std::cout << FOODS[i].name << ": " << mFoods[i] << std::endl;
-    }
+    std::cout << "Weapon w = " << mWeightWeapon << std::endl;
+    std::cout << "Potion w = " << mWeightPotion << std::endl;
 
     for(int i=0; i<ITEMS.size(); i++) {
         if(mItems[i] > 0)
@@ -141,4 +88,17 @@ void Inventory::PrintInventory() {
         if(mWeapons[i] > 0)
             std::cout << WEAPONS[i].name << ": " << mWeapons[i] << std::endl;
     }
+}
+
+void Inventory::Open() {
+    mPosition = mGame->GetCamera()->GetPosition();
+    mIsOpen = true;
+    mGame->Pause();
+    mInventoryHUD->Enable();
+}
+
+void Inventory::Close() {
+    mIsOpen = false;
+    mGame->Resume();
+    mInventoryHUD->Disable();
 }

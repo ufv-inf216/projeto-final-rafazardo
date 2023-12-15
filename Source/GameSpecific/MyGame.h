@@ -12,7 +12,6 @@
 
 #include "../Game/Game.h"
 #include "Maps/Map.h"
-#include "Characters/Crafter.h"
 #include "Characters/Player.h"
 #include "Chest.h"
 #include "Maps/Dungeons/DungeonGeneration/DungeonGenerator.h"
@@ -32,9 +31,6 @@ class MyGame : public Game {
 
         // The map that is currently being rendered.
         class Map *mCurrentMap;
-
-        // The crafter NPC
-        Crafter *mCrafter;
 
         // Chest
         //Chest *mChest;
@@ -66,7 +62,6 @@ class MyGame : public Game {
         Map* GetCurrentMap() { return mCurrentMap; }
         void SetCurrentMap(Map *map) { mCurrentMap = map; }
 
-        Crafter* GetCrafter() { return mCrafter; }
         Player *GetPlayer() { return mPlayer; }
 
         //Chest* GetChest() { return mChest; }
